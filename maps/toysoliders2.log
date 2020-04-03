@@ -1,0 +1,192 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 -low -wadautodetect 
+Entering F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.06 seconds)
+CSGBrush:
+ (0.16 seconds)
+
+added 6 additional animating textures.
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
+ - Contains 1 used texture, 1.79 percent of map (69 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\halflife.wad
+ - Contains 55 used textures, 98.21 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "fof_32.wad;halflife.wad;"
+Texture usage is at 0.38 mb (of 32.00 mb MAX)
+1.10 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...579 (0.11 seconds)
+Warning: === LEAK in hull 0 ===
+Entity func_breakable @ (   0,   0,   0)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] 298 (0.04 seconds)
+Warning: === LEAK in hull 1 ===
+Entity func_breakable @ (   0,   0,   0)
+SolidBSP [hull 2] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (96,118,-448)-(110,192,-448) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+255 (0.03 seconds)
+Warning: === LEAK in hull 2 ===
+Entity func_breakable @ (   0,   0,   0)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (399,-1006,-458)-(400,-1006,-428) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+328 (0.04 seconds)
+Warning: === LEAK in hull 3 ===
+Entity func_breakable @ (   0,   0,   0)
+Reduced 1166 clipnodes to 1107
+Reduced 241 texinfos to 205
+Reduced 56 texdatas to 54 (2468 bytes to 2380)
+Reduced 3646 planes to 874
+FixBrinks:
+Increased 1107 clipnodes to 1107.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             15/512          960/32768    ( 2.9%)
+planes            874/32768      17480/655360   ( 2.7%)
+vertexes         2646/65535      31752/786420   ( 4.0%)
+nodes             662/32767      15888/786408   ( 2.0%)
+texinfos          205/32767       8200/1310680  ( 0.6%)
+faces            1850/65535      37000/1310700  ( 2.8%)
+* worldfaces     1765/32768          0/0        ( 5.4%)
+clipnodes        1107/32767       8856/262136   ( 3.4%)
+leaves            450/32760      12600/917280   ( 1.4%)
+* worldleaves     365/8192           0/0        ( 4.5%)
+marksurfaces     2477/65535       4954/131070   ( 3.8%)
+surfedges        9016/512000     36064/2048000  ( 1.8%)
+edges            4514/256000     18056/1024000  ( 1.8%)
+texdata          [variable]       2380/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       5538/2097152  ( 0.3%)
+* AllocBlock        8/64             0/0        (12.5%)
+54 textures referenced
+=== Total BSP file data space used: 199728 bytes ===
+Wad files required to run the map: "fof_32.wad;halflife.wad;"
+0.60 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" -fast F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 
+Arguments: -fast F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 -low 
+>> There was a problem compiling the map.
+>> Check the file F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 64-bit (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlrad_x64.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2 -low 
+>> There was a problem compiling the map.
+>> Check the file F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\toysoliders2.log for the cause.
+
+-----   END   hlrad -----
+
+
+
