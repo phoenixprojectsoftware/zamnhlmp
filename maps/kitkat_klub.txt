@@ -1,0 +1,82 @@
+
+=======================================================
+KitKat_Klub  by DocRock
+=======================================================
+Map Name:      	kitkat_klub.bsp
+Filesize:           	7.0 mb .zip
+Author:            	DocRock
+Author email:  	docrock64@yahoo.com
+Homepage:      	www.planethalflife.com/docrocksmaps
+
+wadincluded in map:  disco3.wad, r25.wad, vangede.wad
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Single Player:    		No
+Co-Op:                		No
+Deathmatch:      		Yes
+
+Suggested Players:  	4 - 10
+New Textures:   		Yes (disco3.wad, r25.wad, vangede.wad)
+New Sounds:      		Yes  (wavs included: in kitkat_klub sound folder)
+New Skies:		Yes  (city2)
+
+Map description:  		A rave dance club dedicated to my babykitkat.
+
+=======================================================
+CONSTRUCTION:
+
+base map:                	disco and disco2 by DocRock
+prefabs:                   	None
+editor used:             	Worldcraft 3.3
+utilities used:          	Zoner's Half-Life compile tools, paint, adobe photoshop6, wally
+known bugs:            	None
+compile machine:    	Compaq Presario Pentium III 933 Mhz 128 mb
+compile time:          	45 minutes
+
+=======================================================
+INSTALLATION:
+
+Run Winzip and unzip kitkat_klub.zip into your Half-Life folder.  There will then be a folder in your Half-Life main folder called kitkat_klub.  Make a folder in your Half-Life/Valve folder and name it sound.  Then make a folder inside that folder and name it kitkat_klub.  Place all the wav files mentioned above into that kitkat_klub folder.  Then place the kitkat_klub.bsp in your Half-Life/Valve/Maps folder.  You'll also need to unzip the 10 city2 skies into your Half-Life/Valve/gfx/env folder.
+
+=======================================================
+OTHER LEVELS BY DOCROCK:
+
+Tigger, Scoony_Doo, Monster_Bunker, Kitkat_gallery, Cliffside, Rockpit, Stalked, The_Drain , Con_Killbox, Basecamp, DepotArena, Conundrum, Conundrum 2, The Challenger Deep...etc
+
+=======================================================
+PLAYLEVEL NOTES:
+
+This map is funner if you turn monsters on while you play it.  To do this, type mp_allowmonsters 1 into the console of Half-Life while playing this map.  Then, changelevel to this map again and monsters will be in the map.  
+
+Also, you can do the same trick in several other DocRock maps.  MONSTER_BUNKER SHOULD BE RUN WITH MONSTERS ENABLED FOR A TRULY MONSTROUS BATTLE.
+
+=======================================================
+SPECIAL THANKS:
+
+To my babykitkat, my lover, my sweetheart, my wife.  I love you!!  My #1 fan, thanks baby for helping me with this awesome map!  I dedicate this to you my love.
+
+MORE THANKS:
+To relic25 for the r25.wad
+To JCH for the vangede.wad
+Jason Abbot for the City2 skybox
+
+=======================================================
+COPYRIGHT STUFF
+
+kitkat_klub.bsp  copyright 2001 by DocRock
+disco3.wad  copyright 2001 by DocRock
+r25.wad by relic25
+vangede.wad by JCH
+
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+You MAY NOT use the disco3.wad as it is made by ME and you MUST NOT USE IT
+in any form for your own use without having MY PERMISSION.

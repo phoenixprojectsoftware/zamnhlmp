@@ -1,0 +1,133 @@
+=======================================================
+Kitkat Express Kasino: a Half-Life Deathmatch Map by DocRock
+=======================================================
+
+Map Name:                       	kitkat_kasino.bsp
+Filesize:                       	8.04 mb zipped / 12.6 mb unzipped
+Author:                         	DocRock
+Author email:                   	docrock64@cox.net
+Homepage:		http://docrocksmaps.homestead.com/docmaps.html                    
+wadincluded in map:          	casino.wad
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Single Player:                 	No
+Co-Op:                         	No
+Deathmatch:                     	Yes
+
+Suggested Players:             	5 - 10
+New Textures:                   	Yes 
+New Sounds:                     	Yes
+New Models:                     	No
+
+Map description:                	A Half-Life deathmatch map set in the kitkat express train 				station's casino.																
+=======================================================
+CONSTRUCTION:
+
+base map:                       		None
+prefabs:                        		None
+editor used:                    	 	Hammer 3.5
+utilities used:                 		Zoner's Half-Life compile tools, Paintshop Pro 7, 						Wally, CD ripper, mdl viewer	
+known bugs:                     		None
+compile machine:                		Intel Pentium 4   2.53 GHZ
+compile time:                   		18 minutes
+prefabs used:			none
+
+=======================================================
+INSTALLATION:
+
+1. 	Run Winzip and unzip kitkat_kasino.zip.
+
+2. 	Open the kitkat_kasino folder and place the kitkat_kasino.bsp, 				kitkat_kasino.res, and kitkat_kasino.txt in your valve/maps folder.  
+
+3.	Place the 6 (six) chaoscity.tga files into your valve/gfx/env folder.
+
+4.	Place the wav files in a folder called casino and place that in your valve/sound 		folder.
+
+5.	Place the models in a folder called casino and put that in your valve/models
+	folder.
+
+6. 	Put the angelsmoke folder in the valve/models/player folder.
+	
+=======================================================
+OTHER LEVELS BY DOCROCK:
+
+kitkat_kastle
+kad_honor
+squidsville
+kitkat_egyptian
+mario_air
+mario_killbox
+sandspyre
+kitkat_space
+greyscale
+kitkat_express
+kitkat_factory
+hardcore
+kitkat_beach
+kitkat_klub
+etc...
+
+=======================================================
+SPECIAL THANKS:
+
+To my babykitkat, my sweet love, this map is for you, as are all my maps.  You saved my life, and now make my life happier and happier by the day.  Thank you bebe for everything.
+
+BETA TESTERS:
+babykitkat
+SilentRunner007
+DiScOuNt_KiLlEr
+W:::REKLAW::W
+[TAG] Hench
+ash
+Moosehunter
+Old_Wolf
+KFC
+Silly
+Savie
+
+OTHER THANKS:
+
+Spa		Chaoscity skybox	
+
+Silly		for inspiration to do the map, for the wavs, and all the voluntered help
+
+qUiCkSiLvEr	reworked angelsmoke.mdl	
+
+NJOI		Mindflux	
+
+	
+=======================================================
+DOC'S NEXT MAP....COMING SOON:
+
+xenscales
+=======================================================
+COPYRIGHT STUFF
+
+kitkat_kasino.bsp                	copyright  Aug 10, 2003  by DocRock
+
+Authors MAY use this level as a base to build additional levels as long 
+as you give me credit in your read.me as using this map as a base to 
+build your level.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This map includes textures used in other Half-Life modifications as well as textures
+used in other PC games.  It is not my intention to steal these textures and use them
+for personal gain.  I use these textures because I think they are very well done and
+am honored to use them.  Please do not be offended that I borrowed your
+textures if you are the author of them.  If you are the author of any of these wads, and it
+has offended you that I've used them, please let me know and I will remove them
+from the map.
+
+This LEVEL may be distributed ONLY over the Internet.
+
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+PLEASE PLEASE PLEASE email me with any comments about this map or any 
+of my other maps because I love feedback good or bad...and I will do my 
+best to answer any and all emails regarding my maps.

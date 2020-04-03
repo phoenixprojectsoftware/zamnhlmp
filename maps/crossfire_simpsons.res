@@ -1,0 +1,12 @@
+maps/crossfire_simpsons.res
+gfx/env/simpsonsup.tga
+gfx/env/simpsonsdn.tga
+gfx/env/simpsonslf.tga
+gfx/env/simpsonsrt.tga
+gfx/env/simpsonsft.tga
+gfx/env/simpsonsbk.tga
+sprites/bartman.spr
+sprites/medic3.spr
+sprites/rauchsprite1.spr
+sound/homer/doh4.wav
+sound/misc/simp.wav

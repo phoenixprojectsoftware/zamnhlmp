@@ -1,0 +1,200 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap -low -wadautodetect 
+Entering E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.09 seconds)
+CSGBrush:
+ (0.16 seconds)
+
+added 2 additional animating textures.
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhl\zamn.wad
+ - Contains 1 used texture, 1.85 percent of map (26 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 53 used textures, 98.15 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "zamn.wad;halflife.wad;"
+Texture usage is at 0.30 mb (of 32.00 mb MAX)
+0.52 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...938 (0.23 seconds)
+Warning: === LEAK in hull 0 ===
+Entity light_environment @ ( 905, -64,  96)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (628,-245,-28)-(914,-241,92) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (879,-336,-28)-(1008,-332,92) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-537,-443,58)-(-537,-415,74) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-538,-508,58)-(-536,-468,68) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+602 (0.11 seconds)
+SolidBSP [hull 2] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (644,-229,-32)-(930,-225,96) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (863,-352,-32)-(992,-348,96) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...504 (0.07 seconds)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (879,-336,46)-(1008,-332,110) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (879,-336,-46)-(1008,-332,18) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-411,-304,-46)-(-401,-282,-14) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-537,-443,40)-(-537,-415,56) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...613 (0.09 seconds)
+Warning: === LEAK in hull 3 ===
+Entity trigger_once @ (   0,   0,   0)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (708,-255,-44)-(776,-253,-40) in hull 0 of model 24 (entity: classname "func_pushable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (725,-186,-4)-(752,-185,108) in hull 1 of model 24 (entity: classname "func_pushable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (709,-170,90)-(787,-170,104) in hull 2 of model 24 (entity: classname "func_pushable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (725,-186,4)-(752,-185,90) in hull 3 of model 24 (entity: classname "func_pushable", origin "", targetname "")
+Reduced 3636 clipnodes to 3337
+Reduced 749 texinfos to 669
+Reduced 54 texdatas to 53 (2380 bytes to 2336)
+Reduced 9596 planes to 2091
+FixBrinks:
+Increased 3337 clipnodes to 3395.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             30/512         1920/32768    ( 5.9%)
+planes           2091/32768      41820/655360   ( 6.4%)
+vertexes         4090/65535      49080/786420   ( 6.2%)
+nodes            1608/32767      38592/786408   ( 4.9%)
+texinfos          669/32767      26760/1310680  ( 2.0%)
+faces            2952/65535      59040/1310700  ( 4.5%)
+* worldfaces     2005/32768          0/0        ( 6.1%)
+clipnodes        3395/32767      27160/262136   (10.4%)
+leaves           1128/32760      31584/917280   ( 3.4%)
+* worldleaves     636/8192           0/0        ( 7.8%)
+marksurfaces     3921/65535       7842/131070   ( 6.0%)
+surfedges       14371/512000     57484/2048000  ( 2.8%)
+edges            7293/256000     29172/1024000  ( 2.8%)
+texdata          [variable]       2336/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       6778/2097152  ( 0.3%)
+* AllocBlock        6/64             0/0        ( 9.4%)
+53 textures referenced
+=== Total BSP file data space used: 379568 bytes ===
+Wad files required to run the map: "zamn.wad;halflife.wad;"
+1.25 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap -low 
+>> There was a problem compiling the map.
+>> Check the file E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 64-bit (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlrad_x64.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap -low 
+>> There was a problem compiling the map.
+>> Check the file E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\testmap.log for the cause.
+
+-----   END   hlrad -----
+
+
+

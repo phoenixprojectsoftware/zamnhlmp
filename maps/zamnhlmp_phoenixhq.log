@@ -1,0 +1,319 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq -low -wadautodetect 
+Entering E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 115
+
+ (0.06 seconds)
+CSGBrush:
+ (0.20 seconds)
+
+added 2 additional animating textures.
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_747.wad
+ - Contains 2 used textures, 5.41 percent of map (143 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_bdog.wad
+ - Contains 1 used texture, 2.70 percent of map (132 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\decals.wad
+ - Contains 5 used textures, 13.51 percent of map (222 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
+ - Contains 2 used textures, 5.41 percent of map (69 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_chillbhop_btm.wad
+ - Contains 1 used texture, 2.70 percent of map (35 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\halflife.wad
+ - Contains 21 used textures, 56.76 percent of map (3116 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\zamnhlmp.wad
+ - Contains 5 used textures, 13.51 percent of map (11 textures in wad)
+
+Wad files required to run the map: "cs_747.wad;cs_bdog.wad;decals.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
+Texture usage is at 0.50 mb (of 32.00 mb MAX)
+785 redundant named lights optimized.
+0.65 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...914 (0.15 seconds)
+BSP generation successful, writing portal file 'E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq.prt'
+SolidBSP [hull 1] 500...845 (0.29 seconds)
+SolidBSP [hull 2] 500...826 (0.24 seconds)
+SolidBSP [hull 3] 500...866 (0.20 seconds)
+Reduced 2726 clipnodes to 2517
+Reduced 484 texinfos to 466
+Reduced 37 texdatas to 37 (1632 bytes to 1632)
+Reduced 4830 planes to 1444
+FixBrinks:
+Increased 2517 clipnodes to 2517.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             22/512         1408/32768    ( 4.3%)
+planes           1444/32768      28880/655360   ( 4.4%)
+vertexes         4919/65535      59028/786420   ( 7.5%)
+nodes            1053/32767      25272/786408   ( 3.2%)
+texinfos          466/32767      18640/1310680  ( 1.4%)
+faces            3774/65535      75480/1310700  ( 5.8%)
+* worldfaces     3304/32768          0/0        (10.1%)
+clipnodes        2517/32767      20136/262136   ( 7.7%)
+leaves            725/32760      20300/917280   ( 2.2%)
+* worldleaves     587/8192           0/0        ( 7.2%)
+marksurfaces     4269/65535       8538/131070   ( 6.5%)
+surfedges       17534/512000     70136/2048000  ( 3.4%)
+edges            8783/256000     35132/1024000  ( 3.4%)
+texdata          [variable]       1632/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     101706/2097152  ( 4.8%)
+* AllocBlock       25/64             0/0        (39.1%)
+37 textures referenced
+=== Total BSP file data space used: 466288 bytes ===
+Wad files required to run the map: "cs_747.wad;cs_bdog.wad;decals.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
+1.97 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" -fast E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq 
+Arguments: -fast E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq -low 
+ 587 portalleafs
+1988 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [      on ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.08 seconds)
+average leafs visible: 258
+g_visdatasize:40121  compressed from 43438
+0.15 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 64-bit (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlrad_x64.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq -low 
+Loading extent file 'E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq.ext'
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 8 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\zamnhlmp_phoenixhq.wa_
+37 textures referenced
+Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
+0 opaque models
+0 opaque faces
+3774 faces
+Create Patches : 26340 base patches
+486997 square feet [70127696.00 square inches]
+795 direct lights and 16386 fast direct lights
+6 light styles
+
+FindFacePositions:
+ (1.60 seconds)
+BuildFacelights:
+ (19.51 seconds)
+BuildVisLeafs:
+ (6.14 seconds)
+visibility matrix   :  14.5 megs
+MakeScales:
+ (9.92 seconds)
+Transfer Lists :    32766747 :    32.77M transfers
+       Indices :     7362824 :     7.02M bytes
+          Data :    65590227 :    62.55M bytes
+Bounce 1 GatherLight:
+ (0.28 seconds)
+Bounce 2 GatherLight:
+ (0.43 seconds)
+Bounce 3 GatherLight:
+ (0.41 seconds)
+Bounce 4 GatherLight:
+ (0.43 seconds)
+Bounce 5 GatherLight:
+ (0.47 seconds)
+Bounce 6 GatherLight:
+ (0.44 seconds)
+Bounce 7 GatherLight:
+ (0.47 seconds)
+Bounce 8 GatherLight:
+ (0.45 seconds)
+CreateTriangulations:
+ (0.21 seconds)
+AddPatchLights:
+ (6.78 seconds)
+FinalLightFace:
+ (0.03 seconds)
+48.38 seconds elapsed
+
+-----   END   hlrad -----
+
+
+

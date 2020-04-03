@@ -1,0 +1,17 @@
+"Filters"
+{
+	"gamelist"		"history"
+	"Filters"
+	{
+		"InternetGames"
+		{
+			"ping"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"ValidSteamAccount"		"0"
+			"secure"		"0"
+		}
+	}
+}
+ 

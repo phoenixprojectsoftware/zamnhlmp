@@ -1,0 +1,278 @@
+{
+"classname" "worldspawn"
+"defaultteam" "0"
+"newunit" "0"
+"gametitle" "0"
+"startdark" "0"
+"MaxRange" "4096"
+"sounds" "1"
+"mapversion" "220"
+"wad" "\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\aw_agctf.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cached.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\creative.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_747.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_assault.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_bdog.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_cbble.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_dust.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_havana.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cs_office.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\cstrike.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\de_aztec.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\de_piranesi.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\decals.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\dmc.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_32.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_chillbhop_btm.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fonts.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\gfx.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\halflife.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\liquids.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\n0th1ng.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\spraypaint.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\tempdecal.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\timecounter.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\xeno.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\zamn.wad;\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\zamnhlmp.wad;\SteamLibrary\steamapps\common\Half-Life\valve\fonts.wad;\SteamLibrary\steamapps\common\Half-Life\valve\halflife.wad;\SteamLibrary\steamapps\common\Half-Life\valve\liquids.wad;\SteamLibrary\steamapps\common\Half-Life\valve\spraypaint.wad;\SteamLibrary\steamapps\common\Half-Life\valve\xeno.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 288 256 160 ) ( 288 256 0 ) ( 288 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) BLACK [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 288 -256 0 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 288 -256 160 ) ( 256 -256 160 ) ( 288 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 256 256 0 ) ( 256 -256 0 ) ( 288 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -256 256 160 ) ( -256 256 0 ) ( -256 -256 160 ) BLACK [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 -256 160 ) ( -288 -256 0 ) ( -288 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( -288 -256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -288 256 160 ) ( -288 256 0 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -288 -256 160 ) ( -256 256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -288 256 0 ) ( -288 -256 0 ) ( -256 256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 288 160 ) ( 256 288 0 ) ( 256 256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 160 ) ( -256 256 0 ) ( -256 288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( 256 256 0 ) ( -256 256 160 ) BLACK [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 288 160 ) ( -256 288 0 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 256 160 ) ( -256 256 160 ) ( 256 288 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 288 0 ) ( -256 256 0 ) ( 256 288 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 -256 160 ) ( 256 -256 0 ) ( 256 -288 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -288 160 ) ( -256 -288 0 ) ( -256 -256 160 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( 256 -288 0 ) ( -256 -288 160 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 160 ) ( -256 -256 0 ) ( 256 -256 160 ) BLACK [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -288 160 ) ( -256 -288 160 ) ( 256 -256 160 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -288 0 ) ( 256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 192 ) ( 256 256 160 ) ( 256 -256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 192 ) ( -256 -256 160 ) ( -256 256 192 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( 256 -256 160 ) ( -256 -256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 192 ) ( -256 256 160 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 192 ) ( -256 -256 192 ) ( 256 256 192 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 160 ) ( -256 -256 160 ) ( 256 256 160 ) BLACK [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 256 256 0 ) ( 256 256 -32 ) ( 256 -256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 -256 0 ) ( -256 -256 -32 ) ( -256 256 0 ) NULL [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( 256 -256 -32 ) ( -256 -256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -256 256 0 ) ( -256 256 -32 ) ( 256 256 0 ) NULL [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 256 -256 0 ) ( -256 -256 0 ) ( 256 256 0 ) BLACK [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -256 256 -32 ) ( -256 -256 -32 ) ( 256 256 -32 ) NULL [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "-192 0 37"
+}
+{
+"classname" "light"
+"_falloff" "0"
+"_fade" "1.0"
+"style" "0"
+"_light" "255 255 128 200"
+"light" "255 255 128 200"
+"origin" "0 0 128"
+}
+{
+"classname" "trigger_once"
+"delay" "0"
+"sounds" "0"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"zhlt_lightflags" "0"
+{
+( -160 32 96 ) ( -160 32 0 ) ( -160 -32 96 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -224 -32 96 ) ( -224 -32 0 ) ( -224 32 96 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -160 -32 96 ) ( -160 -32 0 ) ( -224 -32 96 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -224 32 96 ) ( -224 32 0 ) ( -160 32 96 ) AAATRIGGER [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -224 32 0 ) ( -224 -32 0 ) ( -160 32 0 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -160 -32 96 ) ( -224 -32 96 ) ( -160 32 96 ) AAATRIGGER [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "player_weaponstrip"
+"targetname" "doit"
+"origin" "-96 -1 64"
+}
+{
+"classname" "env_sound"
+"roomtype" "0"
+"radius" "128"
+"origin" "-32 5 64"
+}
+{
+"classname" "multi_manager"
+"targetname" "credits_mm"
+"doit" ".001"
+"cdaudio" ".001"
+"txt1" ".001"
+"txt2" "5"
+"txt3" "10"
+"txt4" "15"
+"txt5" "20"
+"txt6" "25"
+"txt7" "30"
+"txt8" "35"
+"txt9" "40"
+"txt10" "45"
+"origin" "-32 -72 32"
+}
+{
+"classname" "target_cdaudio"
+"health" "25"
+"targetname" "cdaudio"
+"origin" "-64 -60 32"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt1"
+"message" "The Phoenix Project is:"
+"origin" "-128 -112 128"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt2"
+"message" "Sabian Roberts\nRafael Soares"
+"origin" "-96 -128 128"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt3"
+"message" "Enzo Sousa\nPetr Vyhlidal"
+"origin" "-64 -96 128"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "0"
+"y" "-1"
+"x" "-1"
+"targetname" "txt4"
+"message" "Adam [Unowninator]\nGoeric Georges"
+"origin" "-128 -64 128"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt5"
+"message" "Keiro Senshi\nSyphothis\nMTB Animations\nSnow"
+"origin" "-160 -64 64"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt6"
+"message" "Shooter Tourneys Team is:"
+"origin" "-160 -96 64"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt7"
+"message" "Sabian Roberts\nRafael Soares"
+"origin" "-160 -128 64"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt8"
+"message" "Enzo Sousa\nPetr Vyhlidal\nAdam [Unowninator]\n[PRO SKILL]\nmaxresdefault"
+"origin" "-160 -160 64"
+}
+{
+"classname" "game_text"
+"channel" "1"
+"fxtime" "0.25"
+"holdtime" "1.2"
+"fadeout" "0.5"
+"fadein" "1.5"
+"color2" "240 110 0"
+"color" "100 100 100"
+"effect" "1"
+"y" "-1"
+"x" "-1"
+"targetname" "txt9"
+"message" "Divertic\nKeiro Senshi\nMTB"
+"origin" "-160 -192 64"
+}
+{
+"classname" "env_message"
+"messageattenuation" "3"
+"messagevolume" "10"
+"targetname" "txt10"
+"message" "THANK YOU FOR PLAYING FROM THE PHOENIX PROJECT,\nHEATWAVE\nAND THE SHOOTER TOURNEYS TEAM!"
+"messagesound" "UI/buttonclickrelease.wav"
+"origin" "-160 -224 64"
+}
