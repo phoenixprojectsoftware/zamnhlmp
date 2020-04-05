@@ -1,4 +1,4 @@
-121
+123
 selection		320 320hud1	160	160	80	20
 
 bucket1			320 320hud2	108	16	12	12
@@ -71,6 +71,8 @@ item_battery	320 320hud2	48	52	20	20
 item_healthkit	320	320hud2	68	52	20	20
 item_longjump	320	320hud2	88	52	20	20
 
+grenade			320 320hud2     36      34      18      18
+
 //===========================================
 
 
@@ -83,13 +85,13 @@ bucket4			640 640hud7	168	92	20	20
 bucket5			640 640hud7	188	92	20	20		
 bucket0			640 640hud7	208	92	20	20		
 
-dmg_poison		640 640hud8	128	0	64	64
 dmg_bio			640 640hud8	128	0	64	64
+dmg_poison		640 640hud8	128	0	64	64
 dmg_chem		640 640hud8	0	0	64	64
-dmg_drown		640 640hud8	64	0	64	64
-dmg_gas			640 640hud9	0	0	64	64
 dmg_cold		640 640hud9	64	0	64	64
+dmg_drown		640 640hud8	64	0	64	64
 dmg_heat		640 640hud9	128	0	64	64
+dmg_gas			640 640hud9	0	0	64	64
 dmg_rad			640 640hud9	192 0	64	64
 dmg_shock		640 640hud8	192	0	64	64
 
@@ -127,13 +129,13 @@ title_half		640 640hud4	0	226	256	30
 title_life		640 640hud5	0	226	220	30
 
 d_crowbar		640	640hud1	192	0	48	16
-d_9mmhandgun	640	640hud1	192	32	64	32
+d_9mmhandgun	640	640hud1	192	16	32	16
 d_357			640	640hud1	192	32	32	16
 d_9mmAR			640	640hud1	192	48	48	16
 d_shotgun		640	640hud1	192	64	48	16
 d_bolt			640	640hud1	192	80	48	16
 d_crossbow		640	640hud1	192	80	48	16
-d_rpg_rocket	640	640hud1	192	292	48	16
+d_rpg_rocket	640	640hud1	192	96	48	16
 d_gauss		640	640hud1	192	112	32	16
 d_egon		640	640hud1	192	128	32	16
 d_hornet		640	640hud1	192	144	48	16
@@ -147,3 +149,5 @@ d_tracktrain		640	640hud1	192	240	32	16
 item_battery	640 640hud2	176	0	44	44
 item_healthkit	640 640hud2	176	48	44	44
 item_longjump	640 640hud2	176	96	44	44
+
+grenade			640 640hud7     48      96      24      24
