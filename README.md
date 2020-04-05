@@ -10,4 +10,4 @@
 ![example.gif](example.gif)
 
 # Instruction Manual
-[Click here to read the instruction manual.](https://github.com/sabian-heatwave/shooter-tourneys-user-manual)
+[Click here to read the instruction manual.](https://sabian-heatwave.github.io/shooter-tourneys-user-manual)
