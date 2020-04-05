@@ -8,3 +8,6 @@
 3. Clone this repository (using Git or the green **Clone or download** and then pressing **Download ZIP**) and with the files and folders in the `shootertourneys-master` folder, move them to the `zamnhlmp` folder you created.
 #### Example:
 ![example.gif](example.gif)
+
+# Instruction Manual
+[Click here to read the instruction manual.](https://github.com/sabian-heatwave/shooter-tourneys-user-manual)
