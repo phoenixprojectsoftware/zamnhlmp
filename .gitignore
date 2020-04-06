@@ -4,3 +4,10 @@ Manual/
 .vs/
 settings.scr
 agslog.txt
+*.rmf
+*.map
+*.rmx
+*.wa_
+*.max
+*.prt
+*.ext
