@@ -1,6 +1,6 @@
 # Shooter Tourneys PUBLIC PLAYTEST
 - For the source code, go to https://github.com/thephoenixprojectsoftware/shootertourneys
-- For the manual, go to https://github.com/sabian-heatwave/shooter-tourneys-user-manual
+- For the manual, go to https://github.com/barney-heatwave/shooter-tourneys-user-manual
 
 # Installation Guide
 1. Right click *Half-Life* in your Steam library. Go to **Properties** > **LOCAL FILES** > **BROWSE LOCAL FILES**
@@ -10,4 +10,4 @@
 ![example.gif](example.gif)
 
 # Instruction Manual
-[Click here to read the instruction manual.](https://sabian-heatwave.github.io/shooter-tourneys-user-manual)
+[Click here to read the instruction manual.](https://barney-heatwave.github.io/shooter-tourneys-user-manual)
