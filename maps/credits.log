@@ -4,9 +4,9 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlcsg -----
-Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
-Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low -wadautodetect 
-Entering E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.map
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low -wadautodetect 
+Entering F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.map
 
 Current hlcsg Settings
 Name                 |  Setting  |  Default
@@ -46,7 +46,7 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.01 seconds)
+ (0.00 seconds)
 CSGBrush:
  (0.01 seconds)
 
@@ -55,7 +55,7 @@ Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
 
 Wad files required to run the map: "fof_32.wad;"
 Texture usage is at 0.00 mb (of 32.00 mb MAX)
-0.20 seconds elapsed
+0.71 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -67,8 +67,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlbsp -----
-Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
-Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low -chart 
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low -chart 
 
 Current hlbsp Settings
 Name               |  Setting  |  Default
@@ -95,8 +95,8 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 25 (0.00 seconds)
-BSP generation successful, writing portal file 'E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.prt'
+SolidBSP [hull 0] 25 (0.01 seconds)
+BSP generation successful, writing portal file 'F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.prt'
 SolidBSP [hull 1] 29 (0.00 seconds)
 SolidBSP [hull 2] 29 (0.00 seconds)
 SolidBSP [hull 3] 29 (0.00 seconds)
@@ -125,12 +125,12 @@ edges              69/256000       276/1024000  ( 0.0%)
 texdata          [variable]         48/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]       3818/2097152  ( 0.2%)
+entdata          [variable]       4079/2097152  ( 0.2%)
 * AllocBlock        1/64             0/0        ( 1.6%)
 1 textures referenced
-=== Total BSP file data space used: 7574 bytes ===
+=== Total BSP file data space used: 7835 bytes ===
 Wad files required to run the map: "fof_32.wad;"
-0.07 seconds elapsed
+0.15 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -142,8 +142,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
-Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
-Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low 
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low 
    1 portalleafs
    0 numportals
 
@@ -165,12 +165,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.00 seconds)
+ (0.01 seconds)
 LeafThread:
  (0.01 seconds)
 average leafs visible: 1
 g_visdatasize:1  compressed from 1
-0.01 seconds elapsed
+0.04 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -182,9 +182,9 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: "C:/Program Files/J.A.C.K/halflife/hlrad_x64.exe" E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
-Arguments: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low 
-Loading extent file 'E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.ext'
+Command line: "C:/Program Files/J.A.C.K/halflife/hlrad_x64.exe" F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits 
+Arguments: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits -low 
+Loading extent file 'F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.ext'
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -252,7 +252,7 @@ wall bleeding fix    [                on ] [                on ]
 
 
 Load Textures:
-Using Wadfile: E:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.wa_
+Using Wadfile: F:\SteamLibrary\steamapps\common\Half-Life\zamnhlmp\maps\credits.wa_
 1 textures referenced
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
 0 opaque models
@@ -284,7 +284,7 @@ Bounce 3 GatherLight:
 Bounce 4 GatherLight:
  (0.00 seconds)
 Bounce 5 GatherLight:
- (0.01 seconds)
+ (0.00 seconds)
 Bounce 6 GatherLight:
  (0.00 seconds)
 Bounce 7 GatherLight:
@@ -297,7 +297,7 @@ AddPatchLights:
  (0.03 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.24 seconds elapsed
+0.26 seconds elapsed
 
 -----   END   hlrad -----
 
