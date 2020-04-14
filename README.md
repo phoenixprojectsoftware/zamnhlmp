@@ -1,4 +1,8 @@
-# Shooter Tourneys PUBLIC PLAYTEST
+# Shooter Tourneys
+This GitHub page hosts *Shooter Tourneys* stable builds and work-in-progress public playtest builds.
+
+<a href="https://www.moddb.com/mods/shooter-tourneys" title="View Shooter Tourneys on Mod DB" target="_blank"><img src="https://button.moddb.com/popularity/medium/mods/45317.png" alt="Shooter Tourneys" /></a>
+
 - For the source code, go to https://github.com/thephoenixprojectsoftware/shootertourneys
 - For the manual, go to https://github.com/barney-heatwave/shooter-tourneys-user-manual
 
