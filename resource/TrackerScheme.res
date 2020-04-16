@@ -189,10 +189,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"DefaultBold"

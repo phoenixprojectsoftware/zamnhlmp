@@ -51,3 +51,6 @@
 "t"				"impulse 201"
 "y"				"messagemode"
 "u"				"messagemode2"
+"MOUSE3"		"+tau"
+"shift"			"+dd"
+"z"				"+usespam"
