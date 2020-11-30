@@ -1344,3 +1344,6 @@ GM_2CHOOSE gman/gman_choose2
 GM_WISE gman/gman_wise
 GM_REGRET gman/gman_noreg
 GM_WONTWORK gman/gman_nowork
+
+// Ch4, ACTIVE TRANSPORT
+DAVID_WHO vo/ch4_activetransport/david_whoareyou.wav
