@@ -32,32 +32,20 @@
 	{
 		"label" ""
 		"command" ""
+		"notsingle" "1"
+		"notmulti" "1"
 	}
 	"7"
 	{
-		"label" "credits"
-		"notsingle" "1"
-		"notmulti" "1"
-		"command" "engine map credits; MP3Volume 1"
+		"label" "settings"
+		"command" "OpenOptionsDialog"
 	}
 	"8"
 	{
 		"label" ""
 		"command" ""
-		"notsingle" "1"
-		"notmulti" "1"
 	}
 	"9"
-	{
-		"label" "settings"
-		"command" "OpenOptionsDialog"
-	}
-	"10"
-	{
-		"label" ""
-		"command" ""
-	}
-	"11"
 	{
 		"label" "quit"
 		"command" "Quit"

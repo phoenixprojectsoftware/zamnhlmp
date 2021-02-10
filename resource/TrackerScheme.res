@@ -248,7 +248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AR DESTINE"
+				"name"		"Trebuchet MS"
 				"tall"		"36"
 				"weight"	"250"
 				"antialias" "1"
