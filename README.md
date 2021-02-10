@@ -14,4 +14,4 @@ This GitHub page hosts *Shooter Tourneys* stable builds and work-in-progress pub
 ![example.gif](example.gif)
 
 # Instruction Manual
-[Click here to read the instruction manual.](https://barney-heatwave.github.io/shooter-tourneys-user-manual)
+[Click here to read the instruction manual.](https://sabianroberts.github.io/shooter-tourneys-user-manual)
