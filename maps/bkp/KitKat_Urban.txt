@@ -1,0 +1,95 @@
+=======================================================             Kitkat_Urban  by DocRock
+=======================================================
+
+Map Name:      		kitkat_urban.bsp
+Filesize:           	10.2 mb
+Author:            	DocRock
+Author email:  		docrock64@cox.net
+Homepage:      		http://www.planethalflife.com/docrocksmaps/
+
+wadincluded in map:  	coma_swat.wad and kitkat_urban.wad
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Single Player:    		No
+Co-Op:                		No
+Deathmatch:     		Yes
+
+Suggested Players:  		8 - 15
+New Textures:   		Yes 
+New Sounds:      		Yes
+New Models:			Yes
+
+Map description:  		An urban setting with the kitkat theme.
+
+=======================================================
+CONSTRUCTION:
+
+base map:               	none
+prefabs:                	pick-up trucks
+other models:			none
+editor used:            	Worldcraft 3.4 Hammer
+utilities used:         	Zoner's Half-Life compile tools, Paintshop Pro 7, Wally
+known bugs:            		None
+compile machine:    		AMD Athlon XP 1600  1.39 GHz  448 mb of RAM
+compile time:          		2 hours 45 minutes
+
+=======================================================
+INSTALLATION:
+
+Run Winzip and unzip kitkat_urban.zip.  Open the kitkat_urban folder and place the kitkat_urban.bsp, kitkat_urban.res, and kitkat_urban.txt in your valve/maps folder.  Place the chaoscity.tga files into your valve/gfx/env folder.  Place the wav files in a folder called urban and place that in your valve/sounds folder.   Then place the moneygibs.mdl in your valve/models folder.  Also place the kitkat_urban overviews in your valve/overviews folder.
+
+If you'd like a copy of the kitkat_urban.wad, email me and I'll send it to you.  docrock64@cox.net
+
+=======================================================
+OTHER LEVELS BY DOCROCK:
+
+Tempest, Nightmare, Mario_Land, greyscale, kitkat_express, kitkat_factory, hardcore, kitkat_beach, kitkat_klub, Get_Shorty, Farmland2, Cliffside2, Tigger, Scooby_Doo, LOML_Palace, DepotArena, Conundrum, Conundrum 2, The Challenger Deep...etc
+
+=======================================================
+SPECIAL THANKS:
+
+To my babykitkat, my lover, my sweetheart, my wife.  I love you!!  My #1 fan, thanks baby for playtesting and helping me with this awesome map!  I DEDICATE THIS TO YOU!
+
+
+BETA TESTERS:
+babykitkat
+SilentRunner007
+WaMpA
+borntokill 
+
+OTHER THANKS:
+
+ComaWhite		Coma_Swat.wad and pick-up truck prefabs
+
+Spa			Chaoscity skybox
+
+qUiCkSiLvEr		moneygibs.mdl, overviews and updated res
+
+=======================================================
+DOC'S NEXT MAP....COMING SOON:
+
+wampas_run
+ =======================================================
+COPYRIGHT STUFF
+
+kitkat_urban.bsp  	copyright Jan. 17, 2003 by DocRock		
+
+Authors MAY use this level as a base to build additional levels as long 
+as you give me credit in your read.me as using this map as a base to 
+build your level.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet.
+
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+PLEASE PLEASE PLEASE email me with any comments about this map or any 
+of my other maps because I love feedback good or bad...and I will do my 
+best to answer any and all emails regarding my maps.
+
