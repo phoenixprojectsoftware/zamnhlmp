@@ -1,0 +1,86 @@
+=======================================================
+Kitkat_Kasino2 a Half-Life Deathmatch Experience by DocRock
+=======================================================
+
+Map Name:                       	kitkat_kasino2.bsp
+Author:                         	DocRock
+Author email:                   	docrock10@hotmail.com
+Release date:		Jan 26, 2018
+
+Facebook:		https://www.facebook.com/doc.rock.988
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Map description:                		A Half-Life deathmatch map set in a kasino.						
+wadincluded in map:          		kk_kasino2.wad and deep_kk.wad
+
+Based on:				Gambling rooms in Prominence Poker
+				free game on Steam
+
+=======================================================
+CONSTRUCTION:
+
+editor used:                    	 	Hammer 3.5
+utilities used:                 		Vluzacn's 64 bit compile tools
+				Paintshop
+				Wally
+				Half-Life model viewer
+				Goldwave	
+compile machine:                		Windows 10 Shuttle R8
+				Intel(R) Core(TM) i7-7700K 4.20 Ghz 
+				64.0 GB RAM Quadro GeForce 
+				
+compile time:                   		5 minutes
+
+=======================================================
+INSTALLATION:
+
+1. 	Run Winrar and unzip kitkat_kasino2.rar
+
+2. 	Open the kitkat_kasino2 folder and place the kitkat_kasino2.bsp, kitkat_kasino2.res, and kitkat_kasino2.txt in your valve/maps folder.  
+
+3.	Place the 6 (six) city_nite.tga files into your valve/gfx/env folder.
+
+4.	Put the kasino2 sound folder in the valve/sound folder.
+
+5.	Place the kasino2 sprite folder in your valve/sprites folder.
+
+6.	Place the kasino2 models folder inside the valve/models folder.
+
+7.	Place the special player models in the valve/models/player folder.
+
+
+
+=======================================================
+SPECIAL THANKS:
+
+To my babykitkat, my lover, my sweetheart, my wife.  I love you!!  My #1 fan, thanks baby
+for playtesting and helping me with this awesome map!  I DEDICATE THIS TO YOU!
+
+Thanks to CreepItAll for beta test and all of the sprites and player models.
+
+Thanks to Saplight for the Venge and Head_Tremor sound files.
+Used by permission
+
+Thanks to CAT for the awesome cobra car model.
+
+Thanks to Emylin for bot waypoints for Swan & Jumbot mods.
+
+Check out the upcoming mod Swan Dm for bots
+https://youtu.be/2_Y62Haa_NY
+
+BETA TESTERS:
+babykitkat
+DiscountKiller
+SilentRunner
+CreepItAll
+Emylin
+
+Special Map Note:  There are several prop_models in this map.  They can only be seen
+by typing "mp_allowmonsters 1" in console and then type "changelevel kitkat_kasino2".
+You can access console by pressing the tilde(~) key on your keyboard.
+
+
+
+	
