@@ -2,13 +2,13 @@
 {
 	"1"
 	{
-		"label" "resume gameplay"
+		"label" "RESUME GAMEPLAY"
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 	}
 	"2"
 	{
-		"label" "disconnect"
+		"label" "RETURN TO MAIN MENU"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}
@@ -20,12 +20,12 @@
 	}
 	"4"
 	{
-		"label" "find servers"
+		"label" "FIND GAMES"
 		"command" "OpenServerBrowser"
 	}
 	"5"
 	{
-		"label" "create listen server"
+		"label" "CUSTOM GAME"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	"6"
@@ -37,7 +37,7 @@
 	}
 	"7"
 	{
-		"label" "settings"
+		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
 	"8"
@@ -47,7 +47,7 @@
 	}
 	"9"
 	{
-		"label" "quit"
+		"label" "QUIT"
 		"command" "Quit"
 	}
 }

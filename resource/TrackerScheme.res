@@ -28,7 +28,7 @@ Scheme
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"			"118 138 116 25"		// background color of controls
+		"ControlBG"			"118 138 116 255"		// background color of controls
 		"ControlDarkBG"		"118 138 116 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"30 166 0 124"	// background color of any selected text or menu item
@@ -189,17 +189,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" "0"
+				"antialias" "1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
@@ -209,7 +209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -220,7 +220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -230,7 +230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"12"
 				"weight"	"600"
 			}
@@ -239,7 +239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -248,7 +248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Bahnschrift"
 				"tall"		"36"
 				"weight"	"250"
 				"antialias" "1"
@@ -330,7 +330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Bahnschrift"
 				"tall"		"18"
 				"weight"	"600"
 				"antialias"	"1"
@@ -341,7 +341,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Bahnschrift"
 				"tall"		"36"
 				"weight"	"1200"
 				"antialias"	"1"
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SF UI Text"
+				"name"		"Bahnschrift"
 				"tall"		"14"
 				"weight"	"500"
 			}
