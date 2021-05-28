@@ -4,9 +4,9 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlcsg -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" 
-Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" -low -wadautodetect 
-Entering D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2.map
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" -low -wadautodetect 
+Entering D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube.map
 
 Current hlcsg Settings
 Name                 |  Setting  |  Default
@@ -50,13 +50,13 @@ CreateBrush:
 CSGBrush:
  (0.02 seconds)
 
-Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
- - Contains 1 used texture, 14.29 percent of map (69 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\creative.wad
+ - Contains 1 used texture, 16.67 percent of map (2 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\halflife.wad
- - Contains 6 used textures, 85.71 percent of map (3116 textures in wad)
+ - Contains 5 used textures, 83.33 percent of map (3116 textures in wad)
 
-Wad files required to run the map: "fof_32.wad;halflife.wad;"
-Texture usage is at 0.09 mb (of 32.00 mb MAX)
+Wad files required to run the map: "creative.wad;halflife.wad;"
+Texture usage is at 0.15 mb (of 32.00 mb MAX)
 0.12 seconds elapsed
 
 -----   END   hlcsg -----
@@ -69,8 +69,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlbsp -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" 
-Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" -low -chart 
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" -low -chart 
 
 Current hlbsp Settings
 Name               |  Setting  |  Default
@@ -97,42 +97,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 108 (0.01 seconds)
-BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2.prt'
-SolidBSP [hull 1] 90 (0.01 seconds)
-SolidBSP [hull 2] 90 (0.01 seconds)
-SolidBSP [hull 3] 90 (0.01 seconds)
-Reduced 237 clipnodes to 216
-Reduced 38 texinfos to 30
-Reduced 7 texdatas to 7 (312 bytes to 312)
-Reduced 320 planes to 123
+SolidBSP [hull 0] 65 (0.01 seconds)
+BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube.prt'
+SolidBSP [hull 1] 70 (0.00 seconds)
+SolidBSP [hull 2] 68 (0.00 seconds)
+SolidBSP [hull 3] 68 (0.00 seconds)
+Reduced 126 clipnodes to 123
+Reduced 36 texinfos to 19
+Reduced 6 texdatas to 6 (268 bytes to 268)
+Reduced 246 planes to 71
 FixBrinks:
-Increased 216 clipnodes to 216.
+Increased 123 clipnodes to 123.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models              3/512          192/32768    ( 0.6%)
-planes            123/32768       2460/655360   ( 0.4%)
-vertexes          643/65535       7716/786420   ( 1.0%)
-nodes             119/32767       2856/786408   ( 0.4%)
-texinfos           30/32767       1200/1310680  ( 0.1%)
-faces             536/65535      10720/1310700  ( 0.8%)
-* worldfaces      530/32768          0/0        ( 1.6%)
-clipnodes         216/32767       1728/262136   ( 0.7%)
-leaves             75/32760       2100/917280   ( 0.2%)
-* worldleaves      62/8192           0/0        ( 0.8%)
-marksurfaces      592/65535       1184/131070   ( 0.9%)
-surfedges        2420/512000      9680/2048000  ( 0.5%)
-edges            1211/256000      4844/1024000  ( 0.5%)
-texdata          [variable]        312/33554432 ( 0.0%)
+models              1/512           64/32768    ( 0.2%)
+planes             71/32768       1420/655360   ( 0.2%)
+vertexes          346/65535       4152/786420   ( 0.5%)
+nodes              42/32767       1008/786408   ( 0.1%)
+texinfos           19/32767        760/1310680  ( 0.1%)
+faces             271/65535       5420/1310700  ( 0.4%)
+* worldfaces      271/32768          0/0        ( 0.8%)
+clipnodes         123/32767        984/262136   ( 0.4%)
+leaves             21/32760        588/917280   ( 0.1%)
+* worldleaves      20/8192           0/0        ( 0.2%)
+marksurfaces      313/65535        626/131070   ( 0.5%)
+surfedges        1238/512000      4952/2048000  ( 0.2%)
+edges             620/256000      2480/1024000  ( 0.2%)
+texdata          [variable]        268/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]       4681/2097152  ( 0.2%)
-* AllocBlock        5/64             0/0        ( 7.8%)
-7 textures referenced
-=== Total BSP file data space used: 49673 bytes ===
-Wad files required to run the map: "fof_32.wad;halflife.wad;"
-0.29 seconds elapsed
+entdata          [variable]      22016/2097152  ( 1.0%)
+* AllocBlock        3/64             0/0        ( 4.7%)
+6 textures referenced
+=== Total BSP file data space used: 44738 bytes ===
+Wad files required to run the map: "creative.wad;halflife.wad;"
+0.28 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -144,10 +144,10 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" 
-Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" -low 
-  62 portalleafs
- 167 numportals
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" -low 
+  20 portalleafs
+  54 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -167,12 +167,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.00 seconds)
+ (0.04 seconds)
 LeafThread:
- (0.01 seconds)
-average leafs visible: 26
-g_visdatasize:505  compressed from 496
-0.05 seconds elapsed
+ (0.07 seconds)
+average leafs visible: 19
+g_visdatasize:60  compressed from 60
+0.37 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -184,8 +184,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" 
-Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2" -low 
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube" -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -253,52 +253,52 @@ wall bleeding fix    [                on ] [                on ]
 
 
 Load Textures:
-Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube_v2.wa_
-7 textures referenced
+Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\the_cube.wa_
+6 textures referenced
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
 0 opaque models
 0 opaque faces
-536 faces
-Create Patches : 4382 base patches
-92180 square feet [13273984.00 square inches]
-1 direct lights and 16386 fast direct lights
+271 faces
+Create Patches : 2525 base patches
+53524 square feet [7707520.00 square inches]
+135 direct lights and 0 fast direct lights
 1 light styles
 
 FindFacePositions:
- (0.26 seconds)
+ (0.15 seconds)
 BuildFacelights:
- (2.48 seconds)
+ (0.39 seconds)
 BuildVisLeafs:
- (0.31 seconds)
-visibility matrix   :   1.0 megs
+ (0.52 seconds)
+visibility matrix   :   1.2 megs
 MakeScales:
- (0.25 seconds)
-Transfer Lists :     1950798 :     1.95M transfers
-       Indices :      400496 :   391.11k bytes
-          Data :     3908667 :     3.73M bytes
+ (0.22 seconds)
+Transfer Lists :     3544484 :     3.54M transfers
+       Indices :      594400 :   580.47k bytes
+          Data :     7096543 :     6.77M bytes
 Bounce 1 GatherLight:
- (0.02 seconds)
+ (0.04 seconds)
 Bounce 2 GatherLight:
- (0.02 seconds)
+ (0.03 seconds)
 Bounce 3 GatherLight:
- (0.02 seconds)
+ (0.03 seconds)
 Bounce 4 GatherLight:
- (0.02 seconds)
+ (0.03 seconds)
 Bounce 5 GatherLight:
- (0.02 seconds)
+ (0.04 seconds)
 Bounce 6 GatherLight:
- (0.02 seconds)
+ (0.03 seconds)
 Bounce 7 GatherLight:
- (0.02 seconds)
+ (0.03 seconds)
 Bounce 8 GatherLight:
- (0.02 seconds)
+ (0.04 seconds)
 CreateTriangulations:
- (0.07 seconds)
+ (0.04 seconds)
 AddPatchLights:
- (1.76 seconds)
+ (0.95 seconds)
 FinalLightFace:
- (0.01 seconds)
-5.51 seconds elapsed
+ (0.00 seconds)
+2.78 seconds elapsed
 
 -----   END   hlrad -----
 
