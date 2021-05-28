@@ -2,7 +2,7 @@
 {
 	"1"
 	{
-		"label" "RESUME GAMEPLAY"
+		"label" "RESUME"
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 	}

@@ -248,9 +248,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Verdana"
 				"tall"		"36"
-				"weight"	"250"
+				"weight"	"1"
 				"antialias" "1"
 			}
 		}
