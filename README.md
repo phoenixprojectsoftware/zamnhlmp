@@ -3,7 +3,7 @@ This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress public play
 
 <a href="https://www.moddb.com/mods/shooter-tourneys" title="View Shooter Tourneys on Mod DB" target="_blank"><img src="https://button.moddb.com/popularity/medium/mods/45317.png" alt="Shooter Tourneys" /></a>
 
-- For the source code, go to https://github.com/thephoenixprojectsoftware/shootertourneys-sdk
+- For source code and SDK, see https://github.com/phoenixprojectsoftware/Aura-CL, https://github.com/phoenixprojectsoftware/Aura-SE & https://github.com/phoenixprojectsoftware/AuraDS.
 
 # Installation Guide
 1. Right click *Half-Life* in your Steam library. Go to **Properties** > **LOCAL FILES** > **BROWSE LOCAL FILES**
