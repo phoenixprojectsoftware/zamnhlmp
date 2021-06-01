@@ -1,6 +1,7 @@
 Welcome to Half-Life: Zombies Ate My Neighbours.
 
 Map Rotation for this server:
+Cove
 Gasworks
 Guardian
 Kasino
