@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun May 30 00:28:25 AM
+// File generated:  Tue Jun 01 15:18:48 AM
 //
 //
 // Cvar	-	Setting
@@ -46,6 +46,13 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		{ NUMBER 0.000000 4096.000000 }
 		{ "300.000000" }
+	}
+
+	"cl_autowepswitch"
+	{
+		"#Phoenix_AutoWepSwitch"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"hud_rainbow"
