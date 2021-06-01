@@ -1,0 +1,310 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" -low -wadautodetect 
+Entering D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.02 seconds)
+CSGBrush:
+ (0.06 seconds)
+
+ - Warning: Larger than expected texture (1045292 bytes): 'COLGATE'
+added 6 additional animating textures.
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\cs_bdog.wad
+ - Contains 1 used texture, 2.63 percent of map (132 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
+ - Contains 2 used textures, 5.26 percent of map (69 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\halflife.wad
+ - Contains 35 used textures, 92.11 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "cs_bdog.wad;fof_32.wad;halflife.wad;"
+Texture usage is at 0.57 mb (of 32.00 mb MAX)
+0.24 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 138 (0.02 seconds)
+BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove.prt'
+SolidBSP [hull 1] 185 (0.03 seconds)
+SolidBSP [hull 2] 174 (0.03 seconds)
+SolidBSP [hull 3] 195 (0.04 seconds)
+Reduced 1637 clipnodes to 1614
+Reduced 134 texinfos to 114
+Reduced 38 texdatas to 37 (1676 bytes to 1632)
+Reduced 2706 planes to 1130
+FixBrinks:
+Increased 1614 clipnodes to 1614.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             31/512         1984/32768    ( 6.1%)
+planes           1130/32768      22600/655360   ( 3.4%)
+vertexes          788/65535       9456/786420   ( 1.2%)
+nodes             335/32767       8040/786408   ( 1.0%)
+texinfos          114/32767       4560/1310680  ( 0.3%)
+faces             549/65535      10980/1310700  ( 0.8%)
+* worldfaces      319/32768          0/0        ( 1.0%)
+clipnodes        1614/32767      12912/262136   ( 4.9%)
+leaves            274/32760       7672/917280   ( 0.8%)
+* worldleaves      65/8192           0/0        ( 0.8%)
+marksurfaces      662/65535       1324/131070   ( 1.0%)
+surfedges        2559/512000     10236/2048000  ( 0.5%)
+edges            1315/256000      5260/1024000  ( 0.5%)
+texdata          [variable]       1632/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       7716/2097152  ( 0.4%)
+* AllocBlock        3/64             0/0        ( 4.7%)
+37 textures referenced
+=== Total BSP file data space used: 104372 bytes ===
+Wad files required to run the map: "cs_bdog.wad;fof_32.wad;halflife.wad;"
+0.54 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" -low 
+  65 portalleafs
+ 187 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.00 seconds)
+LeafThread:
+ (0.04 seconds)
+average leafs visible: 49
+g_visdatasize:641  compressed from 585
+0.10 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" 
+Arguments: -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove" -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 8 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Cove.wa_
+37 textures referenced
+Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
+0 opaque models
+0 opaque faces
+549 faces
+Create Patches : 2309 base patches
+35810 square feet [5156715.50 square inches]
+1 direct lights and 16386 fast direct lights
+1 light styles
+
+FindFacePositions:
+ (0.14 seconds)
+BuildFacelights:
+ (1.68 seconds)
+BuildVisLeafs:
+ (0.18 seconds)
+visibility matrix   :   0.8 megs
+MakeScales:
+ (0.17 seconds)
+Transfer Lists :     1839353 :     1.84M transfers
+       Indices :      856704 :   836.63k bytes
+          Data :     3685477 :     3.51M bytes
+Bounce 1 GatherLight:
+ (0.02 seconds)
+Bounce 2 GatherLight:
+ (0.02 seconds)
+Bounce 3 GatherLight:
+ (0.02 seconds)
+Bounce 4 GatherLight:
+ (0.02 seconds)
+Bounce 5 GatherLight:
+ (0.02 seconds)
+Bounce 6 GatherLight:
+ (0.02 seconds)
+Bounce 7 GatherLight:
+ (0.02 seconds)
+Bounce 8 GatherLight:
+ (0.02 seconds)
+CreateTriangulations:
+ (0.02 seconds)
+AddPatchLights:
+ (0.49 seconds)
+FinalLightFace:
+ (0.00 seconds)
+3.08 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
