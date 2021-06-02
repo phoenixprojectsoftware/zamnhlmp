@@ -248,7 +248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Conduit ITC"
 				"tall"		"36"
 				"weight"	"1"
 				"antialias" "1"
