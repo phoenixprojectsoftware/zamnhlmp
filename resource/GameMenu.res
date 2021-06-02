@@ -8,15 +8,16 @@
 	}
 	"2"
 	{
-		"label" "RETURN TO MAIN MENU"
+		"label" "LEAVE GAME"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}
 	"3"
 	{
-		"label" ""
-		"OnlyInGame" "1"
-		"command" ""
+		"label" "CREDITS"
+		"command" "engine map credits/Credits"
+		"notsingle" "1"
+		"notmulti" "1"
 	}
 	"4"
 	{
@@ -30,22 +31,10 @@
 	}
 	"6"
 	{
-		"label" ""
-		"command" ""
-		"notsingle" "1"
-		"notmulti" "1"
-	}
-	"7"
-	{
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 	}
-	"8"
-	{
-		"label" ""
-		"command" ""
-	}
-	"9"
+	"7"
 	{
 		"label" "QUIT"
 		"command" "Quit"
