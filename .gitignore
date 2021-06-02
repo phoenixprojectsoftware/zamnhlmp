@@ -3,6 +3,7 @@ config.cfg
 Manual/
 SAVE/
 .vs/
+.vscode/
 settings.scr
 agslog.txt
 *.rmf
