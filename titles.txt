@@ -541,7 +541,7 @@ $color2 0 0 0
 // This is the time it takes to fade in the title
 $fadein 1.0
 // How long to hold the message on the screen (after it scans out)
-$holdtime 30
+$holdtime 0
 // How long it takes to fade out the message after holding
 $fadeout 1.5
 
