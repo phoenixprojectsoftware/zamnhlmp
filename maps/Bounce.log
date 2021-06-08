@@ -1,0 +1,316 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" -low -wadautodetect 
+Entering D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.10 seconds)
+CSGBrush:
+ (0.68 seconds)
+
+ - Warning: Larger than expected texture (1045292 bytes): 'COLGATE'
+added 8 additional animating textures.
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
+ - Contains 1 used texture, 2.56 percent of map (69 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\halflife.wad
+ - Contains 36 used textures, 92.31 percent of map (3116 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\liquids.wad
+ - Contains 1 used texture, 2.56 percent of map (32 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\zamnhlmp.wad
+ - Contains 1 used texture, 2.56 percent of map (13 textures in wad)
+
+Wad files required to run the map: "fof_32.wad;halflife.wad;liquids.wad;zamnhlmp.wad;"
+Texture usage is at 0.78 mb (of 32.00 mb MAX)
+1.03 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1104,2220,-1788)-(32,2236,-1772) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...1000...1500...1927 (0.41 seconds)
+BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce.prt'
+SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-228,2228,-1752)-(28,2252,-1740) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...1000...1500...1975 (0.34 seconds)
+SolidBSP [hull 2] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-244,2188,-1828)-(16,2268,-1740) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...1000...1500...1835 (0.26 seconds)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-228,2236,-1770)-(32,2252,-1754) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...1000...1500...1992 (0.30 seconds)
+Reduced 4644 clipnodes to 4268
+Reduced 264 texinfos to 178
+Reduced 39 texdatas to 35 (1720 bytes to 1544)
+Reduced 7870 planes to 2308
+FixBrinks:
+Increased 4268 clipnodes to 4309.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             20/512         1280/32768    ( 3.9%)
+planes           2308/32768      46160/655360   ( 7.0%)
+vertexes         4861/65535      58332/786420   ( 7.4%)
+nodes            1722/32767      41328/786408   ( 5.3%)
+texinfos          178/32767       7120/1310680  ( 0.5%)
+faces            3750/65535      75000/1310700  ( 5.7%)
+* worldfaces     3631/32768          0/0        (11.1%)
+clipnodes        4309/32767      34472/262136   (13.2%)
+leaves            953/32760      26684/917280   ( 2.9%)
+* worldleaves     805/8192           0/0        ( 9.8%)
+marksurfaces     4676/65535       9352/131070   ( 7.1%)
+surfedges       18280/512000     73120/2048000  ( 3.6%)
+edges            9264/256000     37056/1024000  ( 3.6%)
+texdata          [variable]       1544/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      18472/2097152  ( 0.9%)
+* AllocBlock       14/64             0/0        (21.9%)
+35 textures referenced
+=== Total BSP file data space used: 429920 bytes ===
+Wad files required to run the map: "fof_32.wad;halflife.wad;liquids.wad;zamnhlmp.wad;"
+2.60 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" 
+Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" -low 
+ 805 portalleafs
+2401 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.16 seconds)
+LeafThread:
+ (4.92 seconds)
+average leafs visible: 124
+g_visdatasize:34228  compressed from 81305
+5.19 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" 
+Arguments: -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce" -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 8 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Bounce.wa_
+35 textures referenced
+Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
+0 opaque models
+0 opaque faces
+3750 faces
+Create Patches : 15954 base patches
+415830 square feet [59879608.00 square inches]
+27 direct lights and 32772 fast direct lights
+1 light styles
+
+FindFacePositions:
+ (0.85 seconds)
+BuildFacelights:
+ (34.05 seconds)
+BuildVisLeafs:
+ (1.92 seconds)
+visibility matrix   :   3.9 megs
+MakeScales:
+ (3.37 seconds)
+Transfer Lists :     8802473 :     8.80M transfers
+       Indices :     3898972 :     3.72M bytes
+          Data :    17652547 :    16.83M bytes
+Bounce 1 GatherLight:
+ (0.11 seconds)
+Bounce 2 GatherLight:
+ (0.10 seconds)
+Bounce 3 GatherLight:
+ (0.10 seconds)
+Bounce 4 GatherLight:
+ (0.12 seconds)
+Bounce 5 GatherLight:
+ (0.10 seconds)
+Bounce 6 GatherLight:
+ (0.09 seconds)
+Bounce 7 GatherLight:
+ (0.12 seconds)
+Bounce 8 GatherLight:
+ (0.15 seconds)
+CreateTriangulations:
+ (0.24 seconds)
+AddPatchLights:
+ (3.75 seconds)
+FinalLightFace:
+ (0.01 seconds)
+45.62 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
