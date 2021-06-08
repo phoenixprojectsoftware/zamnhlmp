@@ -15,3 +15,5 @@ agslog.txt
 *.rar
 *.dem
 *.bmp
+logos/remapped.bmp
+models/player/remapped.bmp
