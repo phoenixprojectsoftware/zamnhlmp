@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Jun 02 18:15:49 AM
+// File generated:  Tue Jun 08 23:32:48 AM
 //
 //
 // Cvar	-	Setting
@@ -57,14 +57,44 @@ DESCRIPTION INFO_OPTIONS
 
 	"hud_takesshots"
 	{
-		"#Phoenix_TakeSShots"
+		"#Valve_Automatic_Screenshots"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"hud_rainbow"
+	"hud_centerid"
 	{
-		"#Phoenix_RainbowHud"
+		"#Valve_Center_Player_Names"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_old_scoreboard"
+	{
+		"#Phoenix_ScoreboardVGUI"
+		{
+			LIST
+			"#Phoenix_NewScoreboard" "0"
+			"#Phoenix_OldScoreboard" "1"
+		}
+		{ "0.000000" }
+	}
+
+	"hud_timer"
+	{
+		"#Phoenix_Timer"
+		{
+			LIST
+			"#Phoenix_NoTime" "0"
+			"#Phoenix_TimeLeft" "1"
+			"#Phoenix_TimeElapsed" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"cl_scores"
+	{
+		"#Phoenix_MiniScores"
 		{ BOOL }
 		{ "0" }
 	}
@@ -83,16 +113,16 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"hud_timer"
-	{
-		"#Phoenix_Timer"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"hud_weapon"
 	{
 		"#Phoenix_HUDWeapon"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_rainbow"
+	{
+		"#Phoenix_RainbowHud"
 		{ BOOL }
 		{ "0" }
 	}
@@ -109,19 +139,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_Viewroll"
 		{ BOOL }
 		{ "0" }
-	}
-
-	"default_fov"
-	{
-		"#Phoenix_Fov"
-		{
-			LIST
-			"#Phoenix_Default" "110"
-			"#Phoenix_ClassicHl" "90"
-			"#Phoenix_2020" "120"
-			"#Phoenix_QuakePro" "130"
-		}
-		{ "110.000000" }
 	}
 
 }
