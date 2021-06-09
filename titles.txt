@@ -1,8 +1,95 @@
-
+﻿
 Spec_Help2
 {
 http://www.planethalflife.com/agmod
 }
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 128 128 128
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+VALVEIS
+{
+The Phoenix Project Software is
+}
+
+END2
+{
+AngryRetroNerd
+}
+
+END3
+{
+Aran O'Day
+}
+
+END4
+{
+Enzo Sousa
+}
+
+END5
+{
+Harry Williams
+}
+
+END6
+{
+Ivan
+}
+
+END7
+{
+MTB Animations
+}
+
+END8 
+{
+J�n Stanislav V�r�s
+}
+
+END9 
+{
+Petr Vyhl�dal
+}
+
+END10 
+{
+Rafael Soares
+}
+
+END11
+{
+Ryley Whitfield
+}
+
+END12
+{
+Sabian Roberts
+}
+
+END13
+{
+Syphothis
+}
+
+END14
+{
+Techlin
+}
+
+END15
+{
+Unowninator
+}
+
 
 Directed
 {
