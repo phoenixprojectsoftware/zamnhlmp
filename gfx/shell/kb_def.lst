@@ -29,6 +29,7 @@
 "t"				"messagemode2"
 "["				"yes"
 "]"				"no"
+"."				"changeteam"
 "MOUSE3"		"+tau"
 "shift"			"+dd"
 "z"				"+us"
