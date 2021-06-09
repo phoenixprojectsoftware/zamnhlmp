@@ -1,0 +1,6 @@
+New menu background
+Added CTF maps
+Fixed the lighting on Bounce
+Added more options to Multiplayer Advanced
+Fixed a bug where some footstep sounds would play in very low quality
+Removed FOV setting from Multiplayer Advanced
