@@ -8,7 +8,7 @@
 "TAB"			"+showscores"
 "e"				"+use"
 "r"				"+reload"
-"SHIFT"			"+speed"
+"ALT"			"+speed"
 "MOUSE1"		"+attack"
 "MOUSE2"		"+attack2"
 "f"				"impulse 100"
