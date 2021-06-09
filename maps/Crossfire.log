@@ -46,9 +46,9 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.10 seconds)
+ (0.14 seconds)
 CSGBrush:
- (0.53 seconds)
+ (0.66 seconds)
 
  - Warning: Larger than expected texture (1045292 bytes): 'COLGATE'
 added 23 additional animating textures.
@@ -66,7 +66,7 @@ Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\za
 Wad files required to run the map: "cs_747.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
 Texture usage is at 1.34 mb (of 32.00 mb MAX)
 3 redundant named lights optimized.
-0.78 seconds elapsed
+1.11 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -106,42 +106,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2372 (0.38 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2367 (0.43 seconds)
 BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2155 (0.35 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2013 (0.32 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2249 (0.36 seconds)
-Reduced 8030 clipnodes to 7234
+SolidBSP [hull 1] 500...1000...1500...2000...2154 (0.35 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2028 (0.33 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2247 (0.35 seconds)
+Reduced 8042 clipnodes to 7242
 Reduced 1244 texinfos to 1003
 Reduced 115 texdatas to 113 (5064 bytes to 4976)
 Reduced 5498 planes to 1722
 FixBrinks:
-Increased 7234 clipnodes to 7298.
+Increased 7242 clipnodes to 7304.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             82/512         5248/32768    (16.0%)
 planes           1722/32768      34440/655360   ( 5.3%)
-vertexes         7227/65535      86724/786420   (11.0%)
-nodes            2923/32767      70152/786408   ( 8.9%)
+vertexes         7224/65535      86688/786420   (11.0%)
+nodes            2918/32767      70032/786408   ( 8.9%)
 texinfos         1003/32767      40120/1310680  ( 3.1%)
-faces            5525/65535     110500/1310700  ( 8.4%)
-* worldfaces     4940/32768          0/0        (15.1%)
-clipnodes        7298/32767      58384/262136   (22.3%)
-leaves           1964/32760      54992/917280   ( 6.0%)
-* worldleaves    1428/8192           0/0        (17.4%)
-marksurfaces     7470/65535      14940/131070   (11.4%)
-surfedges       26672/512000    106688/2048000  ( 5.2%)
-edges           13352/256000     53408/1024000  ( 5.2%)
+faces            5522/65535     110440/1310700  ( 8.4%)
+* worldfaces     4937/32768          0/0        (15.1%)
+clipnodes        7304/32767      58432/262136   (22.3%)
+leaves           1957/32760      54796/917280   ( 6.0%)
+* worldleaves    1421/8192           0/0        (17.3%)
+marksurfaces     7512/65535      15024/131070   (11.5%)
+surfedges       26656/512000    106624/2048000  ( 5.2%)
+edges           13344/256000     53376/1024000  ( 5.2%)
 texdata          [variable]       4976/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      61967/2097152  ( 3.0%)
+entdata          [variable]      61974/2097152  ( 3.0%)
 * AllocBlock       15/64             0/0        (23.4%)
 113 textures referenced
-=== Total BSP file data space used: 702539 bytes ===
+=== Total BSP file data space used: 702170 bytes ===
 Wad files required to run the map: "cs_747.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
-2.87 seconds elapsed
+2.99 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -155,8 +155,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" 
 Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" -low 
-1428 portalleafs
-4424 numportals
+1421 portalleafs
+4369 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -176,12 +176,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.32 seconds)
+ (0.36 seconds)
 LeafThread:
- (6.47 seconds)
-average leafs visible: 154
-g_visdatasize:94192  compressed from 255612
-6.88 seconds elapsed
+ (6.63 seconds)
+average leafs visible: 152
+g_visdatasize:94257  compressed from 252938
+7.09 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -193,8 +193,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" 
-Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" -low 
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" 
+Arguments: -extra "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -211,7 +211,7 @@ priority             [               Low ] [            Normal ]
 
 fast rad             [               off ] [               off ]
 vismatrix algorithm  [            Sparse ] [            Sparse ]
-oversampling (-extra)[               off ] [               off ]
+oversampling (-extra)[                on ] [               off ]
 bounces              [                 8 ] [                 8 ]
 ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
 light limit threshold[           188.000 ] [           188.000 ]
@@ -267,47 +267,47 @@ Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
 0 opaque models
 0 opaque faces
-5525 faces
-Create Patches : 17195 base patches
+5522 faces
+Create Patches : 17191 base patches
 358220 square feet [51583684.00 square inches]
 102 direct lights and 16386 fast direct lights
 5 light styles
 
 FindFacePositions:
- (1.07 seconds)
+ (1.11 seconds)
 BuildFacelights:
- (13.52 seconds)
+ (21.72 seconds)
 BuildVisLeafs:
- (1.32 seconds)
+ (1.70 seconds)
 visibility matrix   :   2.2 megs
 MakeScales:
- (2.15 seconds)
-Transfer Lists :     3562162 :     3.56M transfers
-       Indices :     3358908 :     3.20M bytes
-          Data :     7174010 :     6.84M bytes
+ (2.86 seconds)
+Transfer Lists :     3556297 :     3.56M transfers
+       Indices :     3333284 :     3.18M bytes
+          Data :     7162268 :     6.83M bytes
 Bounce 1 GatherLight:
- (0.04 seconds)
+ (0.05 seconds)
 Bounce 2 GatherLight:
  (0.05 seconds)
 Bounce 3 GatherLight:
  (0.06 seconds)
 Bounce 4 GatherLight:
- (0.05 seconds)
+ (0.06 seconds)
 Bounce 5 GatherLight:
  (0.06 seconds)
 Bounce 6 GatherLight:
- (0.05 seconds)
+ (0.06 seconds)
 Bounce 7 GatherLight:
  (0.06 seconds)
 Bounce 8 GatherLight:
- (0.05 seconds)
+ (0.07 seconds)
 CreateTriangulations:
- (0.10 seconds)
+ (0.14 seconds)
 AddPatchLights:
- (2.25 seconds)
+ (2.55 seconds)
 FinalLightFace:
  (0.02 seconds)
-21.35 seconds elapsed
+31.22 seconds elapsed
 
 -----   END   hlrad -----
 
