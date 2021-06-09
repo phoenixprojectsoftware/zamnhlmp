@@ -1,10 +1,7 @@
 == WELCOME ==
-Thank you for installing Shooter Tourneys: The Official Game for Classic Shooter Tourneys — Hosting 
-Small Tourneys for Dead Classics. This game comes with modified AG code, new gamemodes, and a massive
-collection of community-made maps. Official maps start with the name "zamnhl".
+Thank you for installing Half-Life: Zombies Ate My Neighbours Multiplayer. This mod
+comes with modified AG code, new gamemodes, exclusive maps, and a fun experience.
 
-== README DOCUMENT ==
-Please see the "README.HTML" file (if it's not on your Desktop, it's in Half-Life\zamnhlmp\Manual)
-
-== USER MANUAL ==
-Please see the "User Manual.html" file (if it's not on your Desktop, it's in Half-Life\zamnhlmp\Manual)
+== DOCUMENTS ==
+The manual, readme and the server guide can be found at 
+https://sabianroberts.github.io/shooter-tourneys-user-manual.
