@@ -46,12 +46,12 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.14 seconds)
+ (0.12 seconds)
 CSGBrush:
- (0.66 seconds)
+ (0.59 seconds)
 
  - Warning: Larger than expected texture (1045292 bytes): 'COLGATE'
-added 23 additional animating textures.
+added 22 additional animating textures.
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\cs_747.wad
  - Contains 1 used texture, 0.87 percent of map (143 textures in wad)
 Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\fof_32.wad
@@ -65,8 +65,8 @@ Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\za
 
 Wad files required to run the map: "cs_747.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
 Texture usage is at 1.34 mb (of 32.00 mb MAX)
-3 redundant named lights optimized.
-1.11 seconds elapsed
+10 redundant named lights optimized.
+0.92 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -106,42 +106,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2367 (0.43 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2344 (0.40 seconds)
 BSP generation successful, writing portal file 'D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2154 (0.35 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2028 (0.33 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2247 (0.35 seconds)
-Reduced 8042 clipnodes to 7242
-Reduced 1244 texinfos to 1003
+SolidBSP [hull 1] 500...1000...1500...2000...2147 (0.34 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2023 (0.34 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2230 (0.37 seconds)
+Reduced 8067 clipnodes to 7287
+Reduced 1249 texinfos to 1009
 Reduced 115 texdatas to 113 (5064 bytes to 4976)
-Reduced 5498 planes to 1722
+Reduced 5544 planes to 1752
 FixBrinks:
-Increased 7242 clipnodes to 7304.
+Increased 7287 clipnodes to 7340.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models             82/512         5248/32768    (16.0%)
-planes           1722/32768      34440/655360   ( 5.3%)
-vertexes         7224/65535      86688/786420   (11.0%)
-nodes            2918/32767      70032/786408   ( 8.9%)
-texinfos         1003/32767      40120/1310680  ( 3.1%)
-faces            5522/65535     110440/1310700  ( 8.4%)
-* worldfaces     4937/32768          0/0        (15.1%)
-clipnodes        7304/32767      58432/262136   (22.3%)
-leaves           1957/32760      54796/917280   ( 6.0%)
-* worldleaves    1421/8192           0/0        (17.3%)
-marksurfaces     7512/65535      15024/131070   (11.5%)
-surfedges       26656/512000    106624/2048000  ( 5.2%)
-edges           13344/256000     53376/1024000  ( 5.2%)
+models             85/512         5440/32768    (16.6%)
+planes           1752/32768      35040/655360   ( 5.3%)
+vertexes         7179/65535      86148/786420   (11.0%)
+nodes            2913/32767      69912/786408   ( 8.9%)
+texinfos         1009/32767      40360/1310680  ( 3.1%)
+faces            5493/65535     109860/1310700  ( 8.4%)
+* worldfaces     4896/32768          0/0        (14.9%)
+clipnodes        7340/32767      58720/262136   (22.4%)
+leaves           1956/32760      54768/917280   ( 6.0%)
+* worldleaves    1402/8192           0/0        (17.1%)
+marksurfaces     7471/65535      14942/131070   (11.4%)
+surfedges       26506/512000    106024/2048000  ( 5.2%)
+edges           13269/256000     53076/1024000  ( 5.2%)
 texdata          [variable]       4976/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      61974/2097152  ( 3.0%)
+entdata          [variable]      65095/2097152  ( 3.1%)
 * AllocBlock       15/64             0/0        (23.4%)
 113 textures referenced
-=== Total BSP file data space used: 702170 bytes ===
+=== Total BSP file data space used: 704361 bytes ===
 Wad files required to run the map: "cs_747.wad;fof_32.wad;fof_chillbhop_btm.wad;halflife.wad;zamnhlmp.wad;"
-2.99 seconds elapsed
+3.09 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -155,8 +155,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" 
 Arguments: "D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\maps\Crossfire" -low 
-1421 portalleafs
-4369 numportals
+1402 portalleafs
+4289 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -176,12 +176,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.36 seconds)
+ (0.35 seconds)
 LeafThread:
- (6.63 seconds)
+ (7.26 seconds)
 average leafs visible: 152
-g_visdatasize:94257  compressed from 252938
-7.09 seconds elapsed
+g_visdatasize:92513  compressed from 246752
+7.71 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -267,47 +267,47 @@ Using Wadfile: D:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp\
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
 0 opaque models
 0 opaque faces
-5522 faces
-Create Patches : 17191 base patches
-358220 square feet [51583684.00 square inches]
-102 direct lights and 16386 fast direct lights
-5 light styles
+5493 faces
+Create Patches : 17165 base patches
+358183 square feet [51578376.00 square inches]
+106 direct lights and 16386 fast direct lights
+6 light styles
 
 FindFacePositions:
  (1.11 seconds)
 BuildFacelights:
- (21.72 seconds)
+ (21.80 seconds)
 BuildVisLeafs:
- (1.70 seconds)
+ (1.47 seconds)
 visibility matrix   :   2.2 megs
 MakeScales:
- (2.86 seconds)
-Transfer Lists :     3556297 :     3.56M transfers
-       Indices :     3333284 :     3.18M bytes
-          Data :     7162268 :     6.83M bytes
+ (2.48 seconds)
+Transfer Lists :     3547729 :     3.55M transfers
+       Indices :     3310060 :     3.16M bytes
+          Data :     7145045 :     6.81M bytes
 Bounce 1 GatherLight:
- (0.05 seconds)
+ (0.04 seconds)
 Bounce 2 GatherLight:
- (0.05 seconds)
+ (0.08 seconds)
 Bounce 3 GatherLight:
- (0.06 seconds)
+ (0.08 seconds)
 Bounce 4 GatherLight:
- (0.06 seconds)
+ (0.09 seconds)
 Bounce 5 GatherLight:
- (0.06 seconds)
+ (0.08 seconds)
 Bounce 6 GatherLight:
- (0.06 seconds)
+ (0.07 seconds)
 Bounce 7 GatherLight:
- (0.06 seconds)
+ (0.07 seconds)
 Bounce 8 GatherLight:
  (0.07 seconds)
 CreateTriangulations:
- (0.14 seconds)
+ (0.11 seconds)
 AddPatchLights:
- (2.55 seconds)
+ (3.52 seconds)
 FinalLightFace:
  (0.02 seconds)
-31.22 seconds elapsed
+31.78 seconds elapsed
 
 -----   END   hlrad -----
 
