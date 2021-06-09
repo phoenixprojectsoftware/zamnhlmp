@@ -42,7 +42,7 @@ Scheme
 		"TitleDimBG"		"76 88 68 0"
 		
 		// slider tick colors
-		"SliderTickColor"	"127 140 127 255"
+		"SliderTickColor"	"46 54 45 255"
 		"SliderTrackColor"	"31 31 31 255"
 
 		// border colors
