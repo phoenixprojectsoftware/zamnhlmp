@@ -8,7 +8,7 @@ http://www.planethalflife.com/agmod
 $position -1 -1
 $effect 0
 // Final fade-in color
-$color 128 128 128
+$color 255 255 255
 // This is the highlight/flash color
 $color2 0 0 0
 $fadein 0.5

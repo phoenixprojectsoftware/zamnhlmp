@@ -4,7 +4,9 @@ Fixed the lighting on Bounce
 Added more options to Multiplayer Advanced
 Fixed a bug where some footstep sounds would play in very low quality
 Removed FOV setting from Multiplayer Advanced
+Digits now appear on sliders (e.g. volume, mouse sensitivity)
 More improvements to the lighting on Crossfire
 Added tau-proof kill trigger to stop people from avoiding the nuke to Crossfire
 Restored the original Crowbar sound
 Added more places for players to find Wesley
+Added controls to vote and change team
