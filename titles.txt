@@ -52,12 +52,12 @@ MTB Animations
 
 END8 
 {
-J�n Stanislav V�r�s
+Jan Stanislav Voros
 }
 
 END9 
 {
-Petr Vyhl�dal
+Petr Vyhlidal
 }
 
 END10 

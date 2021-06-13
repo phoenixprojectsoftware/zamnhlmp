@@ -23,6 +23,8 @@
 @PointClass size(-8 -16 -36, 8 16 36) color(255 0 0) = item_flag_team1 : "Blue flag" []
 @PointClass size(-8 -16 -36, 8 16 36) color(0 0 255) = item_flag_team2 : "Red flag" []
 
+@PointClass base(Monster,Sequence) size(-16 -16 0, 16 16 72) studio("models/zamnzombie.mdl") = monster_zamnhl : "ZAMN Zombie" []
+
 @PointClass  size(-16 -16 -36, 16 16 36) color(255 0 0)= info_player_team1 : "Blue team start"
 [
 	spawnflags(Flags) =
