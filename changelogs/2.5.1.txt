@@ -10,3 +10,5 @@ Added tau-proof kill trigger to stop people from avoiding the nuke to Crossfire
 Restored the original Crowbar sound
 Added more places for players to find Wesley
 Added controls to vote and change team
+**Fixed a CRITICAL bug where the sv_aura_give commands would not work. Now, gamemodes such as CTF2, TDMX, Arcade and Arena all function correctly!**
+You now start in spectator mode upon joining a server. Click to start.
