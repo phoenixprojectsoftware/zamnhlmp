@@ -1,6 +1,7 @@
 # Changelog
 - New menu background
 - Added CTF maps
+- New map: 'City'
 - Fixed the lighting on Bounce
 - Added more options to Multiplayer Advanced
 - Fixed a bug where some footstep sounds would play in very low quality
@@ -11,6 +12,7 @@
 - Restored the original Crowbar sound
 - Added more places for players to find Wesley
 - Added controls to vote and change team
+- Fixed missing files on Blimpboom
 
 ## Aura hotfix 1 - Aura 1.1:
 ### Game changes
