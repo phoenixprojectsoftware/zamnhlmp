@@ -4,6 +4,7 @@ Map Rotation for this server:
 Cove
 Gasworks
 Dyce
+City
 Guardian
 Kasino
 Kasino2
