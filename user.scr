@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Jun 09 13:19:29 AM
+// File generated:  Sat Jun 19 12:45:35 AM
 //
 //
 // Cvar	-	Setting
@@ -55,18 +55,25 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"echo"
+	{
+		"#Phoenix_AutoKill"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"hud_takesshots"
 	{
 		"#Valve_Automatic_Screenshots"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_centerid"
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_old_scoreboard"
@@ -90,6 +97,17 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_TimeElapsed" "2"
 		}
 		{ "1.000000" }
+	}
+
+	"cl_righthand"
+	{
+		"#Phoenix_HandPlacement"
+		{
+			LIST
+			"#Phoenix_RightHand" "0"
+			"#Phoenix_LeftHand" "1"
+		}
+		{ "0.000000" }
 	}
 
 	"cl_scores"
