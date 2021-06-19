@@ -145,18 +145,4 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"cl_bobtilt"
-	{
-		"#Phoenix_Bobtilt"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"cl_viewroll"
-	{
-		"#Phoenix_Viewroll"
-		{ BOOL }
-		{ "0" }
-	}
-
 }

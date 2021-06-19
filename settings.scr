@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 19 12:48:25 AM
+// File generated:  Sat Jun 19 07:34:24 PM
 //
 //
 // Cvar	-	Setting
@@ -80,14 +80,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Frag_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "0.000000" }
+		{ "50.000000" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "0.000000" }
+		{ "50.000000" }
 	}
 
 	"mp_falldamage"
@@ -98,7 +98,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Valve_Normal" "0"
 			"#Valve_Realistic" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"mp_friendlyfire"
@@ -140,7 +140,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Autocrosshair"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_intermission_time"
