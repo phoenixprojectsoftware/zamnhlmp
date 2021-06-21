@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Jun 21 08:59:53 PM
+// File generated:  Mon Jun 21 09:06:58 PM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Test Server" }
+		{ "Aura 2.0" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "32.000000" }
+		{ "64.000000" }
 	}
 
 	"sv_password"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "ffa" }
 	}
 
 	"mp_teamlist"
@@ -151,8 +151,8 @@ DESCRIPTION SERVER_OPTIONS
 			"#Phoenix_NewMP5" "0"
 			"#Phoenix_OldMP5" "1"
 		}
-		{ "1.000000" }
-		}
+		{ "0.000000" }
+	}
 
 	"mp_intermission_time"
 	{
