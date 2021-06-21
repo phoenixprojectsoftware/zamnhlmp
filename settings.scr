@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Jun 20 04:24:55 PM
+// File generated:  Mon Jun 21 07:46:03 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "yes" }
+		{ "ZAMNHLMP" }
 	}
 
 	"maxplayers"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "ffa" }
 	}
 
 	"mp_teamlist"
@@ -141,6 +141,17 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Autocrosshair"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"sv_aura_mp5_old_rate"
+	{
+		"#Phoenix_MP5Rate"
+		{
+			LIST
+			"#Phoenix_NewMP5" "0"
+			"#Phoenix_OldMP5" "1"
+		}
+		{ "1.000000" }
 	}
 
 	"mp_intermission_time"
