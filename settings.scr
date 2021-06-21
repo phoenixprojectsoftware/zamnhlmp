@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Jun 21 08:33:29 PM
+// File generated:  Mon Jun 21 08:59:53 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Poo. HAHAHAAH FUNNY" }
+		{ "Test Server" }
 	}
 
 	"maxplayers"
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Server_Password"
 		{ STRING }
-		{ "" }
+		{ " " }
 	}
 
 	"sv_aura_gamemode"
@@ -154,7 +154,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 }
