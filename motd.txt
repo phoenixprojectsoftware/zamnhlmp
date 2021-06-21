@@ -13,10 +13,13 @@ Blimpboom
 Crossfire
 Boot_Camp
 Boot_Box
+Crossfire_Day
 Bounce
 Snark_Pit
 Frenzy
+Bounce_Day
 Datacore
+Flashback
 Rapidcore
 Xen
 Undertow
