@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 19 13:46:25 AM
+// File generated:  Mon Jun 21 20:37:11 AM
 //
 //
 // Cvar	-	Setting
@@ -53,13 +53,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_AutoWepSwitch"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"echo"
-	{
-		"#Phoenix_AutoKill"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"hud_takesshots"
