@@ -138,6 +138,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_viewmodel_lag_enabled"
+	{
+		"#Phoenix_ViewmodelLag"
+		{BOOL}
+		{"1"}
+	}
+
 	"hud_rainbow"
 	{
 		"#Phoenix_RainbowHud"
