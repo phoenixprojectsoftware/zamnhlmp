@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Jun 21 20:37:11 AM
+// File generated:  Wed Jun 23 00:22:18 AM
 //
 //
 // Cvar	-	Setting
@@ -68,18 +68,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-
-	"cl_old_scoreboard"
-	{
-		"#Phoenix_ScoreboardVGUI"
-		{
-			LIST
-			"#Phoenix_NewScoreboard" "0"
-			"#Phoenix_OldScoreboard" "1"
-		}
-		{ "0.000000" }
-	}
-
+	
 	"hud_timer"
 	{
 		"#Phoenix_Timer"
@@ -88,6 +77,17 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NoTime" "0"
 			"#Phoenix_TimeLeft" "1"
 			"#Phoenix_TimeElapsed" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"cl_old_scoreboard"
+	{
+		"#Phoenix_ScoreboardVGUI"
+		{
+			LIST
+			"#Phoenix_NewScoreboard" "0"
+			"#Phoenix_OldScoreboard" "1"
 		}
 		{ "1.000000" }
 	}
@@ -107,14 +107,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_speedometer"
@@ -141,8 +141,8 @@ DESCRIPTION INFO_OPTIONS
 	"cl_viewmodel_lag_enabled"
 	{
 		"#Phoenix_ViewmodelLag"
-		{BOOL}
-		{"1"}
+		{ BOOL }
+		{ "1" }
 	}
 
 	"hud_rainbow"

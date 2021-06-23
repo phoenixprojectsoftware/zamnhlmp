@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"CCvarTextEntry"
 		"fieldName"		"NameEntry"
-		"xpos"		"20"
+		"xpos"		"19"
 		"ypos"		"54"
 		"wide"		"140"
 		"tall"		"24"
@@ -188,7 +188,7 @@
 	{
 		"ControlName"		"CLabeledCommandComboBox"
 		"fieldName"		"Player model"
-		"xpos"		"20"
+		"xpos"		"19"
 		"ypos"		"120"
 		"wide"		"140"
 		"tall"		"24"
@@ -416,7 +416,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Label1"
-		"xpos"		"20"
+		"xpos"		"19"
 		"ypos"		"96"
 		"wide"		"152"
 		"tall"		"24"
@@ -438,7 +438,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Label2"
 		"xpos"		"356"
-		"ypos"		"30"
+		"ypos"		"29"
 		"wide"		"140"
 		"tall"		"24"
 		"AutoResize"		"0"
@@ -479,7 +479,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"PreviewModel"
-		"xpos"		"175"
+		"xpos"		"176"
 		"ypos"		"27"
 		"wide"		"64"
 		"tall"		"24"

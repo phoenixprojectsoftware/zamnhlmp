@@ -31,7 +31,7 @@
 	}
 	"6"
 	{
-		"label" "SETTINGS"
+		"label" "OPTIONS"
 		"command" "OpenOptionsDialog"
 	}
 	"7"
