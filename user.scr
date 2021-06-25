@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Jun 23 00:22:18 AM
+// File generated:  Fri Jun 25 18:46:17 AM
 //
 //
 // Cvar	-	Setting
@@ -46,6 +46,13 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		{ NUMBER 0.000000 4096.000000 }
 		{ "300.000000" }
+	}
+
+	"zoom_sensitivity_ratio"
+	{
+		"#Phoenix_ZoomSensitivity"
+		{ NUMBER 0.000000 4096.000000 }
+		{ "1.200000" }
 	}
 
 	"cl_autowepswitch"
@@ -68,7 +75,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"hud_timer"
 	{
 		"#Phoenix_Timer"
@@ -89,7 +96,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NewScoreboard" "0"
 			"#Phoenix_OldScoreboard" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_righthand"
@@ -107,14 +114,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_speedometer"
