@@ -90,6 +90,85 @@ END15
 Unowninator
 }
 
+// ALLSTAR DEATMATCH CREDITS
+$position -1 0.8
+$effect 2
+$color 150 150 150
+$color2 0 250 0
+$fadein .05
+$fadeout 1.5
+$holdtime 5
+
+ALLSTAR1
+{
+Allstar Deathmatch: Untimely Demise
+
+By: Eric Reuter
+}
+
+ALLSTAR2
+{
+Allstar Deathmatch: Waste Disposal
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR3
+{
+Allstar Deathmatch: Lost Outpost
+
+By: Stephen "Reichert" Palmer
+}
+
+ALLSTAR4
+{
+Allstar Deathmatch: Rubble
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR5
+{
+Allstar Deathmatch: Xen Dance
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR6
+{
+Allstar Deathmatch: Paradox Park
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR7
+{
+Allstar Deathmatch: Kandy Base
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR8
+{
+Allstar Deathmatch: Kandy One
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR9
+{
+Allstar Deathmatch: Repent
+
+By: Levelord
+}
+
+ALLSTAR10
+{
+Allstar Deathmatch: Blue Meanie
+
+By: Richard "Zdim" Carlson
+}
+
 
 Directed
 {
