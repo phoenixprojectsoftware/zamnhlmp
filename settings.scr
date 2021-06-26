@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 26 12:20:43 AM
+// File generated:  Sat Jun 26 01:07:45 PM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "I LOVE PENGUNIS" }
+		{ "Zeke's Lovely World" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "6.000000" }
+		{ "2.000000" }
 	}
 
 	"sv_password"
@@ -99,6 +99,13 @@ DESCRIPTION SERVER_OPTIONS
 			"#Valve_Realistic" "1"
 		}
 		{ "0.000000" }
+	}
+
+	"mp_teamplay"
+	{
+		"#Valve_Teamplay"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"mp_friendlyfire"
@@ -158,14 +165,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_IntermissionTime"
 		{ STRING }
-		{ "16" }
+		{ "12" }
 	}
 
 	"sv_lan"
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }
