@@ -5,3 +5,4 @@
 - New menu background
 - Added Opposing Force HUD
 - Added Opposing Force weapons
+- Added Opposing Force maps
