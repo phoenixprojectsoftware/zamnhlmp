@@ -3,3 +3,5 @@
 - Added night/day variants for Crossfire & Bounce - Crossfire_Day & Bounce_Day
 - New map - Flashback
 - New menu background
+- Added Opposing Force HUD
+- Added Opposing Force weapons
