@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Jun 27 09:55:22 PM
+// File generated:  Mon Jun 28 04:50:48 PM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Server_Password"
 		{ STRING }
-		{ " " }
+		{ "" }
 	}
 
 	"sv_aura_gamemode"
