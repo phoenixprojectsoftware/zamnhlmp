@@ -429,6 +429,9 @@ DB3 danger, biohazard detected in immediate area
 TR_A three, two, one, deeoo(p110)
 TR_B deeoo(p110) (p102 t20) target system deactivated
 
+// new roma
+ROMA ambient/areas/roma/strange_talk3 strange_talk4 strange_talk7 roma_flyer building_rubble3 
+
 
 
 // HEV Suit
