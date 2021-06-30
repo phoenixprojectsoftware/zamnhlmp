@@ -69,13 +69,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "peng" }
 	}
 
-	"mp_teamlist"
-	{
-		"#Valve_Valid_Teams"
-		{ STRING }
-		{ "" }
-	}
-
 	"mp_fraglimit"
 	{
 		"#Valve_Frag_Limit"
@@ -142,18 +135,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-
-	"sv_aura_mp5_old_rate"
-	{
-		"#Phoenix_MP5Rate"
-		{
-			LIST
-			"#Phoenix_NewMP5" "0"
-			"#Phoenix_OldMP5" "1"
-		}
-		{ "1.000000" }
-	}
-
 	"mp_intermission_time"
 	{
 		"#Phoenix_IntermissionTime"

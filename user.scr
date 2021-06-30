@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 26 13:25:57 AM
+// File generated:  Wed Jun 30 14:35:54 AM
 //
 //
 // Cvar	-	Setting
@@ -66,14 +66,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Automatic_Screenshots"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_centerid"
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -96,7 +96,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NewScoreboard" "0"
 			"#Phoenix_OldScoreboard" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"cl_righthand"
@@ -110,18 +110,39 @@ DESCRIPTION INFO_OPTIONS
 		{ "0.000000" }
 	}
 
+	"cl_viewmodel_disable_idle"
+	{
+		"#Phoenix_ViewmodelIdle"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_viewmodel_disable_equip"
+	{
+		"#Phoenix_ViewmodelEquip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_viewmodel_lag_enabled"
+	{
+		"#Phoenix_ViewmodelLag"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"cl_hidecorpses"
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_speedometer"
@@ -138,18 +159,25 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"hud_jumpspeed"
+	{
+		"#Phoenix_Jumpspeed"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_jumpspeed_below_cross"
+	{
+		"#Phoenix_Jumpspeed_Cross"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"hud_weapon"
 	{
 		"#Phoenix_HUDWeapon"
 		{ BOOL }
 		{ "0" }
-	}
-
-	"cl_viewmodel_lag_enabled"
-	{
-		"#Phoenix_ViewmodelLag"
-		{ BOOL }
-		{ "1" }
 	}
 
 	"hud_rainbow"
