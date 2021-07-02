@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Jul 01 07:09:07 PM
+// File generated:  Fri Jul 02 05:37:11 PM
 //
 //
 // Cvar	-	Setting
@@ -141,6 +141,13 @@ DESCRIPTION SERVER_OPTIONS
 		"#Phoenix_IntermissionTime"
 		{ STRING }
 		{ "16" }
+	}
+
+	"sv_cheats"
+	{
+		"#Phoenix_Cheats"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"sv_lan"
