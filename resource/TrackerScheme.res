@@ -259,7 +259,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"36"
+				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "1"
 			}
@@ -282,7 +282,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"24"
+				"tall"		"36"
 				"weight"	"600"
 				"yres"	"480 599"
 				"dropshadow"	"1"
@@ -291,7 +291,7 @@ Scheme
 			"2"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"26"
+				"tall"		"32"
 				"weight"	"600"
 				"yres"	"600 767"
 				"dropshadow"	"1"
@@ -300,7 +300,7 @@ Scheme
 			"3"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"28"
+				"tall"		"27"
 				"weight"	"600"
 				"yres"	"768 1023"
 				"dropshadow"	"1"
@@ -309,7 +309,7 @@ Scheme
 			"4"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"40"
+				"tall"		"24"
 				"weight"	"600"
 				"yres"	"1024 1199"
 				"dropshadow"	"1"
@@ -318,7 +318,7 @@ Scheme
 			"5"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"48"
+				"tall"		"28"
 				"weight"	"600"
 				"yres"	"1200 6000"
 				"dropshadow"	"1"
@@ -331,7 +331,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"18"
+				"tall"		"24"
 				"weight"	"600"
 				"antialias"	"1"
 			}
@@ -342,7 +342,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-				"tall"		"36"
+				"tall"		"27"
 				"weight"	"1200"
 				"antialias"	"1"
 				"yres"	"1 10000"
