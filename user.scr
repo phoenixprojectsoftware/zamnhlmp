@@ -187,4 +187,18 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"r_motion_blur"
+	{
+		"#Phoenix_Mot"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"r_motion_blur_strength"
+	{
+		"#Phoenix_Str"
+		{ NUMBER 0.000000 4096.000000 }
+		{ "1" }
+	}
+
 }
