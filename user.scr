@@ -200,5 +200,55 @@ DESCRIPTION INFO_OPTIONS
 		{ NUMBER 0.000000 4096.000000 }
 		{ "1" }
 	}
+	
+	"cl_crowbar_punch_enabled"
+	{
+		"#Phoenix_CroPu"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_displacer_big_punch_enabled"
+	{
+		"#Phoenix_DisPu"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_gauss_random_punch_enabled"
+	{
+		"#Phoenix_GauPu"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_hornet_random_punch_enabled"
+	{
+		"#Phoenix_HorPu"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_mp5_new_punch_enabled"
+	{
+		"#Phoenix_MPu"
+		{ 
+			LIST
+			"#Phoenix_OldPunch" "0"
+			"#Phoenix_NewPunch" "1"
+		}
+		{ "1" }
+	}
+	
+	"cl_m249_new_punch_enabled"
+	{
+		"#Phoenix_M2Pu"
+		{
+			LIST
+			"#Phoenix_OldPunch" "0"
+			"#Phoenix_NewPunch" "1"
+		}
+		{ "1" }
+	}
 
 }
