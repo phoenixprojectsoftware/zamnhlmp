@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Jul 01 19:13:10 AM
+// File generated:  Mon Jul 12 21:29:27 AM
 //
 //
 // Cvar	-	Setting
@@ -198,48 +198,48 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Str"
 		{ NUMBER 0.000000 4096.000000 }
-		{ "1" }
+		{ "1.000000" }
 	}
-	
+
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"cl_displacer_big_punch_enabled"
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"cl_gauss_random_punch_enabled"
 	{
 		"#Phoenix_GauPu"
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"cl_hornet_random_punch_enabled"
 	{
 		"#Phoenix_HorPu"
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"cl_mp5_new_punch_enabled"
 	{
 		"#Phoenix_MPu"
-		{ 
+		{
 			LIST
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1" }
+		{ "1.000000" }
 	}
-	
+
 	"cl_m249_new_punch_enabled"
 	{
 		"#Phoenix_M2Pu"
@@ -248,7 +248,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1" }
+		{ "1.000000" }
 	}
 
 }
