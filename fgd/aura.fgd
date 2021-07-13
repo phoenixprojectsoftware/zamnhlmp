@@ -1,11 +1,11 @@
 //
-// Half-Life game definition file (.fgd) 
-// version 1.00
-// for Worldcraft 2.0 and above, and Half-Life 1.0.0.9 and above
-// This file is for Home Made CTF
-// last update: 30th of June 1999
+// Aura game definition file (.fgd) 
+// version 2.00
+// for Jackhammer, and Half-Life: Zombies Ate My Neighbours Multiplayer 2.6 and above
+// This file is for Home Made CTF & some bonus Aura stuff
+// last update: 13th July 2021
 //
-// made by Arnout 'RR2DO2' van Meer - rr2do2@planethalflife.com -
+// originally made by Arnout 'RR2DO2' van Meer - rr2do2@planethalflife.com -
 // http://www.planethalflife.com/whenitsdone
 //
 // special thanks to: everyone at Valve Software!
@@ -42,3 +42,5 @@
 ]
 
 @PointClass = info_hmctfdetect : "Map Detection" []
+
+@PointClass base(Targetname) = env_sky: "Source-like 3D SkyBox" [] // env_sky
