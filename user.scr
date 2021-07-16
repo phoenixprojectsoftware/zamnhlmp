@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Jul 12 21:29:27 AM
+// File generated:  Fri Jul 16 22:32:44 AM
 //
 //
 // Cvar	-	Setting
@@ -66,7 +66,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Automatic_Screenshots"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_centerid"
@@ -135,7 +135,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_scores"
@@ -187,20 +187,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"r_motion_blur"
-	{
-		"#Phoenix_Mot"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"r_motion_blur_strength"
-	{
-		"#Phoenix_Str"
-		{ NUMBER 0.000000 4096.000000 }
-		{ "1.000000" }
-	}
-
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
@@ -212,7 +198,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_gauss_random_punch_enabled"
@@ -239,7 +225,7 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "1.000000" }
 	}
-	
+
 	"cl_mp5_punch_roll_enabled"
 	{
 		"#Phoenix_RollPu"
