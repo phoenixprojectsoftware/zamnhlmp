@@ -239,6 +239,13 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "1.000000" }
 	}
+	
+	"cl_mp5_punch_roll_enabled"
+	{
+		"#Phoenix_RollPu"
+		{ BOOL }
+		{ "1" }
+	}
 
 	"cl_m249_new_punch_enabled"
 	{
