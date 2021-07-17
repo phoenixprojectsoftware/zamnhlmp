@@ -34,3 +34,4 @@
 "MOUSE3"		"+tau"
 "`"				"toggleconsole"
 "ESCAPE"		"escape"
+"/"				"+commandmenu"
