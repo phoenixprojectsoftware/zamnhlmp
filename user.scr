@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Jul 16 22:32:44 AM
+// File generated:  Sun Jul 18 15:07:51 AM
 //
 //
 // Cvar	-	Setting
@@ -55,13 +55,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
-	"cl_autowepswitch"
-	{
-		"#Phoenix_AutoWepSwitch"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"hud_takesshots"
 	{
 		"#Valve_Automatic_Screenshots"
@@ -73,30 +66,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-
-	"hud_timer"
+	
+	"cl_hidecorpses"
 	{
-		"#Phoenix_Timer"
-		{
-			LIST
-			"#Phoenix_NoTime" "0"
-			"#Phoenix_TimeLeft" "1"
-			"#Phoenix_TimeElapsed" "2"
-		}
-		{ "1.000000" }
-	}
-
-	"cl_old_scoreboard"
-	{
-		"#Phoenix_ScoreboardVGUI"
-		{
-			LIST
-			"#Phoenix_NewScoreboard" "0"
-			"#Phoenix_OldScoreboard" "1"
-		}
-		{ "0.000000" }
+		"#Phoenix_HideCorpses"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"cl_righthand"
@@ -114,7 +91,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ViewmodelIdle"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_viewmodel_disable_equip"
@@ -129,20 +106,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_ViewmodelLag"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"cl_hidecorpses"
-	{
-		"#Phoenix_HideCorpses"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_scores"
-	{
-		"#Phoenix_MiniScores"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"hud_speedometer"
@@ -198,7 +161,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_gauss_random_punch_enabled"

@@ -13,7 +13,7 @@
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
-		"4" "Off"	"hud_timer 0"
+		"3" "Off"	"hud_timer 0"
 	}
 	"2" "Weapon Switch"	
 	{
@@ -83,6 +83,12 @@
 	}
 	"2" "No-OP4 Weapons"
 	{
-		"1" "Work-in-progress"	""
+		"1" "Arena"	"arena_noop4"
+		"2" "Arcade" "arcade_noop4"
+		"3" "creaTive Deathmatch" "classic_noop4"
+		"4" "Free-for-All" "ffa_noop4"
+		"5" "Last Man Standing" "lms_noop4"
+		"6" "Last Team Standing" "lts_noop4"
+		"7" "Team Deathmatch" "tdm_noop4"
 	}
 }
