@@ -1,44 +1,5 @@
 // Command Menu definition
-// 
-// Basic Format:
-//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
-//
-// Or you can check for a specific class:
-//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
-// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
-// 
-// Or you can check for a specific map:
-//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
-// Where <MapName> is the name of the map, without the ".bsp".
-//
-// Or you can check for a specific team:
-//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
-//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
-// TEAM3, TEAM4 work as well
-//
-// Buttons can also open up submenus, as follows:
-// {
-// 	"Some More Options",
-//	{
-//		...
-//	}
-// }
-//
-// Class can be any of the following:
-//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
-//	Buttons prepended with a class name will only be seen if the player
-//	is that class. 
-//
-// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
-// around or deleted.
-//
-//
-// Limitations:
-//		Maximum of 40 menus.
-//		Maximum of 100 buttons per menu.
 
-//--------------------------------------------------------
-// Everything below here is editable
 "1" "Settings"
 {
 	"0" "Help"
@@ -52,8 +13,7 @@
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
-		"3" "Clock"	"hud_timer 3"
-		"4" "Off"	"hud_timer 0"
+		"3" "Off"	"hud_timer 0"
 	}
 	"2" "Weapon Switch"	
 	{
@@ -71,33 +31,20 @@
 	{
 		"1" "On"	"cl_old_scoreboard 1"
 		"2" "Off"	"cl_old_scoreboard 0"
-
 	}
-	"5" "See only team talk"	
-	{
-		"1" "On"	"cl_only_team_talk 1"
-		"2" "Off"	"cl_only_team_talk 0"
-
-	}
-	"6" "Show Colors"	
-	{
-		"1" "On"	"cl_show_colors 1"
-		"2" "Off"	"cl_show_colors 0"
-
-	}
-	"7" "Viewmodel"	
+	"5" "Viewmodel"	
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
 
 	}
-	"8" "Netgraph"	
+	"6" "Netgraph"	
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
 
 	}
-	"9" "Showfps"	
+	"7" "Showfps"	
 	{
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
@@ -110,47 +57,38 @@
 {
 	"1" "Vote Yes" "yes"
 	"2" "Vote No" "no"
-
+	"3" "Change Team" "changeteam"
 	"3" "Start Match" "agstart"
 	"4" "Start Match Full" "agstart full"
-
-	"5" "Call timeout" "timeout"
-	"6" "Pause server" "agpause"
-	"7" "Show settings"	"settings"
+	"5" "Call Timeout" "timeout"
+	"6" "Show Game Sttings"	"settings"
 }
 
 "4" "Change Gamemode"
 {
-	"1" "Basic List"
+	"1" "OP4 Weapons"
 	{
-		"1" "Free For All"	"ffa"
-		"2" "Team Deathmatch"	"tdm"
-		"3" "Capture The Flag"	"ctf"
-		"4" "Last Man Standing"	"lms"
-		"5" "Last Team Standing"	"lts"
-		"6" "Instagib"	"instagib"
-		"7" "Arena"		"arena"
-		"8" "Arcade"	"arcade"
-		"9" "Shotgun&Bow"	"sgbow"
+		"1" "Arena"	"arena"
+		"2" "Arcade"	"arcade"
+		"3" "Crowbar Arena"	"cbar"
+		"4" "creaTive Deathmatch"	"classic"
+		"5" "Capture the Flag"	"ctf"
+		"6" "Free-for-All"	"ffa"
+		"7" "HLDM"		"hldm"
+		"8" "Instant Gib"	"instagib"
+		"9" "Last Man Standing"	"lms"
+		"10" "Last Team Standing" "lts"
+		"11" "Penguin Wars" "pengwars"
+		"12" "Team Deathmatch" "tdm"
 	}
-	"2" "Extended List"
+	"2" "No-OP4 Weapons"
 	{
-		"1" "Free For All X"	"ffax"
-		"2" "Team Deathmatch II "	"tdm2"
-		"3" "Team Deathmatch III	"tdm3"
-		"4" "Team Deathmatch IV"	"tdm4"
-		"5" "Team Deathmatch X"	"tdmx"
-		"6" "Capture The Flag X"	"ctfx"
-		"8" "Clanbase Cup"	"cbcup"
-		"9" "HLCCL"	"hlccl"
+		"1" "Arena"	"arena_noop4"
+		"2" "Arcade" "arcade_noop4"
+		"3" "creaTive Deathmatch" "classic_noop4"
+		"4" "Free-for-All" "ffa_noop4"
+		"5" "Last Man Standing" "lms_noop4"
+		"6" "Last Team Standing" "lts_noop4"
+		"7" "Team Deathmatch" "tdm_noop4"
 	}
 }
-
-"5" "Change Map" "togglemapbrowser"
-
-"6" "IRC Chat"	"toggleirc"
-
-"7" "Winamp"	"togglewinamp"
-
-"8" "Server browser"	"togglebrowser"
-
