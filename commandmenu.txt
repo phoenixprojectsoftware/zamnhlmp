@@ -19,7 +19,6 @@
 	{
 		"1" "On"	"cl_autowepswitch 1"
 		"2" "Off"	"cl_autowepswitch 0"
-		"3" "AG"	"cl_autowepswitch 2"
 	}
 	"3" "Mini Scoreboard"	
 	{

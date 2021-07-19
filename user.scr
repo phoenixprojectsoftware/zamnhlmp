@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Jul 18 15:07:51 AM
+// File generated:  Mon Jul 19 17:42:08 AM
 //
 //
 // Cvar	-	Setting
@@ -55,6 +55,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
+	"cl_autowepswitch"
+	{
+		"#Phoenix_AutoSwitch"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"hud_takesshots"
 	{
 		"#Valve_Automatic_Screenshots"
@@ -68,12 +75,35 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"cl_hidecorpses"
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"hud_timer"
+	{
+		"#Phoenix_Timer"
+		{
+			LIST
+			"#Phoenix_TimeOff" "0"
+			"#Phoenix_TimeLeft" "1"
+			"#Phoenix_TimeElapsed" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"cl_old_scoreboard"
+	{
+		"#Phoenix_OldScore"
+		{
+			LIST
+			"#Phoenix_NewScore" "0"
+			"#Phoenix_OldScore" "1"
+		}
+		{ "1.000000" }
 	}
 
 	"cl_righthand"
@@ -115,16 +145,16 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"hud_speedometer_below_cross"
+	"hud_jumpspeed"
 	{
-		"#Phoenix_Speedometer_Cross"
+		"#Phoenix_Jumpspeed"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"hud_jumpspeed"
+	"hud_speedometer_below_cross"
 	{
-		"#Phoenix_Jumpspeed"
+		"#Phoenix_Speedometer_Cross"
 		{ BOOL }
 		{ "0" }
 	}
