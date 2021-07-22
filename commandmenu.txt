@@ -60,7 +60,7 @@
 	"3" "Start Match" "agstart"
 	"4" "Start Match Full" "agstart full"
 	"5" "Call Timeout" "timeout"
-	"6" "Show Game Sttings"	"settings"
+	"6" "Show Game Settings"	"settings"
 }
 
 "4" "Change Gamemode"
