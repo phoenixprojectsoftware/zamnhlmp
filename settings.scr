@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Jul 18 04:33:48 PM
+// File generated:  Fri Jul 23 01:57:33 PM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "TPPS Developer" }
+		{ "Join this server, I beg you!" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "2.000000" }
+		{ "32.000000" }
 	}
 
 	"sv_password"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "peng" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
