@@ -19,7 +19,6 @@
 	{
 		"1" "On"	"cl_autowepswitch 1"
 		"2" "Off"	"cl_autowepswitch 0"
-		"3" "AG"	"cl_autowepswitch 2"
 	}
 	"3" "Mini Scoreboard"	
 	{
@@ -61,7 +60,7 @@
 	"3" "Start Match" "agstart"
 	"4" "Start Match Full" "agstart full"
 	"5" "Call Timeout" "timeout"
-	"6" "Show Game Sttings"	"settings"
+	"6" "Show Game Settings"	"settings"
 }
 
 "4" "Change Gamemode"
