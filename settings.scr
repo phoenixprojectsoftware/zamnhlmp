@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Jul 23 01:57:33 PM
+// File generated:  Fri Jul 23 03:10:48 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Join this server, I beg you!" }
+		{ "TPPS Developer" }
 	}
 
 	"maxplayers"
@@ -133,7 +133,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Autocrosshair"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"mp_intermission_time"
