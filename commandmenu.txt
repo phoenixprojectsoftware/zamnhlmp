@@ -2,13 +2,6 @@
 
 "1" "Settings"
 {
-	"0" "Help"
-	{
-		CUSTOM		"1" "AG Mod info"	"!README"
-		CUSTOM		"2" "Server info"	"!SERVERINFO"
-		CUSTOM		"3" "Map description"	"!MAPBRIEFING"
-		"4" "Console help" "help;toggleconsole"
-	}
 	"1" "Timer"	
 	{
 		"1" "Remaining"	"hud_timer 1"
@@ -48,22 +41,16 @@
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
+	"8" "Help"
+	{
+		"1" "Console help" "help;toggleconsole"
+		"2" "Aura version" "version_aura;toggleconsole"
+	}
 }
 
-"2" "Spectate"	"spectate"
-
-"3" "Vote"
+"2" "Match"
 {
-	"1" "Vote Yes" "yes"
-	"2" "Vote No" "no"
-	"3" "Change Team" "changeteam"
-	"3" "Start Match" "agstart"
-	"4" "Start Match Full" "agstart full"
-	"5" "Call Timeout" "timeout"
-	"6" "Show Game Settings"	"settings"
-}
-
-"4" "Change Gamemode"
+"1" "Change Gamemode"
 {
 	"1" "OP4 Weapons"
 	{
@@ -91,3 +78,15 @@
 		"7" "Team Deathmatch" "tdm_noop4"
 	}
 }
+	"2" "Vote Yes" "yes"
+	"3" "Vote No" "no"
+	"4" "Start Match" "agstart"
+	"5" "Start Match Full" "agstart full"
+	"6" "Abort Match" "agabort"
+	"7" "Call Timeout" "timeout"
+	"8" "Show Game Settings"	"settings"
+}
+
+"3" "Change Team" "changeteam"
+
+"4" "Spectate"	"spectate"
