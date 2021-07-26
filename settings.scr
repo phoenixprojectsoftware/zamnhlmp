@@ -154,7 +154,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 }
