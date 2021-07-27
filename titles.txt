@@ -90,7 +90,7 @@ END15
 Unowninator
 }
 
-// ALLSTAR DEATMATCH CREDITS
+// ALLSTAR DEATHMATCH CREDITS
 $position -1 0.8
 $effect 2
 $color 150 150 150
