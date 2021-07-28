@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Jul 27 15:57:09 AM
+// File generated:  Tue Jul 27 19:54:28 AM
 //
 //
 // Cvar	-	Setting
@@ -80,7 +80,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hidecorpses"
@@ -110,7 +110,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NewScore" "0"
 			"#Phoenix_OldScore" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_righthand"
@@ -128,7 +128,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ViewmodelIdle"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_viewmodel_disable_equip"
@@ -198,7 +198,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_gauss_random_punch_enabled"
@@ -223,7 +223,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_mp5_punch_roll_enabled"
