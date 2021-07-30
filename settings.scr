@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Jul 28 11:58:55 PM
+// File generated:  Fri Jul 30 11:07:33 AM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Gang bang" }
+		{ "HL: ZAMN Multiplayer 2.6-PPT4" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "32.000000" }
+		{ "12.000000" }
 	}
 
 	"sv_password"
@@ -91,7 +91,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Valve_Normal" "0"
 			"#Valve_Realistic" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"mp_friendlyfire"
