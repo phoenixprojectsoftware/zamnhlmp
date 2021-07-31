@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jul 31 10:27:44 PM
+// File generated:  Sat Jul 31 11:14:58 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "HL: ZAMN Multiplayer 2.6-PPT4" }
+		{ "HL: ZAMN Multiplayer 2.6-PPT5" }
 	}
 
 	"maxplayers"
@@ -141,6 +141,17 @@ DESCRIPTION SERVER_OPTIONS
 		"#Phoenix_IntermissionTime"
 		{ STRING }
 		{ "16" }
+	}
+
+	"sv_aura_mp5_old_rate"
+	{
+		"#Phoenix_MP5Rate"
+		{
+			LIST
+			"#Phoenix_MP5Zamnhl" "1"
+			"#Phoenix_MP5Ag" "0"
+		}
+		{ "1.000000" }
 	}
 
 	"sv_cheats"
