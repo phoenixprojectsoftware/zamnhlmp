@@ -138,6 +138,27 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_viewmodel_ofs_forward"
+	{
+		"#Phoenix_OfsForward"
+		{ STRING }
+		{ "0" }
+	}
+
+	"cl_viewmodel_ofs_right"
+	{
+		"#Phoenix_OfsRight"
+		{ STRING }
+		{ "0" }
+	}
+
+	"cl_viewmodel_ofs_up"
+	{
+		"#Phoenix_OfsUp"
+		{ STRING }
+		{ "0" }
+	}
+
 	"cl_viewmodel_lag_enabled"
 	{
 		"#Phoenix_ViewmodelLag"
