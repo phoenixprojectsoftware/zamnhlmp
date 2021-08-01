@@ -1,4 +1,5 @@
 // Command Menu definition
+
 "6" "Chase Overview"	"spec_mode 6"
 "5" "Free Overview"	"spec_mode 5"
 "4" "First Person"	"spec_mode 4"

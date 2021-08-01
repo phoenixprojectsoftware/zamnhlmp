@@ -1,4 +1,5 @@
 // Command Menu definition
+// Feel free to add whatever you want in here.
 
 "1" "Settings"
 {
@@ -6,13 +7,13 @@
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
-		"3" "Off"	"hud_timer 0"
+		"0" "Off"	"hud_timer 0"
 	}
 	"1" "Mini Scoreboard"	
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
-		"3" "Off"	"cl_scores 0"
+		"0" "Off"	"cl_scores 0"
 	}
 	"2" "Old Scoreboard"	
 	{
@@ -23,13 +24,11 @@
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
-
 	}
 	"4" "Netgraph"	
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
-
 	}
 	"5" "Showfps"	
 	{
@@ -47,7 +46,7 @@
 {
 "1" "Change Gamemode"
 {
-	"1" "OP4 Weapons"
+	"1" "Season 6"
 	{
 		"1" "Arena"	"arena"
 		"2" "Arcade"	"arcade"
@@ -62,7 +61,7 @@
 		"11" "Penguin Wars" "pengwars"
 		"12" "Team Deathmatch" "tdm"
 	}
-	"2" "No-OP4 Weapons"
+	"2" "Pre-Season 6"
 	{
 		"1" "Arena"	"arena_noop4"
 		"2" "Arcade" "arcade_noop4"
@@ -85,3 +84,4 @@
 "3" "Change Team" "changeteam"
 
 "4" "Spectate"	"spectate"
+
