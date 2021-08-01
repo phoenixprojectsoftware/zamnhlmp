@@ -2,46 +2,41 @@
 
 "1" "Settings"
 {
-	"1" "Timer"	
+	"0" "Timer"	
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
 		"3" "Off"	"hud_timer 0"
 	}
-	"2" "Weapon Switch"	
-	{
-		"1" "On"	"cl_autowepswitch 1"
-		"2" "Off"	"cl_autowepswitch 0"
-	}
-	"3" "Mini Scoreboard"	
+	"1" "Mini Scoreboard"	
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
 		"3" "Off"	"cl_scores 0"
 	}
-	"4" "Old Scoreboard"	
+	"2" "Old Scoreboard"	
 	{
 		"1" "On"	"cl_old_scoreboard 1"
 		"2" "Off"	"cl_old_scoreboard 0"
 	}
-	"5" "Viewmodel"	
+	"3" "Viewmodel"	
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
 
 	}
-	"6" "Netgraph"	
+	"4" "Netgraph"	
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
 
 	}
-	"7" "Showfps"	
+	"5" "Showfps"	
 	{
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
-	"8" "Help"
+	"6" "Help"
 	{
 		"1" "Console help" "help;toggleconsole"
 		"2" "Aura version" "version_aura;toggleconsole"
