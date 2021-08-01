@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Aug 01 03:04:17 PM
+// File generated:  Sun Aug 01 09:25:33 PM
 //
 //
 // Cvar	-	Setting
@@ -148,10 +148,10 @@ DESCRIPTION SERVER_OPTIONS
 		"#Phoenix_MP5Rate"
 		{
 			LIST
-			"#Phoenix_MP5Zamnhl" "1"
-			"#Phoenix_MP5Ag" "0"
+			"#Phoenix_MP5Old" "0"
+			"#Phoenix_MP5New" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"sv_cheats"
