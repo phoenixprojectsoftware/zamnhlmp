@@ -6,4 +6,4 @@ This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress public play
 - For source code and SDK, see https://github.com/phoenixprojectsoftware/Aura-CL, https://github.com/phoenixprojectsoftware/Aura-SE & https://github.com/phoenixprojectsoftware/AuraDS.
 
 # Instruction Manual
-[Click here to read the instruction manual.](https://sabianroberts.github.io/shooter-tourneys-user-manual)
+[Click here to read the instruction manual.](https://phoenixprojectsoftware.github.io/zamnhlmp/Manual/Instruction%20Manual.pdf)
