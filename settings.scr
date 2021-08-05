@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Aug 01 10:15:27 PM
+// File generated:  Thu Aug 05 05:02:00 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "HL: ZAMN Multiplayer 2.6-PPT5" }
+		{ "HD PACK LET'S FUCKING GO!!!!!" }
 	}
 
 	"maxplayers"
@@ -91,7 +91,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Valve_Normal" "0"
 			"#Valve_Realistic" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"mp_friendlyfire"
