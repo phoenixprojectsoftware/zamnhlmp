@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Aug 01 14:33:01 AM
+// File generated:  Wed Aug 11 12:42:12 AM
 //
 //
 // Cvar	-	Setting
@@ -80,7 +80,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hidecorpses"
@@ -149,7 +149,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_OfsForward"
 		{ STRING }
-		{ "5" }
+		{ "0" }
 	}
 
 	"cl_viewmodel_ofs_right"
@@ -212,7 +212,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_displacer_big_punch_enabled"
