@@ -31,10 +31,17 @@
 	}
 	"6"
 	{
+		"label" "THEATRE"
+		"command" "engine viewdemo"
+		"notsingle" "1"
+		"notmulti" "1"
+	}
+	"7"
+	{
 		"label" "OPTIONS"
 		"command" "OpenOptionsDialog"
 	}
-	"7"
+	"8"
 	{
 		"label" "QUIT"
 		"command" "Quit"
