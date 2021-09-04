@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Aug 26 20:11:28 AM
+// File generated:  Sat Sep 04 16:02:46 AM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Vibration"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_autowepswitch"
@@ -67,6 +67,20 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_AutoSwitch"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"cl_viewmodel_fov"
+	{
+		"#Phoenix_ViewmodelFov"
+		{ NUMBER 0.000000 150.000000 }
+		{ "0.000000" }
+	}
+
+	"default_fov"
+	{
+		"#Phoenix_Fov"
+		{ NUMBER 20.000000 150.000000 }
+		{ "110.000000" }
 	}
 
 	"hud_takesshots"
