@@ -1,18 +1,14 @@
 //
 // Aura game definition file (.fgd) 
-// version 2.00
-// for Jackhammer, and Half-Life: Zombies Ate My Neighbours Multiplayer 2.6 and above
+// version 2.1
+// for Jackhammer, and Half-Life: Zombies Ate My Neighbours Multiplayer 2.7 and above
 // This file is for Home Made CTF & some bonus Aura stuff
-// last update: 13th July 2021
+// last update: 16th October 2021
 //
 // originally made by Arnout 'RR2DO2' van Meer - rr2do2@planethalflife.com -
 // http://www.planethalflife.com/whenitsdone
 //
 // special thanks to: everyone at Valve Software!
-//
-
-//
-// -30-06-99: Initial release
 //
 
 
@@ -40,6 +36,8 @@
 		2048 : "Not in Deathmatch" : 0
 	]
 ]
+
+@PointClass base(Monster,TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/wesley.mdl") = monster_wesley : "Wesley" []
 
 @PointClass = info_hmctfdetect : "Map Detection" []
 
