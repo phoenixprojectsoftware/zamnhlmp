@@ -1,0 +1,97 @@
+=======================================================
+Kitkat Geisha a Half-Life Deathmatch Experience by DocRock
+=======================================================
+
+Map Name:                       	kitkat_geisha.bsp
+Release date:		July 23, 2018
+
+Author:                         	DocRock
+Author email:                   	docrock10@hotmail.com
+Facebook:		https://www.facebook.com/doc.rock.988
+Twitch:			https://www.twitch.tv/docrock_creations
+Youtube:			https://www.youtube.com/channel/UCUzP05HJf5Qc_JbGGw2bX_w/featured?view_as=public
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Map description:                		A Half-Life deathmatch map set in geisha bar.  Based loosely on a "Ghost in the Shell" movie scene.
+						
+wadincluded in map:          		kk_geisha.wad
+
+redbugs player model reskinned by DocRock
+
+=======================================================
+CONSTRUCTION:
+
+editor used:                    	 	Hammer 3.5.2
+utilities used:                 		Vluzacn's 64 bit compile tools
+				Paintshop
+				Wally
+				Half-Life model viewer
+				Goldwave	
+compile machine:                		Windows 10 Shuttle R8
+				Intel(R) Core(TM) i7-7700K 4.20 Ghz 
+				64.0 GB RAM Quadro GeForce 
+				
+compile time:                   		6 minutes
+
+=======================================================
+INSTALLATION:
+
+1. 	Run Winrar and unzip kitkat_geisha.zip
+
+2. 	Open the kitkat_geisha maps folder and place the kitkat_geisha.bsp, kitkat_geisha.res, and kitkat_geisha.txt in your valve/maps folder.  
+
+3.	Open the kitkat_geisha gfx/env folder and place the 6 (six) city_nite.tga files into your valve/gfx/env folder.
+
+4.	Open the kitkat_geisha sound folder and put the kk_geisha sound folder in your valve/sound folder.
+
+5.	Open the kitkat_geisha models folder and place the kk_geisha models folder inside the valve/models folder.
+
+=======================================================
+SOUND THANKS:
+
+kloudkicker1		kabuki.wav	William R. Perkins
+zagi2			fujisan.wav
+bmoreno			japrest.wav
+
+Le Castle Vania		LED Spirals.wav	John Wick 2 soundtrack
+
+=======================================================
+MODEL THANKS:
+
+qUiCkSiLvEr		blue goldfish model
+			
+=======================================================
+SKYBOX THANKS:
+
+Marc Shroeder		city_nite
+
+=======================================================
+SPRITE THANKS:
+
+CreepItAll			dime.spr
+			ges5.spr
+			geseyes.spr
+
+=======================================================
+BETA TESTERS:
+
+babykitkat
+CreepItAll
+riverbetty
+12actsWON
+
+=======================================================
+SPECIAL THANKS:
+
+To my babykitkat, my lover, my sweetheart, my wife.  I love you!!  My #1 fan, thanks baby
+for playtesting and helping me with this awesome map!  I DEDICATE THIS TO YOU!
+
+
+
+
+
+
+
+	
