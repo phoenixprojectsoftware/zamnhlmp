@@ -14,18 +14,20 @@
 	}
 	"3"
 	{
-		"label" "FIND GAMES"
-		"command" "OpenServerBrowser"
+		"label" "CREDITS"
+		"command" "engine map credits/Credits"
+		"notsingle" "1"
+		"notmulti" "1"
 	}
 	"4"
 	{
-		"label" "CUSTOM GAME"
-		"command" "OpenCreateMultiplayerGameDialog"
+		"label" "FIND GAMES"
+		"command" "OpenServerBrowser"
 	}
 	"5"
 	{
-		"label" "OPTIONS"
-		"command" "OpenOptionsDialog"
+		"label" "CUSTOM GAME"
+		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	"6"
 	{
@@ -36,10 +38,8 @@
 	}
 	"7"
 	{
-		"label" "CREDITS"
-		"command" "engine map credits/Credits"
-		"notsingle" "1"
-		"notmulti" "1"
+		"label" "OPTIONS"
+		"command" "OpenOptionsDialog"
 	}
 	"8"
 	{
