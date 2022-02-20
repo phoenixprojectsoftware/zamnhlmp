@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Feb 14 20:30:26 AM
+// File generated:  Sun Feb 20 00:23:39 AM
 //
 //
 // Cvar	-	Setting
@@ -191,14 +191,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Speedometer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_jumpspeed"
 	{
 		"#Phoenix_Jumpspeed"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_speedometer_below_cross"
