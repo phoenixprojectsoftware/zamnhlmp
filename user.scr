@@ -55,13 +55,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
-	"cl_vibration_enabled"
-	{
-		"#Phoenix_Vibration"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"cl_autowepswitch"
 	{
 		"#Phoenix_AutoSwitch"
