@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Feb 20 00:39:39 AM
+// File generated:  Sun Feb 20 20:13:49 AM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Vibration"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_autowepswitch"
