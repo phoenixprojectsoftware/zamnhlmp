@@ -136,6 +136,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 
+	"mp_intermission_skip_auto"
+	{
+		"#Phoenix_SkipIntermission"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"mp_intermission_time"
 	{
 		"#Phoenix_IntermissionTime"
