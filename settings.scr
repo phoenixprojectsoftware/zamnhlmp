@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Mar 04 08:03:40 PM
+// File generated:  Mon Apr 11 12:00:25 AM
 //
 //
 // Cvar	-	Setting
@@ -80,7 +80,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "1.000000" }
+		{ "15.000000" }
 	}
 
 	"mp_falldamage"
