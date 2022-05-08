@@ -1,8 +1,10 @@
 Cove
 Gasworks
+Rust
 Dyce
 City
 Guardian
+Cove_Night
 Kasino
 Kasino2
 Lambda_Bunker
@@ -25,3 +27,12 @@ Doublecross
 Stalkyard
 StalkX
 Pyrozone
+Park
+Demise
+Disposal
+KBase
+Repent
+Rubble
+Kndyone
+Meanie
+Outpost
