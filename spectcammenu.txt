@@ -1,4 +1,5 @@
-// Command Menu definition
+// Spectator Camera definition
+// Feel free to add whatever you want in here.
 
 "6" "Chase Overview"	"spec_mode 6"
 "5" "Free Overview"	"spec_mode 5"
