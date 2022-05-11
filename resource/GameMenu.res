@@ -14,34 +14,40 @@
 	}
 	"3"
 	{
+		"label" "PLAYERS"
+		"command" "OpenPlayerListDialog"
+		"OnlyInGame" "1"
+	}
+	"4"
+	{
 		"label" "FIND GAMES"
 		"command" "OpenServerBrowser"
 	}
-	"4"
+	"5"
 	{
 		"label" "CUSTOM GAME"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"5"
+	"6"
 	{
 		"label" "OPTIONS"
 		"command" "OpenOptionsDialog"
 	}
-	"6"
+	"7"
 	{
 		"label" "THEATRE"
 		"command" "engine viewdemo"
 		"notsingle" "1"
 		"notmulti" "1"
 	}
-	"7"
+	"8"
 	{
 		"label" "CREDITS"
 		"command" "engine map credits/Credits"
 		"notsingle" "1"
 		"notmulti" "1"
 	}
-	"8"
+	"9"
 	{
 		"label" "QUIT"
 		"command" "Quit"
