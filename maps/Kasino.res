@@ -30,9 +30,3 @@ sound/casino/startle7.wav
 sound/casino/twhist.wav
 sound/casino/welcome.wav
 sound/casino/woot.wav
-
-// Additional items added by Ooks RES Fixer
-
-
-// Fun Stuff added by Ook
-sound/fgrunt/gr_pain3.wav

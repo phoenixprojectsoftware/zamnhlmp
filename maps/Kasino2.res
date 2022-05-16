@@ -23,9 +23,6 @@ models/kasino2/kkbar.mdl
 models/kasino2/plant_palm.mdl
 models/kasino2/sword_japan_stand.mdl
 
-models/player/ace/ace.mdl
-models/player/r_w/r_w.mdl
-
 sound/kasino2/bandit.wav
 sound/kasino2/head_tremor.wav
 sound/kasino2/payout.wav
@@ -39,7 +36,3 @@ sprites/kasino2/glow01.spr
 sprites/kasino2/jackpotkk.spr
 sprites/kasino2/kkkkk.spr
 sprites/kasino2/sqiggle.spr
-
-//maps/kitkat_kasino2.bsp
-maps/kitkat_kasino2.res
-maps/kitkat_kasino.txt
