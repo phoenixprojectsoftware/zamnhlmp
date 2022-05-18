@@ -37,8 +37,3 @@ sound/ambience/cricket.wav
 sprites/blast.spr
 sprites/explode1.spr
 sound/ambience/flameburst1.wav
-
-
-
-m
-
