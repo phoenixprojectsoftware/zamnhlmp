@@ -17,6 +17,7 @@ agslog.txt
 *.log
 logos/remapped.bmp
 models/player/remapped.bmp
+custom.hpk
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak
