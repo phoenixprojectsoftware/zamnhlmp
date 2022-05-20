@@ -36,3 +36,10 @@ Rubble
 Kndyone
 Meanie
 Outpost
+Basement
+Debris
+Office
+Signal
+Skirmish
+Water_Canal
+Waypoint
