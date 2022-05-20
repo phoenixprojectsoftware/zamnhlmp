@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu May 19 12:38:51 AM
+// File generated:  Thu May 19 08:37:05 PM
 //
 //
 // Cvar	-	Setting
@@ -172,7 +172,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }

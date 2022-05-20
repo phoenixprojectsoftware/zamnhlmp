@@ -18,6 +18,8 @@ agslog.txt
 logos/remapped.bmp
 models/player/remapped.bmp
 custom.hpk
+InGameDialogConfig.vdf
+ServerBrowser.vdf
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak
