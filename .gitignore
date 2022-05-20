@@ -20,6 +20,8 @@ models/player/remapped.bmp
 custom.hpk
 InGameDialogConfig.vdf
 ServerBrowser.vdf
+voice_ban.dt
+tempdecal.wad
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak
