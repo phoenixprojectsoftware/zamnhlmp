@@ -1,0 +1,83 @@
+=======================================================
+hl_pyrozone: a Half-Life Deathmatch Experience by sToP !
+=======================================================
+
+Map Name:                       	hl_pyrozone.bsp
+Filesize:                       	1.41 mb
+Author:                         	sToP !
+Author email:                   	dani_march2@yahoo.com
+Homepage:				www.Pyro-Zone.com                    
+wadincluded in map:          		wb_credits.wad
+
+=======================================================
+LEVEL DESCRIPTION:
+
+Single Player:                 		No
+Co-Op:                         		No
+Deathmatch:                     	Yes
+
+Suggested Players:             		12 - 32
+New Textures:                   		Yes 
+New Sounds:                     		Yes
+New Models:                     		Yes 
+
+Map description:                		A Half-Life deathmatch map in a "surface tension" setting												=======================================================
+CONSTRUCTION:
+
+Editor used:                    	 	Hammer 3.5
+Utilities used:                 		Zoner's Half-Life compile tools, MS Paint, Wally
+Known bugs:                     		None
+Compile time:                   		45 seconds
+
+=======================================================
+INSTALLATION:
+
+1. 	Run WinRar and unrar hl_pyrozone.rar
+
+2. 	Overwrite your valve folder with the one in the archive,the files will automatically be put where they belong to.  
+
+=======================================================
+OTHER LEVELS BY sToP ! :
+
+
+de_mesa,aim_eplayers,fy_cslr,dm_europa,bbx_indungi,de_alcool,
+
+de_rds32,de_devilz,e_gland,de_red,fy_devilz,fy_red,de_tfc_a4,
+
+de_joinet32,fy_battlefield16,de_ramani2,de_ramani,de_wrong_base
+
+
+
+=======================================================
+SPECIAL THANKS:
+
+To my family,friends and other people that helped me
+
+during beta tesing. You're awesome !
+	
+=======================================================
+
+RIGHTS AND SOME OTHER LEGAL STUFF
+
+=======================================================
+
+Authors MAY use this level as a base to build additional levels as long 
+as you give me credit in your readme as using this map as a base to 
+build your level.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This map includes textures used in other Half-Life modifications as well as textures
+used in other PC games.  It is not my intention to steal these textures and use them
+for personal gain.  I use these textures because I think they are very well done and
+am honored to use them.  Please do not be offended that I borrowed your
+textures if you are the author of them.
+
+This LEVEL may be distributed ONLY over the Internet.
+
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+PLEASE email me regarding your opionion. I love any feedback,no matter good or bad.
