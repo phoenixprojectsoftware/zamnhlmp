@@ -36,7 +36,7 @@
 	"7"
 	{
 		"label" "THEATRE"
-		"command" "engine viewdemo"
+		"command" "OpenLoadDemoDialog"
 		"notsingle" "1"
 		"notmulti" "1"
 	}

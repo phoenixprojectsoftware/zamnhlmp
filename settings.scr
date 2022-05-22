@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat May 21 12:33:53 AM
+// File generated:  Sun May 22 03:13:43 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "BALID?!?!?!?" }
+		{ "Displacement" }
 	}
 
 	"maxplayers"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "displace" }
 	}
 
 	"mp_fraglimit"
@@ -127,13 +127,6 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Flashlight"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"mp_autocrosshair"
-	{
-		"#Valve_Autocrosshair"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"mp_intermission_skip_auto"

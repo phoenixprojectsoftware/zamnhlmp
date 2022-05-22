@@ -18,7 +18,7 @@
 	"2" "Scoreboard"	
 	{
 		"1" "Old"	"cl_old_scoreboard 1"
-		"2" "New"	"cl_old_scoreboard 0"
+		"2" "VGUI"	"cl_old_scoreboard 0"
 	}
 	"3" "Viewmodel"	
 	{
@@ -75,6 +75,7 @@
 		"10" "Last Team Standing" "lts"
 		"11" "Penguin Wars" "pengwars"
 		"12" "Team Deathmatch" "tdm"
+		"13" "Displacement"	"displace"
 	}
 }
 

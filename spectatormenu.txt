@@ -1,19 +1,24 @@
 // Spectator Menu definition
-// Feel free to add whatever you want in here.
 
-"6" "Hide" "spec_menu 0"
+"6" "OK" 	"spec_menu 0"
 
 "5" "Help"	"spec_help"
 
 "4" "Settings"
 {	
-	TOGGLE 	"6" "Chat messages"	"hud_saytext"
-	TOGGLE	"5" "Show status"	"spec_drawstatus"
-	TOGGLE	"4" "View cone"		"spec_drawcone"
-	TOGGLE	"3" "Player names"	"spec_drawnames"
+	TOGGLE 	"6" "Chat Messages"	"hud_saytext"
+	TOGGLE	"5" "Show Status"	"spec_drawstatus"
+	TOGGLE	"4" "View Cone"		"spec_drawcone"
+	TOGGLE	"3" "Player Names"	"spec_drawnames"
 }
 
 TOGGLE	"3" "Picture-In-Picture" "spec_pip"
 TOGGLE	"2" "Auto Director"	"spec_autodirector"
 
-"1" "Show scores"	"togglescores"
+"1" "Show Scores"	"togglescores"
+
+
+
+
+
+
