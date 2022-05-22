@@ -1,3 +1,3 @@
-This Black Mesa Weapons Test Area has a dark secret. Capture the Flag variant.
+Repurposed version of the Black Mesa Weapons Test Area.
 
 Map Author: The Phoenix Project Software
