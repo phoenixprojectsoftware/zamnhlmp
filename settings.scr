@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun May 22 10:40:55 PM
+// File generated:  Wed May 25 10:02:18 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Displacement" }
+		{ "2gb of zamnhlmp builds for harry" }
 	}
 
 	"maxplayers"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "displace" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
@@ -165,7 +165,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 }
