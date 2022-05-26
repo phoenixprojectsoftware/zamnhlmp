@@ -36,7 +36,7 @@ Development of this game originally started as *creaTive Deathmatch* in May 2019
 25. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7-PPT1 - 14th February 2022
 26. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7-PPT2 - 20th February 2022 (tagged as 2.7-PPT2_d in the GitHub repository)
 27. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7-PPT3 - 26th May 2022
-28. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7
+28. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7-PPT4
 
 ## Season 8: Legends of New Roma
 29. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8
