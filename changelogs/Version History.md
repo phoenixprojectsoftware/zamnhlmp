@@ -13,9 +13,9 @@ Development of this game originally started as *creaTive Deathmatch* in May 2019
 8. Shooter Tourneys 1.1.1 - 16th April 2020
 9. Shooter Tourneys 1.4 - 10th December 2020
 10. Half-Life: Zombies Ate My Neighbours Multiplayer 2.0 - 10th February 2021
-11. Half-Life: Zombies Ate My Neighbours Multiplayer 2.1 - February 2021
+11. Half-Life: Zombies Ate My Neighbours Multiplayer 2.1 - 23rd February 2021
 12. Half-Life: Zombies Ate My Neighbours Multiplayer 2.2 - March 2021
-13. Half-Life: Zombies Ate My Neighbours Multiplayer 2.3 - April 2021
+13. Half-Life: Zombies Ate My Neighbours Multiplayer 2.3 - 25th April 2021
 
 ### Aura
 14. Half-Life: Zombies Ate My Neighbours Multiplayer 2.4 - 1st May 2021
