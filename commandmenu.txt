@@ -1,84 +1,89 @@
 // Command Menu definition
 // Feel free to add whatever you want in here.
 
-"0" "Settings"
+"1" "Settings"
 {
-	"0" "Timer"	
+	"1" "Timer"	
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
 		"0" "Off"	"hud_timer 0"
 	}
-	"1" "Mini scoreboard"	
+	"2" "Mini scoreboard"	
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
 		"0" "Off"	"cl_scores 0"
 	}
-	"2" "Scoreboard"	
+	"3" "Scoreboard"	
 	{
 		"1" "Old"	"cl_old_scoreboard 1"
 		"2" "VGUI"	"cl_old_scoreboard 0"
 	}
-	"3" "Viewmodel"	
+	"4" "Viewmodel"	
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
 	}
-	"4" "Speedometer"	
+	"5" "Speedometer"	
 	{
 		"1" "On"	"hud_speedometer 1"
 		"2" "Off"	"hud_speedometer 0"
 	}
-	"5" "Jumpspeed"	
+	"6" "Jumpspeed"	
 	{
 		"1" "On"	"hud_jumpspeed 1"
 		"2" "Off"	"hud_jumpspeed 0"
 	}
-	"6" "Netgraph"	
+	"7" "Netgraph"	
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
 	}
-	"7" "Showfps"	
+	"8" "Showfps"	
 	{
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
-	"8" "Help"
+	"9" "Help"
 	{
 		"1" "Aura commands" "help;variables;toggleconsole"
 		"2" "Aura version" "version_aura;toggleconsole"
 	}
 }
 
-"1" "Match"
+"2" "Voting"
 {
 	"1" "Vote yes" "yes"
 	"2" "Vote no" "no"
-	"3" "Start match" "agstart"
-	"4" "Start full match" "agstart full"
-	"5" "Abort match" "agabort"
-	"6" "Vote timeout" "timeout"
-	"7" "Game settings"	"settings"
-	"8" "Gamemode"
+	"3" "Vote timeout" "timeout"
+	"4" "Extend time" "agmoretime"
+}
+
+"3" "Match"
+{
+	"1" "Start match" "agstart"
+	"2" "Start full match" "agstart full"
+	"3" "Abort match" "agabort"
+	"4" "Game settings"	"settings"
+	"5" "Gamemode"
 	{
 		"1" "Arena"	"arena"
 		"2" "Arcade"	"arcade"
 		"3" "Crowbar Arena"	"cbar"
 		"4" "creaTive Deathmatch"	"classic"
 		"5" "Capture the Flag"	"ctf"
-		"6" "Free-for-All"	"ffa"
-		"7" "HLDM"		"hldm"
-		"8" "Instant Gib"	"instagib"
-		"9" "Last Man Standing"	"lms"
-		"10" "Last Team Standing" "lts"
-		"11" "Penguin Wars" "pengwars"
-		"12" "Team Deathmatch" "tdm"
-		"13" "Displacement"	"displace"
+		"6" "Displacement"	"displace"
+		"7" "Free for All"	"ffa"
+		"8" "HLDM"		"hldm"
+		"9" "Instagib"	"instagib"
+		"10" "Last Man Standing"	"lms"
+		"11" "Last Team Standing" "lts"
+		"12" "Penguin Wars" "pengwars"
+		"13" "Team Deathmatch" "tdm"
 	}
 }
 
-"2" "Change team" "changeteam"
+"4" "Change team" "changeteam"
 
-"3" "Spectate"	"spectate"
+"5" "Spectate"	"spectate"
