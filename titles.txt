@@ -89,9 +89,9 @@ $position -1 0.8
 $effect 2
 $color 150 150 150
 $color2 0 250 0
-$fadein .05
-$fadeout 1.5
-$holdtime 5
+$fadein 0
+$fadeout 0
+$holdtime 0
 
 ALLSTAR1
 {
