@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun May 22 14:55:53 AM
+// File generated:  Mon May 30 22:53:04 AM
 //
 //
 // Cvar	-	Setting
@@ -108,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_timer"
@@ -205,7 +205,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HUDWeapon"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_rainbow"
@@ -213,6 +213,20 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_RainbowHud"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"cl_hud_lag_enabled"
+	{
+		"#Phoenix_HudSway"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_hud_lag_sensitivity"
+	{
+		"#Phoenix_HudSwayAmount"
+		{ STRING }
+		{ "5" }
 	}
 
 	"cl_crowbar_punch_enabled"
