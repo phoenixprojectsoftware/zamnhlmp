@@ -15,6 +15,7 @@ agslog.txt
 *.dem
 /*.bmp
 *.log
+*.ztmp
 logos/remapped.bmp
 models/player/remapped.bmp
 custom.hpk
@@ -25,3 +26,4 @@ tempdecal.wad
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak
+

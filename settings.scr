@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue May 31 01:30:25 PM
+// File generated:  Tue May 31 04:31:44 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "2gb of zamnhlmp builds for harry" }
+		{ "fh" }
 	}
 
 	"maxplayers"
@@ -126,7 +126,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Flashlight"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"mp_intermission_skip_auto"
@@ -157,6 +157,13 @@ DESCRIPTION SERVER_OPTIONS
 	"sv_cheats"
 	{
 		"#Phoenix_Cheats"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"sv_aura_infinite_ammo"
+	{
+		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
 		{ "1" }
 	}
