@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon May 30 22:53:04 AM
+// File generated:  Tue May 31 16:37:13 AM
 //
 //
 // Cvar	-	Setting
@@ -108,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -163,14 +163,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ViewmodelLag"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_viewmodel_ofs_forward"
 	{
 		"#Phoenix_OfsForward"
 		{ STRING }
-		{ "0" }
+		{ "12" }
 	}
 
 	"cl_viewmodel_ofs_right"
@@ -184,7 +184,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_OfsUp"
 		{ STRING }
-		{ "0" }
+		{ "-4" }
 	}
 
 	"hud_speedometer"
@@ -226,14 +226,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "5" }
+		{ "25" }
 	}
 
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_displacer_big_punch_enabled"
