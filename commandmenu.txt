@@ -120,7 +120,7 @@
 		"12" "Penguin Wars" "pengwars"
 		"13" "Team Deathmatch" "tdm"
 	}
-	"2" "Season 5"
+	"2" "Pre-Season 6"
 	{
 		"1" "Arcade"	"arcade2"
 		"2" "Arena"	"arena2"
