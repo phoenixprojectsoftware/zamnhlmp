@@ -3,6 +3,7 @@
 game "Half-Life: Zombies Ate My Neighbours Multiplayer - 2.7 Dev"
 gamedir "zamnhlmp_dev"
 startmap "devtest"
-gamedll "dlls/aura.dll"
+// gamedll "dlls/aura.dll"
+ganedll "dlls/sandbot.dll"
 gamedll_linux "dlls/aura.so"
 gamedll_osx "dlls/aura.dylib"
