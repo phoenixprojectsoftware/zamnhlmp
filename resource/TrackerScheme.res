@@ -185,11 +185,22 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+
+		CustomFontFiles
+		{
+		//"1"		"resource/conthrax-sb.ttf"
+        "1"		"resource/CONDUIT_ITC.TTF"
+		"2"		"resource/bahnschrift.ttf"
+		"3"		"resource/din1451alt.ttf"
+		"4"		"resource/notosans-regular.ttf"
+		}
+
+
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
@@ -199,7 +210,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
@@ -209,7 +220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -220,7 +231,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -230,7 +241,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"12"
 				"weight"	"600"
 			}
@@ -239,7 +250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -248,7 +259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"36"
 				"weight"	"1"
 				"antialias" "1"
@@ -258,7 +269,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "1"
@@ -281,7 +292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"36"
 				"weight"	"600"
 				"yres"	"480 599"
@@ -290,7 +301,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"32"
 				"weight"	"600"
 				"yres"	"600 767"
@@ -299,7 +310,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"27"
 				"weight"	"600"
 				"yres"	"768 1023"
@@ -308,7 +319,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"24"
 				"weight"	"600"
 				"yres"	"1024 1199"
@@ -317,7 +328,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"28"
 				"weight"	"600"
 				"yres"	"1200 6000"
@@ -330,7 +341,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"24"
 				"weight"	"600"
 				"antialias"	"1"
@@ -341,7 +352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"27"
 				"weight"	"1200"
 				"antialias"	"1"
@@ -353,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Noto Sans"
 				"tall"		"14"
 				"weight"	"500"
 			}

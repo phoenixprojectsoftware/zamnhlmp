@@ -1,5 +1,8 @@
 // HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 1023 sentences.
 
+// WESLEY
+WE_DOOM vo/wesley/doom
+
 // HUMAN GRUNTS
 HG_GREN0 hgrunt/clik(p120) grenade! clik
 HG_GREN1 hgrunt/(t30) clik take!(e75) cover!(s5) clik

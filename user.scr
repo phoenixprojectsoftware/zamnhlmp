@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Oct 15 22:17:19 AM
+// File generated:  Sun Sep 18 19:41:53 AM
 //
 //
 // Cvar	-	Setting
@@ -55,13 +55,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
-	"cl_vibration_enabled"
-	{
-		"#Phoenix_Vibration"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"cl_autowepswitch"
 	{
 		"#Phoenix_AutoSwitch"
@@ -80,7 +73,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "110.000000" }
+		{ "120.000000" }
 	}
 
 	"hud_takesshots"
@@ -94,7 +87,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatPing"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
+	}
+
+	"cl_killsound"
+	{
+		"#Phoenix_KillSound"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"hud_centerid"
@@ -108,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_timer"
@@ -125,7 +125,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"cl_old_scoreboard"
 	{
-		"#Phoenix_ScoreboardStyle"
+		"#Phoenix_ScoreboardType"
 		{
 			LIST
 			"#Phoenix_NewScore" "0"
@@ -136,7 +136,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"cl_righthand"
 	{
-		"#Phoenix_HandPlacement"
+		"#Phoenix_WeaponAlignment"
 		{
 			LIST
 			"#Phoenix_RightHand" "0"
@@ -201,25 +201,11 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"hud_speedometer_below_cross"
-	{
-		"#Phoenix_Speedometer_Cross"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"hud_jumpspeed_below_cross"
-	{
-		"#Phoenix_Jumpspeed_Cross"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"hud_weapon"
 	{
 		"#Phoenix_HUDWeapon"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_rainbow"
@@ -229,11 +215,25 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_hud_lag_enabled"
+	{
+		"#Phoenix_HudSway"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_hud_lag_sensitivity"
+	{
+		"#Phoenix_HudSwayAmount"
+		{ STRING }
+		{ "5" }
+	}
+
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_displacer_big_punch_enabled"
@@ -265,7 +265,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"cl_mp5_punch_roll_enabled"

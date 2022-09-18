@@ -1,5 +1,9 @@
 # Half-Life: Zombies Ate My Neighbours Multiplayer
-This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress Phoenix Insider builds.
+This GitHub page hosts the latest ZAMNHLMP release build (current version `2.6`) and Public Playtest (PPT) development builds (current version `2.7-PPT4`)
+
+[Release branch](https://github.com/phoenixprojectsoftware/zamnhlmp)
+
+[Dev branch](https://github.com/phoenixprojectsoftware/zamnhlmp/tree/dev)
 
 <a href="https://www.moddb.com/mods/zamnhlmp" title="View ZAMNHLMP on Mod DB" target="_blank"><img src="https://button.moddb.com/popularity/medium/mods/45317.png" alt="ZAMNHLMP" /></a>
 

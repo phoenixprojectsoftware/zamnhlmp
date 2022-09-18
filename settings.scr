@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed May 18 09:12:41 PM
+// File generated:  Sun Sep 18 07:42:49 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "The Hub" }
+		{ "Half-Life: ZAMN Multiplayer 2.7" }
 	}
 
 	"maxplayers"
@@ -129,9 +129,9 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"mp_autocrosshair"
+	"mp_intermission_skip_auto"
 	{
-		"#Valve_Autocrosshair"
+		"#Phoenix_SkipIntermission"
 		{ BOOL }
 		{ "0" }
 	}
@@ -158,14 +158,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Cheats"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
+	}
+
+	"sv_aura_infinite_ammo"
+	{
+		"#Phoenix_InfiniteAmmo"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"sv_lan"
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }

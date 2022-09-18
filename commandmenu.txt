@@ -1,87 +1,137 @@
 // Command Menu definition
-// Feel free to add whatever you want in here.
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific class:
+//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+// 
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// TEAM3, TEAM4 work as well
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+// Class can be any of the following:
+//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
+//	Buttons prepended with a class name will only be seen if the player
+//	is that class. 
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+//--------------------------------------------------------
+// Everything below here is editable
 
 "1" "Settings"
 {
-	"0" "Timer"	
+	"0" "Help"
+	{
+		"1" "Commands" 	"help;variables;toggleconsole"
+		"2" "Aura Version" 	"version_aura;toggleconsole"
+		"3" "Game Settings"	"settings"
+	}
+	"1" "Timer"	
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
 		"0" "Off"	"hud_timer 0"
 	}
-	"1" "Mini Scoreboard"	
+	"2" "Mini scoreboard"	
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
-		"0" "Off"	"cl_scores 0"
+		"0" "Off"		"cl_scores 0"
 	}
-	"2" "Old Scoreboard"	
+	"3" "Scoreboard"	
 	{
-		"1" "On"	"cl_old_scoreboard 1"
-		"2" "Off"	"cl_old_scoreboard 0"
+		"1" "Old"	"cl_old_scoreboard 1"
+		"2" "VGUI"	"cl_old_scoreboard 0"
 	}
-	"3" "Viewmodel"	
+	"4" "Viewmodel"	
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
 	}
-	"4" "Netgraph"	
+	"5" "Speedometer"	
+	{
+		"1" "On"	"hud_speedometer 1"
+		"2" "Off"	"hud_speedometer 0"
+	}
+	"6" "Jumpspeed"	
+	{
+		"1" "On"	"hud_jumpspeed 1"
+		"2" "Off"	"hud_jumpspeed 0"
+	}
+	"7" "Netgraph"	
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
 	}
-	"5" "Showfps"	
+	"8" "Showfps"	
 	{
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
-	"6" "Help"
-	{
-		"1" "Console help" "help;toggleconsole"
-		"2" "Aura version" "version_aura;toggleconsole"
-	}
 }
 
-"2" "Match"
+"2" "Voting"
 {
-"1" "Change Gamemode"
+	"1" "Vote Yes" "yes"
+	"2" "Vote No" "no"
+	"3" "Start Match" "agstart"
+	"4" "Start Match Full" "agstart full"
+	"5" "Call Timeout" "timeout"
+	"6" "Extend Timer" "agmoretime"
+}
+
+"3" "Gamemode"
 {
 	"1" "Season 6"
 	{
-		"1" "Arena"	"arena"
-		"2" "Arcade"	"arcade"
+		"1" "Arcade"	"arcade"
+		"2" "Arena"	"arena"
 		"3" "Crowbar Arena"	"cbar"
 		"4" "creaTive Deathmatch"	"classic"
 		"5" "Capture the Flag"	"ctf"
-		"6" "Free-for-All"	"ffa"
-		"7" "HLDM"		"hldm"
-		"8" "Instant Gib"	"instagib"
-		"9" "Last Man Standing"	"lms"
-		"10" "Last Team Standing" "lts"
-		"11" "Penguin Wars" "pengwars"
-		"12" "Team Deathmatch" "tdm"
+		"6" "Displacement"	"displace"
+		"7" "Free for All"	"ffa"
+		"8" "HLDM"		"hldm"
+		"9" "Instagib"	"instagib"
+		"10" "Last Man Standing"	"lms"
+		"11" "Last Team Standing" "lts"
+		"12" "Penguin Wars" "pengwars"
+		"13" "Team Deathmatch" "tdm"
 	}
 	"2" "Pre-Season 6"
 	{
-		"1" "Arena"	"arena_noop4"
-		"2" "Arcade" "arcade_noop4"
-		"3" "creaTive Deathmatch" "classic_noop4"
-		"4" "Free-for-All" "ffa_noop4"
-		"5" "Last Man Standing" "lms_noop4"
-		"6" "Last Team Standing" "lts_noop4"
-		"7" "Team Deathmatch" "tdm_noop4"
+		"1" "Arcade"	"arcade2"
+		"2" "Arena"	"arena2"
+		"3" "creaTive Deathmatch"	"classic2"
+		"4" "Free for All"	"ffa2"
+		"5" "Last Man Standing"	"lms2"
+		"6" "Last Team Standing"	"lts2"
+		"7" "Team Deathmatch"	"tdm2"
 	}
 }
-	"2" "Vote Yes" "yes"
-	"3" "Vote No" "no"
-	"4" "Start Match" "agstart"
-	"5" "Start Match Full" "agstart full"
-	"6" "Abort Match" "agabort"
-	"7" "Call Timeout" "timeout"
-	"8" "Show Game Settings"	"settings"
-}
 
-"3" "Change Team" "changeteam"
+"4" "Change Team" "changeteam"
 
-"4" "Spectate"	"spectate"
-
+"5" "Spectate"	"spectate"

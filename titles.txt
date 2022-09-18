@@ -61,7 +61,7 @@ Rafael Soares
 
 END11
 {
-Ryley Whitfield
+Ry13y04
 }
 
 END12
@@ -89,9 +89,9 @@ $position -1 0.8
 $effect 2
 $color 150 150 150
 $color2 0 250 0
-$fadein .05
-$fadeout 1.5
-$holdtime 5
+$fadein 0
+$fadeout 0
+$holdtime 0
 
 ALLSTAR1
 {
@@ -163,12 +163,8 @@ Allstar Deathmatch: Blue Meanie
 By: Richard "Zdim" Carlson
 }
 
-Directed
-{
-Auto
-}
+// Multiplayer
 
-// Multiplayer related
 Spectators
 {
 Spectators
@@ -269,11 +265,6 @@ No_longer_hear_that_player
 You will no longer hear that player speak.
 }
 
-Title_civilian
-{
-Zeke
-}
-
 Title_SelectYourTeam
 {
 Select Your Team
@@ -288,6 +279,8 @@ Menu_Spectate
 {
 Spectate
 }
+
+// Spectating
 
 OBS_NONE
 {
@@ -339,7 +332,6 @@ Spec_Duck
 Press DUCK for Spectator Menu
 }
 
-
 Spec_Mode_Inset0
 {
 Inset Window Off
@@ -360,7 +352,6 @@ Spec_Mode_Inset3
 Inset Map Mode
 }
 
-// Spectator Menu
 Spec_Mode1
 {
 Locked Chase-Camera
