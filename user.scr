@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Jun 17 16:14:03 AM
+// File generated:  Sun Sep 18 19:41:53 AM
 //
 //
 // Cvar	-	Setting
@@ -87,14 +87,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatPing"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_killsound"
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_centerid"
@@ -108,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_timer"
@@ -226,7 +226,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "7" }
+		{ "5" }
 	}
 
 	"cl_crowbar_punch_enabled"
@@ -265,7 +265,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"cl_mp5_punch_roll_enabled"

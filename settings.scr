@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Sep 18 06:55:15 PM
+// File generated:  Sun Sep 18 07:42:49 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "fhgg" }
+		{ "Half-Life: ZAMN Multiplayer 2.7" }
 	}
 
 	"maxplayers"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ffa" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
@@ -126,7 +126,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Flashlight"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_intermission_skip_auto"
@@ -158,14 +158,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Cheats"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_aura_infinite_ammo"
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_lan"
