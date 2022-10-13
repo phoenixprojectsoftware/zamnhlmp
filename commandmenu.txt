@@ -90,6 +90,11 @@
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
+	"9" "Hud"
+	{
+		"1" "Visible"	"hudon"
+		"2" "Hidden"	"hudoff"
+	}
 }
 
 "2" "Voting"
