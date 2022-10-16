@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Sep 18 19:41:53 AM
+// File generated:  Sat Oct 15 01:23:42 AM
 //
 //
 // Cvar	-	Setting
@@ -73,7 +73,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "120.000000" }
+		{ "110.000000" }
 	}
 
 	"hud_takesshots"
@@ -94,7 +94,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_centerid"
@@ -108,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -283,7 +283,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 }
