@@ -92,8 +92,8 @@
 	}
 	"9" "Hud"
 	{
-		"1" "Visible"	"hudon"
-		"2" "Hidden"	"hudoff"
+		"1" "On"	"hudon"
+		"2" "Off"	"hudoff"
 	}
 }
 

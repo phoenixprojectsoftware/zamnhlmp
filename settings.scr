@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Half-Life: ZAMN Multiplayer 2.7" }
+		{ "Half-Life: ZAMN Multiplayer 2.8" }
 	}
 
 	"maxplayers"
@@ -129,6 +129,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
+	"sv_lan"
+	{
+		"#Phoenix_LANServer"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"mp_intermission_skip_auto"
 	{
 		"#Phoenix_SkipIntermission"
@@ -143,15 +150,11 @@ DESCRIPTION SERVER_OPTIONS
 		{ "16" }
 	}
 
-	"sv_aura_mp5_old_rate"
+	"sv_aura_regeneration"
 	{
-		"#Phoenix_MP5Rate"
-		{
-			LIST
-			"#Phoenix_MP5Old" "0"
-			"#Phoenix_MP5New" "1"
-		}
-		{ "1.000000" }
+		"#Phoenix_SuitRegen"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"sv_cheats"
@@ -168,11 +171,15 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"sv_lan"
+	"sv_aura_mp5_old_rate"
 	{
-		"#Phoenix_LANServer"
-		{ BOOL }
-		{ "1" }
+		"#Phoenix_MP5Rate"
+		{
+			LIST
+			"#Phoenix_MP5Old" "0"
+			"#Phoenix_MP5New" "1"
+		}
+		{ "1.000000" }
 	}
 
 }
