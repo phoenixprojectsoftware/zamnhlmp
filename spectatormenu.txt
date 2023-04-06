@@ -26,22 +26,24 @@
 //--------------------------------------------------------
 // Everything below here is editable
 
-"5" "Close" 	"spec_menu 0"
+"6" "OK" 	"spec_menu 0"
 
-"4" "Help"	"spec_help"
+"5" "Help"	"spec_help"
 
-"3" "Settings"
+"4" "Settings"
 {	
-	TOGGLE 	"4" "Chat Messages"	"hud_saytext"
+	TOGGLE 	"6" "Chat Messages"	"hud_saytext"
 	
-	TOGGLE	"3" "Show Status"	"spec_drawstatus"
+	TOGGLE	"5" "Show Status"	"spec_drawstatus"
 	
-	TOGGLE	"2" "View Cone"		"spec_drawcone"
+	TOGGLE	"4" "View Cone"		"spec_drawcone"
 	
-	TOGGLE	"1" "Player Names"	"spec_drawnames"
+	TOGGLE	"3" "Player Names"	"spec_drawnames"
 }
 
+TOGGLE	"3" "Picture-In-Picture" "spec_pip"
 TOGGLE	"2" "Auto Director"	"spec_autodirector"
+
 "1" "Show Scores"	"togglescores"
 
 // Here are the rest of the buttons and submenus
