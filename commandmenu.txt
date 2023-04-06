@@ -140,3 +140,6 @@
 "4" "Change Team" "changeteam"
 
 "5" "Spectate"	"spectate"
+
+// Here are the rest of the buttons and submenus
+// You can change these safely if you want.
