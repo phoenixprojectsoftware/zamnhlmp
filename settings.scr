@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Apr 06 12:50:45 AM
+// File generated:  Sun Apr 09 05:18:22 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Fred 2: Night of the Living Fred" }
+		{ "ZAMNHLMP" }
 	}
 
 	"maxplayers"
@@ -143,6 +143,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "16" }
 	}
 
+	"sv_aura_regeneration"
+	{
+		"#Phoenix_SuitRegen"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"sv_aura_mp5_old_rate"
 	{
 		"#Phoenix_MP5Rate"
@@ -158,21 +165,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Cheats"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_aura_infinite_ammo"
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_lan"
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }
