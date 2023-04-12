@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Apr 06 12:50:45 AM
+// File generated:  Wed Apr 12 09:50:03 AM
 //
 //
 // Cvar	-	Setting
@@ -151,7 +151,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Phoenix_MP5Old" "0"
 			"#Phoenix_MP5New" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"sv_cheats"
@@ -172,7 +172,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }

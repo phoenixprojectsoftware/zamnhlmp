@@ -31,7 +31,7 @@ Scheme
 		"ControlBG"			"118 138 116 255"		// background color of controls
 		"ControlDarkBG"		"62 70 55 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"30 166 0 124"	// background color of any selected text or menu item
+		"SelectionBG"		"191 0 255 124"	// background color of any selected text or menu item
 		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
 		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
 		
