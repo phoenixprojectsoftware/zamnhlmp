@@ -163,86 +163,7 @@ Allstar Deathmatch: Blue Meanie
 By: Richard "Zdim" Carlson
 }
 
-Spec_Mode1
-{
-Locked Chase-Camera
-}
-
-Spec_Mode2
-{
-Free Chase-Camera
-}
-
-Spec_Mode3
-{
-Free-Look
-}
-
-Spec_Mode4
-{
-First Person
-}
-
-Spec_Mode5
-{
-Free Map Overview
-}
-
-Spec_Mode6
-{
-Chase Map Overview
-}
-
-Spec_NoTarget
-{
-No valid targets. Cannot switch to Chase-Camera Mode.
-}
-
-Spec_Help_Title
-{
-Spectator Mode
-}
-
-Spec_Help_Text
-{
-Use the following keys to change view styles:
-
- FIRE1 - Chase next player
- FIRE2 - Chase previous player
- JUMP - Change view modes
- USE - Change inset window mode
- 
- DUCK  - Enable spectator menu
-  
-In Overview Map Mode move around with:
-
- MOVELEFT - move left
- MOVERIGHT - move right
- FORWARD - zoom in
- BACK - zoom out
- MOUSE - rotate around map/target
-}
-
-Spec_Slow_Motion
-{
-Slow Motion
-}
-
-Spec_Replay
-{
-Instant Replay
-}
-
-Spec_Auto
-{
-Auto
-}
-
-// Multiplayer Scoreboard
-Spec_Map
-{
-Map
-}
+// Multiplayer
 
 Spectators
 {
@@ -256,40 +177,39 @@ Unassigned
 
 TEAMS
 {
-TEAMS
+Teams
 }
 
 PLAYERS
 {
-PLAYERS
+Players
 }
 
 CLASS
 {
-CLASS
+Class
 }
 
 SCORE
 {
-SCORE
+Score
 }
 
 DEATHS
 {
-DEATHS
+Deaths
 }
 
 LATENCY
 {
-PING
+Ping/loss
 }
 
 VOICE
 {
-VOICE
+Voice
 }
 
-// other menu text
 Menu_OK
 {
 OK
@@ -297,7 +217,7 @@ OK
 
 Menu_Cancel
 {
-CANCEL
+Cancel
 }
 
 Mic_Volume
@@ -344,6 +264,23 @@ No_longer_hear_that_player
 {
 You will no longer hear that player speak.
 }
+
+Title_SelectYourTeam
+{
+Select Your Team
+}
+
+Team_AutoAssign
+{
+Auto Assign
+}
+
+Menu_Spectate
+{
+Spectate
+}
+
+// Spectating
 
 OBS_NONE
 {
@@ -395,53 +332,112 @@ Spec_Duck
 Press DUCK for Spectator Menu
 }
 
-Valve_Close
+Spec_Mode_Inset0
 {
-Close
+Inset Window Off
 }
 
-Valve_Help
+Spec_Mode_Inset1
 {
-Help
+Inset Chase-Camera Mode
 }
 
-Valve_Settings
+Spec_Mode_Inset2
 {
-Settings
+Inset First Person Mode
 }
 
-Valve_Chat_Messages
+Spec_Mode_Inset3
 {
-Chat Messages
+Inset Map Mode
 }
 
-Valve_Show_Status
+Spec_Mode1
 {
-Show Status
+Locked Chase-Camera
 }
 
-Valve_View_Cone
+Spec_Mode2
 {
-View Cone
+Free Chase-Camera
 }
 
-Valve_Player_Names
+Spec_Mode3
 {
-Player Names
+Free-Look
 }
 
-Valve_PIP
+Spec_Mode4
 {
-Picture-In-Picture
+First Person
 }
 
-Valve_Auto_Director
+Spec_Mode5
 {
-Auto Director
+Free Map Overview
 }
 
-Valve_Show_Score
+Spec_Mode6
 {
-Show Scores
+Chase Map Overview
 }
 
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help
+{
+ENTER to Play  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Spec_Help_Title
+{
+Spectator Mode
+}
+
+Spec_Help_Text
+{
+Use the following keys to change view styles:
+
+ FIRE1 - Chase next player
+ FIRE2 - Chase previous player
+ JUMP - Change view modes
+ USE - Change inset window mode
+ 
+ DUCK  - Enable spectator menu
+  
+In Overview Map Mode move around with:
+
+ MOVELEFT - move left
+ MOVERIGHT - move right
+ FORWARD - zoom in
+ BACK - zoom out
+ MOUSE - rotate around map/target
+}
+
+Spec_Slow_Motion
+{
+Slow Motion
+}
+
+Spec_Replay
+{
+Instant Replay
+}
+
+Spec_Auto
+{
+Auto
+}
+
+Spec_Time
+{
+Time
+}
+
+Spec_Map
+{
+Map
+}

@@ -44,86 +44,84 @@
 {
 	"0" "Help"
 	{
-		"1" "Commands" 	"help;variables;toggleconsole"
-		"2" "Aura Version" 	"version_aura;toggleconsole"
-		"3" "Game Settings"	"settings"
+		"1" "Console help"	"help;toggleconsole"
+		"2" "Aura version"	"version_aura;toggleconsole"
 	}
-	"1" "Timer"	
+	"1" "Timer"
 	{
 		"1" "Remaining"	"hud_timer 1"
 		"2" "Elapsed"	"hud_timer 2"
 		"0" "Off"	"hud_timer 0"
 	}
-	"2" "Mini scoreboard"	
+	"2" "Mini scoreboard"
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
-		"0" "Off"		"cl_scores 0"
+		"0" "Off"	"cl_scores 0"
 	}
-	"3" "Scoreboard"	
+	"3" "Old Scoreboard"
 	{
-		"1" "Old"	"cl_old_scoreboard 1"
-		"2" "VGUI"	"cl_old_scoreboard 0"
+		"1" "On"	"cl_old_scoreboard 1"
+		"2" "Off"	"cl_old_scoreboard 0"
 	}
-	"4" "Viewmodel"	
+	"4" "Viewmodel"
 	{
 		"1" "On"	"r_drawviewmodel 1"
 		"2" "Off"	"r_drawviewmodel 0"
 	}
-	"5" "Speedometer"	
+	"5" "Speedometer"
 	{
 		"1" "On"	"hud_speedometer 1"
 		"2" "Off"	"hud_speedometer 0"
 	}
-	"6" "Jumpspeed"	
+	"6" "Jumpspeed"
 	{
 		"1" "On"	"hud_jumpspeed 1"
 		"2" "Off"	"hud_jumpspeed 0"
 	}
-	"7" "Netgraph"	
+	"7" "Netgraph"
 	{
 		"1" "On"	"net_graph 3"
 		"2" "Off"	"net_graph 0"
 	}
-	"8" "Showfps"	
+	"8" "Showfps"
 	{
 		"1" "On"	"cl_showfps 1"
 		"2" "Off"	"cl_showfps 0"
 	}
-	"9" "Hud"
-	{
-		"1" "On"	"hudon"
-		"2" "Off"	"hudoff"
-	}
 }
 
-"2" "Voting"
+"2" "Vote"
 {
 	"1" "Vote Yes" "yes"
 	"2" "Vote No" "no"
+	
 	"3" "Start Match" "agstart"
 	"4" "Start Match Full" "agstart full"
-	"5" "Call Timeout" "timeout"
-	"6" "Extend Timer" "agmoretime"
+	
+	"5" "Call timeout" "timeout"
+	"6" "Extend timer" "agmoretime"
+	"7" "Game settings" "settings"
 }
 
-"3" "Gamemode"
+"3" "Gamemodes"
 {
-	"1" "Season 6"
+	"1" "Post-Season 6"
 	{
 		"1" "Arcade"	"arcade"
 		"2" "Arena"	"arena"
-		"3" "Crowbar Arena"	"cbar"
-		"4" "creaTive Deathmatch"	"classic"
-		"5" "Capture the Flag"	"ctf"
-		"6" "Displacement"	"displace"
-		"7" "Free for All"	"ffa"
-		"8" "HLDM"		"hldm"
-		"9" "Instagib"	"instagib"
-		"10" "Last Man Standing"	"lms"
-		"11" "Last Team Standing" "lts"
-		"12" "Penguin Wars" "pengwars"
-		"13" "Team Deathmatch" "tdm"
+		"3" "Barnacles"	"barnacle"
+		"4" "Crowbar Arena"	"cbar"
+		"5" "creaTive Deathmatch"	"classic"
+		"6" "Capture the Flag"	"ctf"
+		"7" "Displacement"	"displace"
+		"8" "Free for All"	"ffa"
+		"9" "Half-Life Deathmatch"	"hldm"
+		"10" "Instagib"	"instagib"
+		"11" "Last Man Standing"	"lms"
+		"12" "Last Team Standing" "lts"
+		"13" "Penguin Wars" "pengwars"
+		"14" "Team Deathmatch" "tdm"
 	}
 	"2" "Pre-Season 6"
 	{
@@ -137,7 +135,7 @@
 	}
 }
 
-"4" "Change Team" "changeteam"
+"4" "Change Team"	"changeteam"
 
 "5" "Spectate"	"spectate"
 
