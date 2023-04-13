@@ -28,7 +28,7 @@ Office
 Doublecross
 Demise
 Disposal
-KBase
+KandyBase
 TheHill
 Repent
 Rubble
@@ -36,7 +36,7 @@ Stalkyard
 StalkX
 Pyrozone
 Park
-Kndyone
+KandyOne
 Team9
 Meanie
 Outpost

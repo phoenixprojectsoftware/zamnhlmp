@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Apr 12 11:44:39 AM
+// File generated:  Wed Apr 12 04:49:11 PM
 //
 //
 // Cvar	-	Setting
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "has" }
+		{ "lts2" }
 	}
 
 	"mp_fraglimit"
