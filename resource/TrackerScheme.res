@@ -193,6 +193,7 @@ Scheme
 		"2"		"resource/bahnschrift.ttf"
 		"3"		"resource/din1451alt.ttf"
 		"4"		"resource/notosans-regular.ttf"
+		"5"		"resource/AllertaStencil-Regular.ttf"
 		}
 
 
@@ -259,7 +260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Alte DIN 1451 Mittelschrift"
+				"name"		"Allerta Stencil Regular"
 				"tall"		"36"
 				"weight"	"1"
 				"antialias" "1"
