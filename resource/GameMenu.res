@@ -14,7 +14,7 @@
 	}
 	"3"
 	{
-		"label" "player"
+		"label" "players"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
