@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Sep 17 12:51:48 AM
+// File generated:  Sun Sep 17 01:16:03 AM
 //
 //
 // Cvar	-	Setting
@@ -129,6 +129,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
+	"sv_aura_regeneration"
+	{
+		"#Phoenix_SuitRegen"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"mp_intermission_skip_auto"
 	{
 		"#Phoenix_SkipIntermission"
@@ -172,7 +179,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 }
