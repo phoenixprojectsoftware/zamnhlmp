@@ -261,7 +261,7 @@ Scheme
 			"1"
 			{
 				"name"		"Allerta Stencil Regular"
-				"tall"		"36"
+				"tall"		"30"
 				"weight"	"1"
 				"antialias" "1"
 			}

@@ -39,7 +39,6 @@
 
 //--------------------------------------------------------
 // Everything below here is editable
-
 "1" "Settings"
 {
 	"0" "Help"
@@ -139,5 +138,5 @@
 
 "5" "Spectate"	"spectate"
 
-// Here are the rest of the buttons and submenus
-// You can change these safely if you want.
+"6" "Drop flag" "dropitems"
+
