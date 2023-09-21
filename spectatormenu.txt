@@ -44,6 +44,8 @@
 TOGGLE	"3" "Picture-In-Picture" "spec_pip"
 TOGGLE	"2" "Auto Director"	"spec_autodirector"
 
+//TEAM0 "3" "Join Game"	"joingame;chooseteam"
+
 "1" "Show Scores"	"togglescores"
 
 // Here are the rest of the buttons and submenus
