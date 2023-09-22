@@ -128,6 +128,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+	
+	"sv_aura_regeneration"
+	{
+		"#Phoenix_SuitRegen"
+		{ BOOL }
+		{ "1" }
+	}
 
 	"mp_intermission_skip_auto"
 	{

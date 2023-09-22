@@ -121,6 +121,7 @@
 		"12" "Last Team Standing" "lts"
 		"13" "Penguin Wars" "pengwars"
 		"14" "Team Deathmatch" "tdm"
+		"15" "Domination" "dom"
 	}
 	"2" "Pre-Season 6"
 	{
