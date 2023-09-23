@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Sep 22 05:59:46 PM
+// File generated:  Fri Sep 22 11:21:29 PM
 //
 //
 // Cvar	-	Setting
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "halo" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
@@ -128,7 +128,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
+
 	"sv_aura_regeneration"
 	{
 		"#Phoenix_SuitRegen"
