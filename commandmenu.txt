@@ -135,7 +135,7 @@
 	}
 }
 
-"4" "Change Team"	"changeteam"
+"4" "Change team"	"changeteam"
 
 "5" "Spectate"	"spectate"
 
