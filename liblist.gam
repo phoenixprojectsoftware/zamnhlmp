@@ -8,4 +8,3 @@ gamedll "dlls/aura.dll"
 gamedll_linux "dlls/aura.so"
 gamedll_osx "dlls/aura.dylib"
 icon "game"
-detailed_textures 1
