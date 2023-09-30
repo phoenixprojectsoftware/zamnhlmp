@@ -54,6 +54,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ NUMBER 1.000000 32.000000 }
 		{ "12.000000" }
 	}
+	
+	"mapcyclefile"
+	{
+		"#Phoenix_Mapcycle"
+		{ STRING }
+		{ "mapcycles/sabian.txt" }
+	}
 
 	"sv_password"
 	{
