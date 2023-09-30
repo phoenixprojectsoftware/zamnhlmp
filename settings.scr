@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep 30 02:14:47 AM
+// File generated:  Sat Sep 30 10:37:09 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "INTERNAL" }
+		{ "2.8" }
 	}
 
 	"maxplayers"
@@ -66,7 +66,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ffa" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
