@@ -45,6 +45,7 @@
 	{
 		"1" "Console help"	"help;toggleconsole"
 		"2" "Aura version"	"version_aura;toggleconsole"
+		"3" "Game settings" 	"settings"
 	}
 	"1" "Timer"
 	{
@@ -100,7 +101,6 @@
 	
 	"5" "Call timeout" "timeout"
 	"6" "Extend timer" "agmoretime"
-	"7" "Game settings" "settings"
 }
 
 "3" "Gamemodes"
