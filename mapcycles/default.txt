@@ -1,8 +1,8 @@
-Cove
+Guardian
 Gasworks
 Rust
 City
-Guardian
+Cove_Night
 Kasino
 Kasino2
 Lambda_Bunker
@@ -23,8 +23,6 @@ Doublecross
 Demise
 Disposal
 KBase
-TheHill
-Repent
 Rubble
 Stalkyard
 StalkX
