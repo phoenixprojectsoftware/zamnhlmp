@@ -6,6 +6,7 @@
 "changeteam"				"#Valve_Change_Team"
 "+commandmenu"				"#Phoenix_Cmd"
 "dropitems"				"#Phoenix_Drop"
+"say %l"				"#Phoenix_Callout"
 "blank"					"=========================="
 "blank"					"#Valve_Movement_Title"
 "blank"					"=========================="
