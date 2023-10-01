@@ -137,7 +137,7 @@ DESCRIPTION INFO_OPTIONS
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
-		{ NUMBER 0.000000 10.000000 }
+		{ NUMBER 0.000000 35.000000 }
 		{ "1.000000" }
 	}
 
