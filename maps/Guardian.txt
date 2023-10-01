@@ -1,3 +1,3 @@
-A small fighting arena in Xen.
+A small fighting arena in the borderworld.
 
 Map Author: Bungie & The Phoenix Project Software

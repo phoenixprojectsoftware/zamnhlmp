@@ -272,7 +272,7 @@ Select Your Team
 
 Team_AutoAssign
 {
-Auto-Assign
+Auto Assign
 }
 
 Menu_Spectate

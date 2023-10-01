@@ -2,54 +2,54 @@
 {
 	"1"
 	{
-		"label" "RESUME"
+		"label" "resume"
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 	}
 	"2"
 	{
-		"label" "LEAVE GAME"
+		"label" "leave game"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}
 	"3"
 	{
-		"label" "PLAYERS"
+		"label" "players"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
 	"4"
 	{
-		"label" "FIND GAMES"
+		"label" "find games"
 		"command" "OpenServerBrowser"
 	}
 	"5"
 	{
-		"label" "CUSTOM GAME"
+		"label" "custom game"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	"6"
 	{
-		"label" "OPTIONS"
+		"label" "options"
 		"command" "OpenOptionsDialog"
 	}
 	"7"
 	{
-		"label" "THEATRE"
+		"label" "theatre"
 		"command" "OpenLoadDemoDialog"
 		"notsingle" "1"
 		"notmulti" "1"
 	}
 	"8"
 	{
-		"label" "CREDITS"
+		"label" "credits"
 		"command" "engine map credits/Credits"
 		"notsingle" "1"
 		"notmulti" "1"
 	}
 	"9"
 	{
-		"label" "QUIT"
+		"label" "quit"
 		"command" "Quit"
 	}
 }

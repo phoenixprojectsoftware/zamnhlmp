@@ -23,6 +23,9 @@ InGameDialogConfig.vdf
 ServerBrowser.vdf
 voice_ban.dt
 tempdecal.wad
+*.asd
+*.nod
+*.nrp
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak

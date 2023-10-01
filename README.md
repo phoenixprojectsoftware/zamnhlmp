@@ -1,5 +1,5 @@
 # Half-Life: Zombies Ate My Neighbours Multiplayer
-This GitHub page hosts the latest ZAMNHLMP release build (current version `2.7`) and Public Playtest (PPT) development builds (current version `2.7-PPT4`)
+This GitHub page hosts the latest ZAMNHLMP release build (current version `2.7`) and Public Playtest (PPT) development builds (current version `2.8-PPT2`)
 
 [Release branch](https://github.com/phoenixprojectsoftware/zamnhlmp)
 
@@ -11,3 +11,7 @@ This GitHub page hosts the latest ZAMNHLMP release build (current version `2.7`)
 
 # Instruction Manual
 [Click here to read the instruction manual.](https://phoenixprojectsoftware.github.io/zamnhlmp/Manual/Instruction%20Manual.pdf)
+
+# ZAMNHLMP uses Freepik Textures.
+1. <a href="https://www.freepik.com/free-photo/black-concrete-textured-background_18998285.htm#query=matte%20black%20texture&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik
+2. 

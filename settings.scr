@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 11 08:13:28 PM
+// File generated:  Sun Oct 01 04:31:44 AM
 //
 //
 // Cvar	-	Setting
@@ -45,14 +45,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Half-Life: ZAMN Multiplayer 2.7" }
+		{ "2.8" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "16.000000" }
+		{ "12.000000" }
+	}
+
+	"mapcyclefile"
+	{
+		"#Phoenix_Mapcycle"
+		{ STRING }
+		{ "mapcycles/sabian.txt" }
 	}
 
 	"sv_password"
@@ -129,11 +136,18 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
+	"sv_aura_regeneration"
+	{
+		"#Phoenix_SuitRegen"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"mp_intermission_skip_auto"
 	{
 		"#Phoenix_SkipIntermission"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_intermission_time"
@@ -158,7 +172,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Cheats"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_aura_infinite_ammo"
@@ -172,7 +186,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 }
