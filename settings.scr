@@ -108,13 +108,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0.000000" }
 	}
 
-	"mp_teamplay"
-	{
-		"#Valve_Teamplay"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"mp_friendlyfire"
 	{
 		"#Valve_Friendly_Fire"
