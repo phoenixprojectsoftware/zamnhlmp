@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Oct 02 09:19:34 PM
+// File generated:  Mon Oct 02 11:03:30 PM
 //
 //
 // Cvar	-	Setting
@@ -69,6 +69,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "" }
 	}
 
+	"mp_teamlist"
+	{
+		"#Valve_Valid_Teams"
+		{ STRING }
+		{ "blue;red" }
+	}
+
 	"sv_aura_gamemode"
 	{
 		"#Phoenix_Gamemode"
@@ -99,6 +106,13 @@ DESCRIPTION SERVER_OPTIONS
 			"#Valve_Realistic" "1"
 		}
 		{ "0.000000" }
+	}
+
+	"mp_teamplay"
+	{
+		"#Valve_Teamplay"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"mp_friendlyfire"
