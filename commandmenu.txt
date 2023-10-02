@@ -105,7 +105,7 @@
 
 "3" "Gamemodes"
 {
-	"1" "Post-Season 6"
+	"1" "Standard"
 	{
 		"1" "Arcade"	"arcade"
 		"2" "Arena"	"arena"
@@ -114,14 +114,15 @@
 		"5" "creaTive Deathmatch"	"classic"
 		"6" "Capture the Flag"	"ctf"
 		"7" "Displacement"	"displace"
-		"8" "Free for All"	"ffa"
-		"9" "Half-Life Deathmatch"	"hldm"
-		"10" "Instagib"	"instagib"
-		"11" "Last Man Standing"	"lms"
-		"12" "Last Team Standing" "lts"
-		"13" "Penguin Wars" "pengwars"
-		"14" "Team Deathmatch" "tdm"
-		"15" "Domination" "dom"
+		"8" "Domination" "dom"
+		"9" "Free for All"	"ffa"
+		"10" "Half-Life Deathmatch"	"hldm"
+		"11" "Instant Gib"	"instagib"
+		"12" "Last Man Standing"	"lms"
+		"13" "Last Team Standing" "lts"
+		"14" "Penguin Wars" "pengwars"
+		"15" "SWAT" "swat"
+		"16" "Team Deathmatch" "tdm"
 	}
 	"2" "Pre-Season 6"
 	{
@@ -133,6 +134,7 @@
 		"6" "Last Team Standing"	"lts2"
 		"7" "Team Deathmatch"	"tdm2"
 	}
+	"3" "Custom" "messagemode sv_aura_gamemode"
 }
 
 "4" "Change team"	"changeteam"
