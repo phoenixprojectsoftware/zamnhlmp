@@ -7,6 +7,8 @@
 "+commandmenu"				"#Phoenix_Cmd"
 "dropitems"				"#Phoenix_Drop"
 "say %l"				"#Phoenix_Callout"
+"agrecord"				"#Phoenix_DemoStart"
+"stop"					"#Phoenix_DemoStop"
 "blank"					"=========================="
 "blank"					"#Valve_Movement_Title"
 "blank"					"=========================="

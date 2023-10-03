@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep 23 16:15:41 AM
+// File generated:  Tue Oct 03 17:47:40 AM
 //
 //
 // Cvar	-	Setting
@@ -83,6 +83,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_autorecord"
+	{
+		"#Phoenix_AutoDemo"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"hud_saytext_sound"
 	{
 		"#Phoenix_ChatPing"
@@ -108,7 +115,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -138,7 +145,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_MiniScores"
 		{ NUMBER 0.000000 35.000000 }
-		{ "1.000000" }
+		{ "5.000000" }
 	}
 
 	"cl_righthand"
