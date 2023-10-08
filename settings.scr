@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 03 05:46:33 PM
+// File generated:  Sun Oct 08 04:36:07 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "FUCK OFF O'CLOCK" }
+		{ "i like the mcchicken sandwich" }
 	}
 
 	"maxplayers"
@@ -179,7 +179,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_lan"
