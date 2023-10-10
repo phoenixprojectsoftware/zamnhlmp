@@ -61,8 +61,8 @@
 	}
 	"3" "Scoreboard look"
 	{
-		"1" "On"	"cl_old_scoreboard 1"
-		"2" "Off"	"cl_old_scoreboard 0"
+		"1" "Old"	"cl_old_scoreboard 1"
+		"2" "New"	"cl_old_scoreboard 0"
 	}
 	"4" "Viewmodel"
 	{
