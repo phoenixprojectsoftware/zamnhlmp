@@ -59,7 +59,7 @@
 		"2" "4 players/teams"	"cl_scores 4"
 		"0" "Off"	"cl_scores 0"
 	}
-	"3" "Old Scoreboard"
+	"3" "Scoreboard look"
 	{
 		"1" "On"	"cl_old_scoreboard 1"
 		"2" "Off"	"cl_old_scoreboard 0"
