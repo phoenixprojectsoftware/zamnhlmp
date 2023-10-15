@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct 10 02:08:09 AM
+// File generated:  Sun Oct 15 19:56:56 AM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "106.000000" }
+		{ "140.000000" }
 	}
 
 	"cl_viewmodel_fov"
@@ -220,6 +220,13 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_WepSprite"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"hud_color"
+	{
+		"#Phoenix_HudColor"
+		{ STRING }
+		{ "20 63 0" }
 	}
 
 	"hud_rainbow"
