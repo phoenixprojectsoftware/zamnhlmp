@@ -34,7 +34,7 @@ Scheme
 		"SelectionBG"		"5 147 255 124"	// background color of any selected text or menu item
 		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
 		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
-		
+
 		// titlebar colors
 		"TitleText"			"255 255 255 255"
 		"TitleDimText"		"136 145 128 255"
@@ -163,17 +163,22 @@ Scheme
 
 		InGameDesktop
 		{
-			"MenuColor"			"200 200 200 255"
-			"ArmedMenuColor"	"255 255 255 255"
+			"MenuColor"			"255 255 255 255"
+			"ArmedMenuColor"	"7 60 135 255"
+			"BlurMenuColor"				"5 107 255 255"
 			"DepressedMenuColor" "192 186 80 255"
-			"WidescreenBarColor" "0 0 0 0"
-			"MenuItemVisibilityRate" "0.03"  // time it takes for one menu item to appear
-			"MenuItemHeight"	"28"
-			"GameMenuInset"		"32"
+			"MenuHintColor"				"104 104 104 255"
+			"WidescreenBarColor" 		"0 0 0 0"
+			"MenuItemVisibilityRate"	"0.02"  // time it takes for one menu item to appear
+			"MenuItemHeight"			"48" // this is proportional to resolution
+			"GameMenuInset"				"110"
 		}
 
 		"SectionTextColor"		"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+		
+		"ProportionalBaseWidth" "1280"		// if the display resolution is above this,
+		"ProportionalBaseHeight" "720"		//  ui elements will be scaled.
 	}
 
 	//
@@ -185,18 +190,6 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-
-		CustomFontFiles
-		{
-		//"1"		"resource/conthrax-sb.ttf"
-        "1"		"resource/CONDUIT_ITC.TTF"
-		"2"		"resource/bahnschrift.ttf"
-		"3"		"resource/din1451alt.ttf"
-		"4"		"resource/notosans-regular.ttf"
-		"5"		"resource/AllertaStencil-Regular.ttf"
-		}
-
-
 		"Default"
 		{
 			"1"
@@ -204,7 +197,6 @@ Scheme
 				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" "1"
 			}
 		}
 		"DefaultBold"
@@ -214,7 +206,6 @@ Scheme
 				"name"		"Noto Sans"
 				"tall"		"16"
 				"weight"	"500"
-				"antialias" "1"
 			}
 		}
 		"DefaultUnderline"
@@ -225,7 +216,6 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
-				"antialias" "1"
 			}
 		}
 		"DefaultSmall"
@@ -235,7 +225,6 @@ Scheme
 				"name"		"Noto Sans"
 				"tall"		"13"
 				"weight"	"0"
-				"antialias" "1"
 			}
 		}
 		"DefaultSmallBold"
@@ -261,19 +250,58 @@ Scheme
 			"1"
 			{
 				"name"		"Allerta Stencil Regular"
-				"tall"		"30"
-				"weight"	"1"
-				"antialias" "1"
+				"tall"		"28"
+				"weight"	"1000"
+				"dropshadow" "1"
+				"antialias"	"1"
+				"blur" "0"
+			}
+		}
+		"MenuBlurLarge"
+		{
+			"1"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"28"
+				"weight"	"800"
+				"dropshadow" "0"
+				"antialias"	"0"
+				"blur" "5"
+				"additive" "1"
+			}
+		}
+		"MenuHintLarge"
+		{
+			"1"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"24"
+				"weight"	"200"
+				"dropshadow" "0"
+				"antialias"	"1"
+				"blur" "0"
+			}
+		}
+		"MenuHintSmall"
+		{
+			"1"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"20"
+				"weight"	"200"
+				"dropshadow" "0"
+				"antialias"	"1"
+				"blur" "0"
 			}
 		}
 		"UiHeadline"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"1000"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 
@@ -282,59 +310,86 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Marlett"			}
-
+				"name"		"Marlett"
 				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
+			}
 		}
 		
 		"EngineFont"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
-				"tall"		"36"
+				"name"		"Verdana"
+				"tall"		"13"
 				"weight"	"600"
 				"yres"	"480 599"
 				"dropshadow"	"1"
-				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"		"Noto Sans"
-				"tall"		"32"
+				"name"		"Verdana"
+				"tall"		"15"
 				"weight"	"600"
 				"yres"	"600 767"
 				"dropshadow"	"1"
-				"antialias"		"1"
 			}
 			"3"
 			{
-				"name"		"Noto Sans"
-				"tall"		"27"
+				"name"		"Verdana"
+				"tall"		"16"
 				"weight"	"600"
 				"yres"	"768 1023"
 				"dropshadow"	"1"
-				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Noto Sans"
-				"tall"		"24"
+				"name"		"Verdana"
+				"tall"		"21"
 				"weight"	"600"
-				"yres"	"1024 1199"
+				"yres"	"1024 1299"
 				"dropshadow"	"1"
-				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Noto Sans"
+				"name"		"Verdana"
 				"tall"		"28"
 				"weight"	"600"
-				"yres"	"1200 6000"
+				"yres"	"1300 1699"
 				"dropshadow"	"1"
-				"antialias"		"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"35"
+				"weight"	"600"
+				"yres"	"1700 1899"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"Verdana"
+				"tall"		"42"
+				"weight"	"600"
+				"yres"	"1900 2499"
+				"dropshadow"	"1"
+			}
+			"8"
+			{
+				"name"		"Verdana"
+				"tall"		"56"
+				"weight"	"600"
+				"yres"	"2500 2999"
+				"dropshadow"	"1"
+			}
+			"9"
+			{
+				"name"		"Verdana"
+				"tall"		"70"
+				"weight"	"600"
+				"yres"	"3000 10000"
+				"dropshadow"	"1"
 			}
 		}	
 		
@@ -342,10 +397,67 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Alte DIN 1451 Mittelschrift"
-				"tall"		"24"
-				"weight"	"600"
+				"name"		"Allerta Stencil Regular"
+				"tall"		"16"
+				"weight"	"700"
 				"antialias"	"1"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"20"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"600 1023"
+			}
+			"3"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"30"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"1024 1299"
+			}
+			"4"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"40"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"1300 1699"
+			}
+			"5"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"50"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"1700 1899"
+			}
+			"6"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"60"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"1900 2499"
+			}
+			"7"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"80"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"2500 2999"
+			}
+			"8"
+			{
+				"name"		"Allerta Stencil Regular"
+				"tall"		"100"
+				"weight"	"700"
+				"antialias"	"1"
+				"yres"	"3000 10000"
 			}
 		}
 
@@ -353,9 +465,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Alte DIN 1451 Mittelschrift"
-				"tall"		"27"
-				"weight"	"1200"
+				"name"		"Allerta Stencil Regular"
+				"tall"		"20"
+				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
 			}
@@ -365,7 +477,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Courier"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -846,5 +958,21 @@ Scheme
 				}
 			}
 		}
+	}
+	
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	CustomFontFiles
+	{
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
 	}
 }
