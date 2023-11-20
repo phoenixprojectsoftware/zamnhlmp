@@ -194,16 +194,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -212,37 +213,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"13"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmallBold"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"600"
+				"antialias" "1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Noto Sans"
+				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 		"MenuLarge"
@@ -251,7 +256,7 @@ Scheme
 			{
 				"name"		"Allerta Stencil Regular"
 				"tall"		"28"
-				"weight"	"1000"
+				"weight"	"500"
 				"dropshadow" "1"
 				"antialias"	"1"
 				"blur" "0"
@@ -263,7 +268,7 @@ Scheme
 			{
 				"name"		"Allerta Stencil Regular"
 				"tall"		"28"
-				"weight"	"800"
+				"weight"	"500"
 				"dropshadow" "0"
 				"antialias"	"0"
 				"blur" "5"
@@ -326,6 +331,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"480 599"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -334,6 +340,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"600 767"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -342,6 +349,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"768 1023"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -350,6 +358,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"1024 1299"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
@@ -397,7 +406,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"16"
 				"weight"	"700"
 				"antialias"	"1"
@@ -405,7 +414,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
@@ -413,7 +422,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"30"
 				"weight"	"700"
 				"antialias"	"1"
@@ -421,7 +430,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"40"
 				"weight"	"700"
 				"antialias"	"1"
@@ -429,7 +438,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"50"
 				"weight"	"700"
 				"antialias"	"1"
@@ -437,7 +446,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"60"
 				"weight"	"700"
 				"antialias"	"1"
@@ -445,7 +454,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"80"
 				"weight"	"700"
 				"antialias"	"1"
@@ -453,7 +462,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"100"
 				"weight"	"700"
 				"antialias"	"1"
@@ -465,7 +474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
@@ -477,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier"
+				"name"		"Arial"
 				"tall"		"14"
 				"weight"	"500"
 			}

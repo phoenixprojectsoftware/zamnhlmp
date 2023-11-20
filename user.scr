@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Oct 15 19:56:56 AM
+// File generated:  Mon Nov 20 04:00:45 AM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "140.000000" }
+		{ "100.000000" }
 	}
 
 	"cl_viewmodel_fov"
@@ -73,7 +73,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_AutoSwitch"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_takesshots"
@@ -101,7 +101,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_saytext_sound_path"
@@ -115,7 +115,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSoundPath"
 		{ STRING }
-		{ "spacewrecked.wav" }
+		{ "buttons/bell1.wav" }
 	}
 
 	"hud_saytext_sound"
@@ -129,7 +129,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_timer"
@@ -159,14 +159,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_MiniScores"
 		{ NUMBER 0.000000 35.000000 }
-		{ "5.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_viewmodel_lag_enabled"
 	{
 		"#Phoenix_ViewmodelLag"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_viewmodel_ofs_forward"
@@ -254,7 +254,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_displacer_big_punch_enabled"
@@ -286,7 +286,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_mp5_punch_roll_enabled"
@@ -304,7 +304,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 }
