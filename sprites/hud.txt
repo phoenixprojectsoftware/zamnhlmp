@@ -7,8 +7,10 @@ bucket1			2560 2560/hud_bucket1	0	0	60	60
 bucket2			2560 2560/hud_bucket2	0	0	60	60		
 bucket3			2560 2560/hud_bucket3	0	0	60	60		
 bucket4			2560 2560/hud_bucket4	0	0	60	60		
-bucket5			2560 2560/hud_bucket5	0	0	60	60		
-bucket0			2560 2560/hud_bucket0	0	0	60	60		
+bucket5			2560 2560/hud_bucket5	0	0	60	60	
+bucket6     2560 640hud7 228 72 20 20
+bucket7     2560 640hud7 228 92 20 20
+bucket0     2560 640hud7 208 92 20 20	
 
 dmg_bio			2560 2560/hud_dmg_bio	0	0	192	192
 dmg_poison		2560 2560/hud_dmg_poison	0	0	192	192

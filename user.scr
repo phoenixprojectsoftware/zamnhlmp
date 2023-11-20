@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Nov 20 04:00:45 AM
+// File generated:  Mon Nov 20 09:23:51 AM
 //
 //
 // Cvar	-	Setting
@@ -73,7 +73,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_AutoSwitch"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_takesshots"
@@ -122,14 +122,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatSound"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_killsound"
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -226,7 +226,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudColor"
 		{ STRING }
-		{ "20 63 0" }
+		{ "0" }
 	}
 
 	"hud_rainbow"
@@ -247,7 +247,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "5" }
+		{ "15" }
 	}
 
 	"cl_crowbar_punch_enabled"
