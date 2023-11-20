@@ -1,4 +1,12 @@
-8
+16
+weapon			2560 2560/weapon_egon_weapon	0	0	510	135
+weapon_s		2560 2560/weapon_egon_weapon_s	0	0	510	135
+ammo			2560 2560/weapon_egon_ammo	0	0	72	72
+crosshair		2560 2560crosshairs	216	144	72	72
+weapon			1280 1280/weapon_egon_weapon	0	0	340	90
+weapon_s		1280 1280/weapon_egon_weapon_s	0	0	340	90
+ammo			1280 1280/weapon_egon_ammo	0	0	48	48
+crosshair		1280 1280crosshairs	144	96	48	48
 weapon			320 320hud1	80	120	80	20
 weapon_s		320 320hud1	80	140	80	20
 ammo			320 320hud2	0	34	18	18
