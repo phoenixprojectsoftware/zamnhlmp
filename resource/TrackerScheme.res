@@ -194,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -213,7 +213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -279,7 +279,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"24"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -291,7 +291,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Aileron Thin"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -984,6 +984,6 @@ Scheme
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
 		"13"		"resource/microgram.ttf"
-		"14"		"resource/Aileron-Thin.otf"
+		"14"		"resource/din1451alt.ttf"
 	}
 }
