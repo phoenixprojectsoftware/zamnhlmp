@@ -460,6 +460,9 @@ HEV_A10 fvox/safe_day, bell
 // HEV_DEAD1 fvox/beep beep, beep beep, beep, flatline
 HEV_DEAD0 UI/spacewrecked.wav
 HEV_DEAD1 UI/donaldson_death.wav
+HEV_DEAD2 UI/marine_scream.wav
+HEV_DEAD3 UI/the_day_before.wav
+HEV_DEAD4 UI/telegram.wav
 
 HEV_MED0 fvox/(p140) boop, boop, boop, (p100) innsufficient_medical
 HEV_MED1 fvox/(p140) boop, boop, boop, (p100) automedic_on
