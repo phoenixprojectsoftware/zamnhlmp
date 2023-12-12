@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Nov 30 09:05:19 PM
+// File generated:  Tue Dec 12 12:05:10 AM
 //
 //
 // Cvar	-	Setting
@@ -179,7 +179,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"sv_lan"
