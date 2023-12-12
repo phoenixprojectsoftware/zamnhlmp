@@ -59,6 +59,6 @@
 	{
 		"label" "quit"
 		"command" "Quit"
-		"HelpText" "Return to the game's desktop."
+		"HelpText" "Exit the game."
 	}
 }
