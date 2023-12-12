@@ -1,5 +1,5 @@
 # Half-Life: Zombies Ate My Neighbours Multiplayer
-This GitHub page hosts the latest ZAMNHLMP release build (current version `2.7`) and Public Playtest (PPT) development builds (current version `2.8-PPT2`)
+This GitHub page hosts the latest ZAMNHLMP release build (current version `2.7`) and Public Playtest (PPT) development builds (current version `2.8-PPT4`)
 
 [Release branch](https://github.com/phoenixprojectsoftware/zamnhlmp)
 
