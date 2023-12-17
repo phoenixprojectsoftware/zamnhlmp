@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Nov 20 09:23:51 AM
+// File generated:  Sun Dec 17 23:42:50 AM
 //
 //
 // Cvar	-	Setting
@@ -94,7 +94,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_hidecorpses"
@@ -219,7 +219,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_WepSprite"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_color"
