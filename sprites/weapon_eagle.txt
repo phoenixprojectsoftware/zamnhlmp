@@ -7,5 +7,5 @@ weapon_s        320 320hudof01 0   100  80  20
 ammo            640 640hud7 24  72  24  24
 crosshair       640 floydop4  0  0   64  64
 autoaim         640 floydop4  64  128  64  64
-weapon          640 640hudof01 0   90   170 45
-weapon_s        640 640hudof02 0   90   170 45
+weapon			640 op4/weapon_deagle_weapon	0	0	340	90
+weapon_s		640 op4/weapon_deagle_weapon_s	0	0	340	90

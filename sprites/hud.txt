@@ -1,7 +1,7 @@
 257
 
 //===========================================
-selection		2560 2560/hud_selection	0	0	510	135
+selection		2560 1280/hud_selection	0	0	340	90
 
 bucket1			2560 2560/hud_bucket1	0	0	60	60
 bucket2			2560 2560/hud_bucket2	0	0	60	60		
