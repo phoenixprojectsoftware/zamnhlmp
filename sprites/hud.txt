@@ -87,6 +87,8 @@ bucket2			1280 1280/hud_bucket2	0	0	40	40
 bucket3			1280 1280/hud_bucket3	0	0	40	40		
 bucket4			1280 1280/hud_bucket4	0	0	40	40		
 bucket5			1280 1280/hud_bucket5	0	0	40	40		
+bucket6			1280 1280/hud_bucket6	0	0	40	40	
+bucket7			1280 1280/hud_bucket7	0	0	40	40	
 bucket0			1280 1280/hud_bucket0	0	0	40	40		
 
 dmg_bio			1280 1280/hud_dmg_bio	0	0	128	128
