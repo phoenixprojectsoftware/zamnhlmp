@@ -1,7 +1,5 @@
 8
-weapon			640 2560/weapon_crowbar_weapon	0	0	510	135
-weapon_s		640 2560/weapon_crowbar_weapon_s	0	0	510	135
-weapon			1280 1280/weapon_crowbar_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_crowbar_weapon_s	0	0	340	90
+weapon			640 1280/weapon_crowbar_weapon	0	0	340	90
+weapon_s		640 1280/weapon_crowbar_weapon_s	0	0	340	90
 weapon			320 320hud1	0	0	80	20
 weapon_s		320 320hud1	0	20	80	20

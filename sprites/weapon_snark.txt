@@ -1,10 +1,7 @@
 12
-weapon			640 2560/weapon_snark_weapon	0	0	510	135
-weapon_s		640 2560/weapon_snark_weapon_s	0	0	510	135
-ammo			640 2560/weapon_snark_ammo	0	0	72	72
-weapon			1280 1280/weapon_snark_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_snark_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_snark_ammo	0	0	48	48
+weapon			640 1280/weapon_snark_weapon	0	0	340	90
+weapon_s		640 1280/weapon_snark_weapon_s	0	0	340	90
+ammo			640 1280/weapon_snark_ammo	0	0	48	48
 weapon			320 320hud1	160	120	80	20
 weapon_s		320 320hud1	160	140	80	20
 ammo			320 320hud2	90	34	18	18

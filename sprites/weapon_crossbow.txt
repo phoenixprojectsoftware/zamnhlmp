@@ -1,18 +1,11 @@
 28
-weapon			640 2560/weapon_crossbow_weapon	0	0	510	135
-weapon_s		640 2560/weapon_crossbow_weapon_s	0	0	510	135
-ammo			640 2560/weapon_crossbow_ammo	0	0	72	72
-crosshair		640 2560crosshairs	216	0	72	72
-autoaim			640 2560crosshairs	0	288	72	72
-zoom			640 2560crosshairs	72	288	312	48
-zoom_autoaim	640 2560crosshairs	72	336	312	48
-weapon			1280 1280/weapon_crossbow_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_crossbow_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_crossbow_ammo	0	0	48	48
-crosshair		1280 1280crosshairs	144	0	48	48
-autoaim			1280 1280crosshairs	0	192	48	48
-zoom			1280 1280crosshairs	48	192	208	32
-zoom_autoaim	1280	1280crosshairs	48	224	208	32
+weapon			640 1280/weapon_crossbow_weapon	0	0	340	90
+weapon_s		640 1280/weapon_crossbow_weapon_s	0	0	340	90
+ammo			640 1280/weapon_crossbow_ammo	0	0	48	48
+crosshair		640 1280crosshairs	144	0	48	48
+autoaim			640 1280crosshairs	0	192	48	48
+zoom			640 1280crosshairs	48	192	208	32
+zoom_autoaim	640	1280crosshairs	48	224	208	32
 weapon			320 320hud1	80	0	80	20
 weapon_s		320 320hud1	80	20	80	20
 ammo			320 320hud2	72	16	18	18

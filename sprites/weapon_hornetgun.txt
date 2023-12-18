@@ -1,12 +1,9 @@
 16
-weapon			640 2560/weapon_hornetgun_weapon	0	0	510	135
-weapon_s		640 2560/weapon_hornetgun_weapon_s	0	0	510	135
-ammo			640 2560/weapon_hornetgun_ammo	0	0	72	72
-crosshair		640 2560crosshairs	216	72	72	72
-weapon			1280 1280/weapon_hornetgun_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_hornetgun_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_hornetgun_ammo	0	0	48	48
-crosshair		1280 1280crosshairs	144	48	48	48
+weapon			640 1280/weapon_hornetgun_weapon	0	0	340	90
+weapon_s		640 1280/weapon_hornetgun_weapon_s	0	0	340	90
+ammo			640 1280/weapon_hornetgun_ammo	0	0	48	48
+crosshair		640 1280crosshairs	144	48	48	48
+
 weapon			320 320hud1	80	160	80	20
 weapon_s		320 320hud1	80	180	80	20
 ammo			320 320hud2	16	36	18	18

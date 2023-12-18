@@ -1,12 +1,8 @@
 16
-weapon			640 2560/weapon_rpg_weapon	0	0	510	135
-weapon_s		640 2560/weapon_rpg_weapon_s	0	0	510	135
-ammo			640 2560/weapon_rpg_ammo	0	0	72	72
-crosshair		640 2560crosshairs	72	144	72	72
-weapon			1280 1280/weapon_rpg_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_rpg_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_rpg_ammo	0	0	48	48
-crosshair		1280 1280crosshairs	48	96	48	48
+weapon			640 1280/weapon_rpg_weapon	0	0	340	90
+weapon_s		640 1280/weapon_rpg_weapon_s	0	0	340	90
+ammo			640 1280/weapon_rpg_ammo	0	0	48	48
+crosshair		640 1280crosshairs	48	96	48	48
 weapon			320 320hud1	80	40	80	20
 weapon_s		320 320hud1	80	60	80	20
 ammo			320 320hud2	90	16	18	18
