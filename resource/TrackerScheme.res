@@ -194,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -213,7 +213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -279,7 +279,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"24"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -291,7 +291,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Conduit ITC"
+				"name"		"Bahnschrift"
 				"tall"		"14"
 				"weight"	"500"
 			}
