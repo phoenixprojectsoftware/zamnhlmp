@@ -254,7 +254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Allerta Stencil"
 				"tall"		"28"
 				"weight"	"500"
 				"dropshadow" "1"
@@ -266,7 +266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Allerta Stencil Regular"
+				"name"		"Allerta Stencil"
 				"tall"		"28"
 				"weight"	"500"
 				"dropshadow" "0"
