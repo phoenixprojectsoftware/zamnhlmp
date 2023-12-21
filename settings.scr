@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Dec 21 07:58:27 PM
+// File generated:  Thu Dec 21 08:28:52 PM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Mapcycle"
 		{ STRING }
-		{ "mapcycles/sabian.txt" }
+		{ "mapcycles/ffa.txt" }
 	}
 
 	"sv_password"
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "ffa" }
 	}
 
 	"mp_fraglimit"
@@ -147,7 +147,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_SkipIntermission"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"mp_intermission_time"
@@ -179,7 +179,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_lan"
