@@ -5,6 +5,8 @@ City
 Cove_Night
 Kasino
 Kasino2
+Contamination
+Radiation
 Lambda_Bunker
 Blimpboom
 Crossfire
@@ -13,9 +15,11 @@ Bounce
 Snark_Pit
 Frenzy
 Datacore
+Rocket_Frenzy
 Flashback
 Rapidcore
 Xen
+Pool_Party
 Undertow
 Subtransit
 Office

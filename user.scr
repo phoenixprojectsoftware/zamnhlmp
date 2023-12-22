@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep 23 16:15:41 AM
+// File generated:  Thu Dec 21 20:30:42 AM
 //
 //
 // Cvar	-	Setting
@@ -50,16 +50,16 @@ DESCRIPTION INFO_OPTIONS
 
 	"zoom_sensitivity_ratio"
 	{
-		"#Phoenix_ZoomSensitivity"
+		"#Phoenix_ZoomSens"
 		{ NUMBER 0.000000 4096.000000 }
 		{ "1.200000" }
 	}
 
-	"cl_autowepswitch"
+	"default_fov"
 	{
-		"#Phoenix_AutoSwitch"
-		{ BOOL }
-		{ "1" }
+		"#Phoenix_Fov"
+		{ NUMBER 20.000000 150.000000 }
+		{ "90.000000" }
 	}
 
 	"cl_viewmodel_fov"
@@ -69,11 +69,11 @@ DESCRIPTION INFO_OPTIONS
 		{ "0.000000" }
 	}
 
-	"default_fov"
+	"cl_autowepswitch"
 	{
-		"#Phoenix_Fov"
-		{ NUMBER 20.000000 150.000000 }
-		{ "106.000000" }
+		"#Phoenix_AutoSwitch"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"hud_takesshots"
@@ -83,30 +83,51 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"hud_saytext_sound"
+	"cl_autorecord"
 	{
-		"#Phoenix_ChatPing"
+		"#Phoenix_AutoDemo"
 		{ BOOL }
 		{ "0" }
-	}
-
-	"cl_killsound"
-	{
-		"#Phoenix_KillSound"
-		{ BOOL }
-		{ "1" }
 	}
 
 	"hud_centerid"
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_hidecorpses"
 	{
 		"#Phoenix_HideCorpses"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_saytext_sound_path"
+	{
+		"#Phoenix_ChatSoundPath"
+		{ STRING }
+		{ "misc/talk.wav" }
+	}
+
+	"cl_killsound_path"
+	{
+		"#Phoenix_KillSoundPath"
+		{ STRING }
+		{ "buttons/bell1.wav" }
+	}
+
+	"hud_saytext_sound"
+	{
+		"#Phoenix_ChatSound"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_killsound"
+	{
+		"#Phoenix_KillSound"
 		{ BOOL }
 		{ "0" }
 	}
@@ -125,7 +146,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"cl_old_scoreboard"
 	{
-		"#Phoenix_ScoreboardType"
+		"#Phoenix_ScoreboardLook"
 		{
 			LIST
 			"#Phoenix_NewScore" "0"
@@ -137,33 +158,8 @@ DESCRIPTION INFO_OPTIONS
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
-		{ NUMBER 0.000000 10.000000 }
-		{ "1.000000" }
-	}
-
-	"cl_righthand"
-	{
-		"#Phoenix_WeaponAlignment"
-		{
-			LIST
-			"#Phoenix_RightHand" "0"
-			"#Phoenix_LeftHand" "1"
-		}
+		{ NUMBER 0.000000 35.000000 }
 		{ "0.000000" }
-	}
-
-	"cl_viewmodel_disable_idle"
-	{
-		"#Phoenix_ViewmodelIdle"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"cl_viewmodel_disable_equip"
-	{
-		"#Phoenix_ViewmodelEquip"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"cl_viewmodel_lag_enabled"
@@ -194,6 +190,17 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_righthand"
+	{
+		"#Phoenix_HandAlign"
+		{
+			LIST
+			"#Phoenix_RightHand" "0"
+			"#Phoenix_LeftHand" "1"
+		}
+		{ "0.000000" }
+	}
+
 	"hud_speedometer"
 	{
 		"#Phoenix_Speedometer"
@@ -210,9 +217,16 @@ DESCRIPTION INFO_OPTIONS
 
 	"hud_weapon"
 	{
-		"#Phoenix_HUDWeapon"
+		"#Phoenix_WepSprite"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
+	}
+
+	"hud_color"
+	{
+		"#Phoenix_HudColor"
+		{ STRING }
+		{ "0" }
 	}
 
 	"hud_rainbow"
@@ -233,14 +247,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "5" }
+		{ "15" }
 	}
 
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_displacer_big_punch_enabled"
