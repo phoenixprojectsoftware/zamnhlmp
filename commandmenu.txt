@@ -127,8 +127,8 @@
 		"3" "Domination" "dom"
 		"4" "Last Team Standing" "lts"
 		"5"	"Team Arcade"	"tarcade"
-		"7"	"Team Barnacles"	"tbarnacle"
-		"8"	"Team Crowbar Arena"	"tcbar"
+		"6"	"Team Barnacles"	"tbarnacle"
+		"7"	"Team Crowbar Arena"	"tcbar"
 	}
 	"3" "Pre-Season 6"
 	{
