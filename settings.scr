@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "hiphopparappa's Server" }
+		{ "ZAMNHLMP" }
 	}
 
 	"maxplayers"
@@ -143,18 +143,18 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"mp_intermission_skip_auto"
-	{
-		"#Phoenix_SkipIntermission"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"mp_intermission_time"
 	{
 		"#Phoenix_IntermissionTime"
 		{ STRING }
 		{ "16" }
+	}
+
+	"mp_intermission_skip_auto"
+	{
+		"#Phoenix_SkipIntermission"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"sv_aura_mp5_old_rate"
