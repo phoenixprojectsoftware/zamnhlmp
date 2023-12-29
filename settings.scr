@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Dec 21 08:28:52 PM
+// File generated:  Fri Dec 29 12:11:45 AM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "ZAMNHLMP" }
+		{ "hiphopparappa's Server" }
 	}
 
 	"maxplayers"
