@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Feb  2 09:03:53 PM
+// File generated:  Mon Jun 17 10:23:28 PM
 //
 //
 // Cvar	-	Setting
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ffa" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
@@ -179,7 +179,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"sv_lan"
