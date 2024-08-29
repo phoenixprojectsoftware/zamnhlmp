@@ -41,17 +41,19 @@ Development of this game originally started as *creaTive Deathmatch* in May 2019
 30. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7.1 - 19th September 2022
 31. Half-Life: Zombies Ate My Neighbours Multiplayer 2.7.2 - 13th October 2022
 
-## Season 8: Legends of New Roma
+## Season 8: Black Mesa Inbound
 32. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8-PPT1 - 16th June 2023
 33. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8-PPT2 - 30th September 2023
-34. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8-PPT3
-35. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8-PPT4
+34. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8-PPT3 - 23rd November 2023
+35. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8 - 22nd December 2023
+36. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8.1 - 28th December 2023
+37. Half-Life: Zombies Ate My Neighbours Multiplayer 2.8.2 - 30th August 2024
 
 ## Season 9: Black Mesa Assult Team
-36. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9
+38. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9
 
 ## Season 10: The Final Season
-37. Half-Life: Zombies Ate My Neighbours Multiplayer 2.10
+39. Half-Life: Zombies Ate My Neighbours Multiplayer 2.10
 
 ## Post-seasonal scheme
-38. Half-Life: Zombies Ate My Neighbours Multiplayer 3.0
+40. Half-Life: Zombies Ate My Neighbours Multiplayer 3.0
