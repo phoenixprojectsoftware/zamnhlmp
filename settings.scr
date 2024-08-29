@@ -31,12 +31,6 @@
 // LIST is "index", where index "0" is the first element of the list
 
 
-// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Aug 29 05:42:21 PM
-//
-//
-// Cvar	-	Setting
-
 VERSION 1.0
 
 DESCRIPTION SERVER_OPTIONS
