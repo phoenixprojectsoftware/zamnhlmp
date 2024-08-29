@@ -1,0 +1,11 @@
+20
+weapon			640 1280/weapon_9mmhandgun_weapon	0	0	340	90
+weapon_s		640 1280/weapon_9mmhandgun_weapon_s	0	0	340	90
+ammo			640 1280/weapon_9mmhandgun_ammo	0	0	48	48
+crosshair		640 1280crosshairs	48	0	48	48
+autoaim			640 1280crosshairs	0	144	48	48
+weapon			320 320hud1	0	40	80	20
+weapon_s		320 320hud1	0	60	80	20
+ammo			320 320hud2	0	16	18	18
+crosshair		320 crosshairs	24	0	24	24
+autoaim			320 crosshairs	0	72	24	24
