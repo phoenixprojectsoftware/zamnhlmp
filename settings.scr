@@ -31,6 +31,12 @@
 // LIST is "index", where index "0" is the first element of the list
 
 
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Sat Aug 31 12:44:58 AM
+//
+//
+// Cvar	-	Setting
+
 VERSION 1.0
 
 DESCRIPTION SERVER_OPTIONS
@@ -67,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "oitc" }
+		{ "rockets" }
 	}
 
 	"mp_fraglimit"
