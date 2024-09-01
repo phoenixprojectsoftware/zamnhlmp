@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Aug 23 23:57:00 AM
+// File generated:  Thu Aug 29 21:57:08 AM
 //
 //
 // Cvar	-	Setting
@@ -254,7 +254,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_displacer_big_punch_enabled"
