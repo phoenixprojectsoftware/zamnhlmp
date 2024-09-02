@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Sep  2 08:04:42 PM
+// File generated:  Mon Sep  2 09:43:26 PM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Mapcycle"
 		{ STRING }
-		{ "mapcycles/ffa.txt" }
+		{ "mapcycles/sabian.txt" }
 	}
 
 	"sv_password"
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "oitc" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
