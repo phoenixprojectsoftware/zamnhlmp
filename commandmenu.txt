@@ -119,6 +119,9 @@
 		"10" "Last Man Standing"	"lms"
 		"11" "Penguin Wars" "pengwars"
 		"12" "SWAT" "swat"
+		"13" "One In the Chamber" "oitc"
+		"14" "Rockets" "rockets"
+		"15" "Snipers" "snipers" 
 	}
 	"2" "Team Modes"
 	{
