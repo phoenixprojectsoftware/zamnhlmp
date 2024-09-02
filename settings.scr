@@ -168,6 +168,17 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1.000000" }
 	}
 
+	"sv_aura_fire_weapons_underwater"
+	{
+		"#Phoenix_UWeapons"
+		{
+			LIST
+			"#Phoenix_UWeaponsOff" "0"
+			"#Phoenix_UWeaponsOn" "1"
+		}
+		{ "1" }
+	}
+
 	"sv_cheats"
 	{
 		"#Phoenix_Cheats"
