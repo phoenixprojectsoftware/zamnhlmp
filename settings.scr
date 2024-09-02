@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Sep  2 11:02:56 PM
+// File generated:  Mon Sep  2 11:08:54 PM
 //
 //
 // Cvar	-	Setting
@@ -176,7 +176,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Phoenix_UWeaponsOff" "0"
 			"#Phoenix_UWeaponsOn" "1"
 		}
-		{ "1" }
+		{ "1.000000" }
 	}
 
 	"sv_cheats"
