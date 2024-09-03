@@ -167,7 +167,7 @@ Scheme
 			"ArmedMenuColor"	"191 0 255 255"
 			"BlurMenuColor"				"191 0 255 255"
 			"DepressedMenuColor" "192 186 80 255"
-			"MenuHintColor"				"200 200 200 155"
+			"MenuHintColor"				"200 200 200 255"
 			"WidescreenBarColor" 		"0 0 0 0"
 			"MenuItemVisibilityRate"	"0.02"  // time it takes for one menu item to appear
 			"MenuItemHeight"			"48" // this is proportional to resolution
