@@ -31,7 +31,7 @@ Scheme
 		"ControlBG"			"118 138 116 255"		// background color of controls
 		"ControlDarkBG"		"62 70 55 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"5 147 255 124"	// background color of any selected text or menu item
+		"SelectionBG"		"191 0 255 255"	// background color of any selected text or menu item
 		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
 		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
 
@@ -164,10 +164,10 @@ Scheme
 		InGameDesktop
 		{
 			"MenuColor"			"255 255 255 255"
-			"ArmedMenuColor"	"7 60 135 255"
-			"BlurMenuColor"				"5 107 255 255"
+			"ArmedMenuColor"	"191 0 255 255"
+			"BlurMenuColor"				"191 0 255 255"
 			"DepressedMenuColor" "192 186 80 255"
-			"MenuHintColor"				"200 200 200 155"
+			"MenuHintColor"				"200 200 200 255"
 			"WidescreenBarColor" 		"0 0 0 0"
 			"MenuItemVisibilityRate"	"0.02"  // time it takes for one menu item to appear
 			"MenuItemHeight"			"48" // this is proportional to resolution
