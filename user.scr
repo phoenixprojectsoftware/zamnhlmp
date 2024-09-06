@@ -90,6 +90,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"hud_nametags"
+	{
+		"#Phoenix_NameTags"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"cl_hidecorpses"
 	{
 		"#Phoenix_HideCorpses"
