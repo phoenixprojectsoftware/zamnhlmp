@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Sep  3 04:46:45 PM
+// File generated:  Fri Sep  6 08:08:06 PM
 //
 //
 // Cvar	-	Setting
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ctf" }
+		{ "arcade" }
 	}
 
 	"mp_fraglimit"
