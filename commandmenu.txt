@@ -132,6 +132,7 @@
 		"5"	"Team Arcade"	"tarcade"
 		"6"	"Team Barnacles"	"tbarnacle"
 		"7"	"Team Crowbar Arena"	"tcbar"
+		"8" "Team SWAT"	"tswat"
 	}
 	"3" "Pre-Season 6"
 	{
