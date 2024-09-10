@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep  7 01:16:15 PM
+// File generated:  Wed Sep 11 12:14:16 AM
 //
 //
 // Cvar	-	Setting
@@ -80,14 +80,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Frag_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "15.000000" }
+		{ "0.000000" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "15.000000" }
+		{ "45.000000" }
 	}
 
 	"mp_falldamage"
@@ -176,7 +176,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#Phoenix_UWeaponsOff" "0"
 			"#Phoenix_UWeaponsOn" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"sv_cheats"
