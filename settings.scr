@@ -76,6 +76,12 @@ DESCRIPTION SERVER_OPTIONS
 		{ "arcade" }
 	}
 
+	"sv_aura_gamemode_auto"
+	{
+		"#Phoenix_AutoGamemode"
+		{ BOOL }
+		{ "0" }
+	}
 	"mp_fraglimit"
 	{
 		"#Valve_Frag_Limit"
