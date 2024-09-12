@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Sep 12 12:25:22 AM
+// File generated:  Thu Sep 12 06:52:40 PM
 //
 //
 // Cvar	-	Setting
@@ -82,6 +82,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
+
 	"mp_fraglimit"
 	{
 		"#Valve_Frag_Limit"
