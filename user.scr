@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Sep  1 14:07:48 AM
+// File generated:  Tue Sep 17 21:44:19 AM
 //
 //
 // Cvar	-	Setting
@@ -55,11 +55,18 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
+	"cl_music_enabled"
+	{
+		"#Phoenix_AdaptiveMusic"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"default_fov"
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "100.000000" }
+		{ "90.000000" }
 	}
 
 	"cl_autowepswitch"
@@ -101,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_saytext_sound_path"
@@ -122,7 +129,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatSound"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_killsound"
@@ -159,7 +166,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_MiniScores"
 		{ NUMBER 0.000000 35.000000 }
-		{ "0.000000" }
+		{ "5.000000" }
 	}
 
 	"cl_viewmodel_lag_enabled"
@@ -240,14 +247,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSway"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hud_lag_sensitivity"
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "15" }
+		{ "5" }
 	}
 
 	"cl_crowbar_punch_enabled"
@@ -261,21 +268,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_gauss_random_punch_enabled"
 	{
 		"#Phoenix_GauPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hornet_random_punch_enabled"
 	{
 		"#Phoenix_HorPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_mp5_new_punch_enabled"
@@ -293,7 +300,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_RollPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_m249_new_punch_enabled"
