@@ -1,4 +1,5 @@
 City
+Gasworks
 Lambda_Bunker
 Rapidcore
 Undertow
@@ -6,10 +7,8 @@ Demise
 Rubble
 Flashback
 Crossfire
-Doublecross
 Bounce
 Subtransit
 Datacore
 Frenzy
 Stalkyard
-Kasino
