@@ -23,6 +23,7 @@ InGameDialogConfig.vdf
 ServerBrowser.vdf
 voice_ban.dt
 tempdecal.wad
+cached.wad
 *.asd
 *.nod
 *.nrp
