@@ -61,4 +61,9 @@
 		"command" "Quit"
 		"HelpText" "Exit the game."
 	}
+	"10"
+	{
+		"label" "Crossfire Test"
+		"command" "engine map Crossfire"
+	}
 }
