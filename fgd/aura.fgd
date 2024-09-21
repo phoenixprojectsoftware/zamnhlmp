@@ -37,6 +37,51 @@
 	]
 ]
 
+@PointClass base(Weapon, Targetx) = item_generic : "Generic scenery item"
+[
+	model(studio) : "Model" : "models/testsphere.mdl"
+	sequencename(string) : "Sequence Name" : "idle"
+	skin(integer) : "Skin" : 0
+	body(integer) : "Body" : 0
+	
+	spawnflags(Flags) =
+	[
+		1 : "Drop to floor" : 0
+		2 : "Solid" : 0
+	]
+]
+
+@PointClass base(Targetname, Angles, MoveWith, RenderFields) studio() = env_model : "New alternative to cyclers" 
+[
+	model(studio) : "Model name"
+	skin(integer) : "Skin" : 0
+	body(integer) : "Body" : 0
+	scale(string) : "Scale (1.0 = normal size)"
+
+	m_iszSequence_On(string) : "Sequence when on"
+	m_iAction_On(choices) : "Behaviour when on" : 0 =
+	[
+		0: "Freeze when sequence ends"
+		1: "Loop"
+		2: "Change state when sequence ends"
+	]
+
+	m_iszSequence_Off(string) : "Sequence when off"
+	m_iAction_Off(choices) : "Behaviour when off" : 0 =
+	[
+		0: "Freeze when sequence ends"
+		1: "Loop"
+		2: "Change state when sequence ends"
+	]
+
+	spawnflags(flags) =
+	[
+		1: "Initially Off" : 0
+		2: "Drop to Floor" : 0
+		4: "Solid" : 0
+	]
+]
+
 @PointClass base(Monster,TalkMonster, Sequence) size(-16 -16 0, 16 16 72) studio("models/wesley.mdl") = monster_wesley : "Wesley" []
 
 @PointClass = info_hmctfdetect : "Map Detection" []
