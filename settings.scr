@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Sep 21 01:25:27 AM
+// File generated:  Sun Sep 22 04:05:47 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "pgoijrtojkweolr5kt" }
+		{ "Ry13y04's Server" }
 	}
 
 	"maxplayers"
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "tdm" }
+		{ "arcade" }
 	}
 
 	"sv_aura_gamemode_auto"
@@ -197,7 +197,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_InfiniteAmmo"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_lan"
