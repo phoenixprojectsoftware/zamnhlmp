@@ -279,11 +279,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"24"
-				"weight"	"200"
+				"weight"	"10"
 				"dropshadow" "0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"blur" "0"
 			}
 		}
@@ -291,11 +291,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"blur" "0"
 			}
 		}
@@ -983,11 +983,12 @@ Scheme
 		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
-		"13"		"resource/microgram.ttf"
-		"14"		"resource/din1451alt.ttf"
-		"15"		"resource/AllertaStencil-Regular.ttf"
-		"16"		"resource/Aileron-Thin.otf"
-		"17"		"resource/bahnschrift.ttf"
-		"18"		"resource/CONDUIT_ITC.TTF"
+		"13"		"resource/typeface/microgram.ttf"
+		"14"		"resource/typeface/din1451alt.ttf"
+		"15"		"resource/typeface/AllertaStencil-Regular.ttf"
+		"16"		"resource/typeface/Aileron-Thin.otf"
+		"17"		"resource/typeface/bahnschrift.ttf"
+		"18"		"resource/typeface/CONDUIT_ITC.TTF"
+		"19"		"resource/typeface/W95FA.otf"
 	}
 }
