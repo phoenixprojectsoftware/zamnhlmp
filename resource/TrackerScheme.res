@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"14"
 				"weight"	"500"
 			}
