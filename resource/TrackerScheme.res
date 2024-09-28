@@ -303,7 +303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "0"
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"13"
 				"weight"	"600"
 				"yres"	"480 599"
@@ -335,7 +335,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"15"
 				"weight"	"600"
 				"yres"	"600 767"
@@ -344,7 +344,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"600"
 				"yres"	"768 1023"
@@ -353,7 +353,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"21"
 				"weight"	"600"
 				"yres"	"1024 1299"
@@ -362,7 +362,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"28"
 				"weight"	"600"
 				"yres"	"1300 1699"
@@ -370,7 +370,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"35"
 				"weight"	"600"
 				"yres"	"1700 1899"
@@ -378,7 +378,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"42"
 				"weight"	"600"
 				"yres"	"1900 2499"
@@ -386,7 +386,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"56"
 				"weight"	"600"
 				"yres"	"2500 2999"
@@ -394,7 +394,7 @@ Scheme
 			}
 			"9"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"70"
 				"weight"	"600"
 				"yres"	"3000 10000"
