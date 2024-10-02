@@ -354,7 +354,7 @@ Scheme
 			"4"
 			{
 				"name"		"W95FA"
-				"tall"		"21"
+				"tall"		"32"
 				"weight"	"600"
 				"yres"	"1024 1299"
 				"dropshadow"	"1"
@@ -363,7 +363,7 @@ Scheme
 			"5"
 			{
 				"name"		"W95FA"
-				"tall"		"28"
+				"tall"		"36"
 				"weight"	"600"
 				"yres"	"1300 1699"
 				"dropshadow"	"1"
