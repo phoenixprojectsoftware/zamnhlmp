@@ -475,7 +475,7 @@ Scheme
 			"1"
 			{
 				"name"		"Microgram"
-				"tall"		"20"
+				"tall"		"45"
 				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
