@@ -3,10 +3,6 @@
 // Basic Format:
 //		"<Bound Key>" "<Button Text>" "<Command sent to server>"
 //
-// Or you can check for a specific class:
-//		<Class> "<BoundKey>" "<Button Text>" "<Command sent to server>"
-// Where <Class> is one of: SCOUT, SNIPER, SOLDIER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
-// 
 // Or you can check for a specific map:
 //		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
 // Where <MapName> is the name of the map, without the ".bsp".
@@ -24,10 +20,6 @@
 //	}
 // }
 //
-// Class can be any of the following:
-//		SCOUT, SNIPER, SOLDER, DEMOMAN, MEDIC, HWGUY, PYRO, SPY, ENGINEER
-//	Buttons prepended with a class name will only be seen if the player
-//	is that class. 
 //
 // Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
 // around or deleted.
@@ -39,6 +31,7 @@
 
 //--------------------------------------------------------
 // Everything below here is editable
+
 "1" "Settings"
 {
 	"0" "Help"
@@ -57,12 +50,12 @@
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
-		"0" "Off"	"cl_scores 0"
+		"0" "Off"		"cl_scores 0"
 	}
-	"3" "Scoreboard look"
+	"3" "Old scoreboard"
 	{
-		"1" "Old"	"cl_old_scoreboard 1"
-		"2" "New"	"cl_old_scoreboard 0"
+		"1" "On"	"cl_old_scoreboard 1"
+		"2" "Off"	"cl_old_scoreboard 0"
 	}
 	"4" "Viewmodel"
 	{
@@ -91,62 +84,74 @@
 	}
 }
 
-"2" "Vote"
+"2" "Voting"
 {
-	"1" "Vote Yes" "yes"
-	"2" "Vote No" "no"
-	
-	"3" "Start Match" "agstart"
-	"4" "Start Match Full" "agstart full"
-	
-	"5" "Call timeout" "timeout"
-	"6" "Extend timer" "agmoretime"
+	"1" "Vote Yes" 		"yes"
+	"2" "Vote No" 		"no"
+	"3" "Start Match" 	"agstart"
+	"4" "Start Match Full" 	"agstart full"
+	"5" "Call timeout" 	"timeout"
+	"6" "Extend timer" 	"agmoretime"
 }
 
 "3" "Gamemodes"
 {
 	"1" "Standard"
 	{
-		"1" "Arcade"	"arcade"
-		"2" "Arena"	"arena"
-		"3" "Barnacles"	"barnacle"
-		"4" "Crowbar Arena"	"cbar"
+		"1" "Arena"			"arena"
+		"2" "Free for All"		"ffa"
+		"3" "Half-Life Deathmatch"	"hldm"
+		"4" "Instant Gib"		"instagib"
+		"5" "Last Man Standing"		"lms"
+		"6" "SWAT" 			"swat"
+	}
+	"2" "Casual"
+	{
+		"1" "Arcade"			"arcade"
+		"2" "Barnacles"			"barnacle"
+		"3" "Boobies"			"boobies"
+		"4" "Crowbar Arena"		"cbar"
 		"5" "creaTive Deathmatch"	"classic"
-		"6" "Displacement"	"displace"
-		"7" "Free for All"	"ffa"
-		"8" "Half-Life Deathmatch"	"hldm"
-		"9" "Instant Gib"	"instagib"
-		"10" "Last Man Standing"	"lms"
-		"11" "Penguin Wars" "pengwars"
-		"12" "SWAT" "swat"
+		"6" "Displacement"		"displace"
+		"7" "Penguin Wars" 		"pengwars"
+		"8" "One In the Chamber" 	"oitc"
+		"9" "Rockets" 			"rockets"
+		"10" "Snipers" 			"snipers"
+		"11" "Wild West"		"wildwest"
+		"12" "Halo"			"halo"
 	}
-	"2" "Team Modes"
+	"3" "Team"
 	{
-		"1" "Team Deathmatch" "tdm"
-		"2" "Capture the Flag"	"ctf"
-		"3" "Domination" "dom"
-		"4" "Last Team Standing" "lts"
-		"5"	"Team Arcade"	"tarcade"
-		"6"	"Team Barnacles"	"tbarnacle"
-		"7"	"Team Crowbar Arena"	"tcbar"
+		"1" "Team Deathmatch" 		"tdm"
+		"2" "Capture the Flag"		"ctf"
+		"3" "Domination" 		"dom"
+		"4" "Last Team Standing" 	"lts"
+		"5" "Team Arcade"		"tarcade"
+		"6" "Team Barnacles"		"tbarnacle"
+		"7" "Team Crowbar Arena"	"tcbar"
+		"8" "Team SWAT"			"tswat"
+		"9" "Team Snipers"		"tsnipers"
 	}
-	"3" "Pre-Season 6"
+	"4" "Season 5"
 	{
-		"1" "Arcade"	"arcade2"
-		"2"	"Team Arcade"	"tarcade2"
-		"3" "Arena"	"arena2"
+		"1" "Arcade"			"arcade2"
+		"2" "Team Arcade"		"tarcade2"
+		"3" "Arena"			"arena2"
 		"4" "creaTive Deathmatch"	"classic2"
-		"5" "Free for All"	"ffa2"
-		"6" "Last Man Standing"	"lms2"
+		"5" "Free for All"		"ffa2"
+		"6" "Last Man Standing"		"lms2"
 		"7" "Last Team Standing"	"lts2"
-		"8" "Team Deathmatch"	"tdm2"
+		"8" "Team Deathmatch"		"tdm2"
 	}
-	"4" "Custom" "messagemode sv_aura_gamemode"
+	"5" "Custom..." "messagemode sv_aura_gamemode"
 }
 
 "4" "Change team"	"changeteam"
 
-"5" "Spectate"	"spectate"
+"5" "Spectate"		"spectate"
 
-"6" "Drop flag" "dropitems"
+"6" "Drop flag" 	"dropitems"
 
+"7" "Countdown timer" 	"messagemode customtimer"
+
+"8" "Close"		"spec_menu 0"

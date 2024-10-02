@@ -6,7 +6,7 @@ Cove_Night
 Kasino
 Kasino2
 Contamination
-Radiation
+Radiated
 Lambda_Bunker
 Blimpboom
 Crossfire

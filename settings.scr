@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Aug 30 12:10:16 AM
+// File generated:  Wed Oct  2 01:41:07 AM
 //
 //
 // Cvar	-	Setting
@@ -52,14 +52,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "12.000000" }
+		{ "32.000000" }
 	}
 
 	"mapcyclefile"
 	{
 		"#Phoenix_Mapcycle"
 		{ STRING }
-		{ "mapcycles/ffa.txt" }
+		{ "mapcycles/sabian.txt" }
 	}
 
 	"sv_password"
@@ -73,21 +73,28 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ffa" }
+		{ "arcade" }
+	}
+
+	"sv_aura_gamemode_auto"
+	{
+		"#Phoenix_AutoGamemode"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"mp_fraglimit"
 	{
 		"#Valve_Frag_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "15.000000" }
+		{ "10.000000" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "15.000000" }
+		{ "10.000000" }
 	}
 
 	"mp_falldamage"
@@ -154,7 +161,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_SkipIntermission"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"sv_aura_mp5_old_rate"
@@ -168,11 +175,22 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1.000000" }
 	}
 
+	"sv_aura_fire_weapons_underwater"
+	{
+		"#Phoenix_UWeapons"
+		{
+			LIST
+			"#Phoenix_UWeaponsOff" "0"
+			"#Phoenix_UWeaponsOn" "1"
+		}
+		{ "0.000000" }
+	}
+
 	"sv_cheats"
 	{
 		"#Phoenix_Cheats"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"sv_aura_infinite_ammo"

@@ -26,33 +26,22 @@
 //--------------------------------------------------------
 // Everything below here is editable
 
-"6" "OK" 	"spec_menu 0"
+"7" "Close"	"spec_menu 0"
 
-"5" "Help"	"spec_help"
+"6" "Help"	"spec_help"
 
-"4" "Settings"
+"5" "Settings"
 {	
 	TOGGLE 	"6" "Chat Messages"	"hud_saytext"
-	
 	TOGGLE	"5" "Show Status"	"spec_drawstatus"
-	
 	TOGGLE	"4" "View Cone"		"spec_drawcone"
-	
 	TOGGLE	"3" "Player Names"	"spec_drawnames"
 }
 
-TOGGLE	"3" "Picture-In-Picture" "spec_pip"
-TOGGLE	"2" "Auto Director"	"spec_autodirector"
+TOGGLE	"4" "Picture-In-Picture" "spec_pip"
 
-//TEAM0 "3" "Join Game"	"joingame;chooseteam"
+TOGGLE	"3" "Auto Director"	"spec_autodirector"
 
-"1" "Show Scores"	"togglescores"
+"2" "Show Scores"	"togglescores"
 
-// Here are the rest of the buttons and submenus
-// You can change these safely if you want.
-
-
-
-
-
-
+"1" "Exit Spectator Mode"	"spectate"

@@ -31,7 +31,7 @@ Scheme
 		"ControlBG"			"118 138 116 255"		// background color of controls
 		"ControlDarkBG"		"62 70 55 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"5 147 255 124"	// background color of any selected text or menu item
+		"SelectionBG"		"191 0 255 255"	// background color of any selected text or menu item
 		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
 		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
 
@@ -163,11 +163,11 @@ Scheme
 
 		InGameDesktop
 		{
-			"MenuColor"			"255 255 255 255"
-			"ArmedMenuColor"	"7 60 135 255"
-			"BlurMenuColor"				"5 107 255 255"
+			"MenuColor"			"255 255 255 180"
+			"ArmedMenuColor"	"255 255 255 255"
+			"BlurMenuColor"				"255 255 255 255"
 			"DepressedMenuColor" "192 186 80 255"
-			"MenuHintColor"				"104 104 104 255"
+			"MenuHintColor"				"200 200 200 255"
 			"WidescreenBarColor" 		"0 0 0 0"
 			"MenuItemVisibilityRate"	"0.02"  // time it takes for one menu item to appear
 			"MenuItemHeight"			"48" // this is proportional to resolution
@@ -279,11 +279,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"24"
-				"weight"	"200"
+				"weight"	"10"
 				"dropshadow" "0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"blur" "0"
 			}
 		}
@@ -291,11 +291,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"blur" "0"
 			}
 		}
@@ -303,7 +303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "0"
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"13"
 				"weight"	"600"
 				"yres"	"480 599"
@@ -335,7 +335,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"15"
 				"weight"	"600"
 				"yres"	"600 767"
@@ -344,7 +344,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"600"
 				"yres"	"768 1023"
@@ -353,8 +353,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"21"
+				"name"		"W95FA"
+				"tall"		"32"
 				"weight"	"600"
 				"yres"	"1024 1299"
 				"dropshadow"	"1"
@@ -362,15 +362,15 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"28"
+				"name"		"W95FA"
+				"tall"		"36"
 				"weight"	"600"
 				"yres"	"1300 1699"
 				"dropshadow"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"35"
 				"weight"	"600"
 				"yres"	"1700 1899"
@@ -378,7 +378,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"42"
 				"weight"	"600"
 				"yres"	"1900 2499"
@@ -386,7 +386,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"56"
 				"weight"	"600"
 				"yres"	"2500 2999"
@@ -394,7 +394,7 @@ Scheme
 			}
 			"9"
 			{
-				"name"		"Verdana"
+				"name"		"W95FA"
 				"tall"		"70"
 				"weight"	"600"
 				"yres"	"3000 10000"
@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"W95FA"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -983,11 +983,12 @@ Scheme
 		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
-		"13"		"resource/microgram.ttf"
-		"14"		"resource/din1451alt.ttf"
-		"15"		"resource/AllertaStencil-Regular.ttf"
-		"16"		"resource/Aileron-Thin.otf"
-		"17"		"resource/bahnschrift.ttf"
-		"18"		"resource/CONDUIT_ITC.TTF"
+		"13"		"resource/typeface/microgram.ttf"
+		"14"		"resource/typeface/din1451alt.ttf"
+		"15"		"resource/typeface/AllertaStencil-Regular.ttf"
+		"16"		"resource/typeface/Aileron-Thin.otf"
+		"17"		"resource/typeface/bahnschrift.ttf"
+		"18"		"resource/typeface/CONDUIT_ITC.TTF"
+		"19"		"resource/typeface/W95FA.otf"
 	}
 }

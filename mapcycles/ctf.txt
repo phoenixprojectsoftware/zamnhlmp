@@ -1,3 +1,4 @@
+CTF_Boot_Camp
 CTF_Daydream
 CTF_Duff
 CTF_Echo
@@ -7,6 +8,3 @@ CTF_Infinity
 CTF_Omen
 CTF_Outland
 CTF_Wormhole
-Boot_Camp
-Datacore
-Stalkyard

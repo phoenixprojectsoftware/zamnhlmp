@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Dec 21 20:30:42 AM
+// File generated:  Tue Oct  1 15:36:11 AM
 //
 //
 // Cvar	-	Setting
@@ -55,18 +55,18 @@ DESCRIPTION INFO_OPTIONS
 		{ "1.200000" }
 	}
 
+	"cl_music_enabled"
+	{
+		"#Phoenix_AdaptiveMusic"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"default_fov"
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
 		{ "90.000000" }
-	}
-
-	"cl_viewmodel_fov"
-	{
-		"#Phoenix_ViewmodelFov"
-		{ NUMBER 0.000000 150.000000 }
-		{ "0.000000" }
 	}
 
 	"cl_autowepswitch"
@@ -90,9 +90,23 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_autostop"
+	{
+		"#Phoenix_AutoDemoStop"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"hud_centerid"
 	{
 		"#Valve_Center_Player_Names"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_nametags"
+	{
+		"#Phoenix_NameTags"
 		{ BOOL }
 		{ "1" }
 	}
@@ -101,14 +115,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_saytext_sound_path"
 	{
 		"#Phoenix_ChatSoundPath"
 		{ STRING }
-		{ "misc/talk.wav" }
+		{ "player/h2odeath.wav" }
 	}
 
 	"cl_killsound_path"
@@ -129,7 +143,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_timer"
@@ -152,21 +166,21 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NewScore" "0"
 			"#Phoenix_OldScore" "1"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
 		{ NUMBER 0.000000 35.000000 }
-		{ "0.000000" }
+		{ "5.000000" }
 	}
 
 	"cl_viewmodel_lag_enabled"
 	{
 		"#Phoenix_ViewmodelLag"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_viewmodel_ofs_forward"
@@ -226,7 +240,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudColor"
 		{ STRING }
-		{ "0" }
+		{ "255 128 0" }
 	}
 
 	"hud_rainbow"
@@ -240,14 +254,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSway"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hud_lag_sensitivity"
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "15" }
+		{ "5" }
 	}
 
 	"cl_crowbar_punch_enabled"
@@ -257,25 +271,32 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_shockrifle_punch_enabled"
+	{
+		"#Phoenix_ShoPu"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"cl_displacer_big_punch_enabled"
 	{
 		"#Phoenix_DisPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_gauss_random_punch_enabled"
 	{
 		"#Phoenix_GauPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_hornet_random_punch_enabled"
 	{
 		"#Phoenix_HorPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_mp5_new_punch_enabled"
@@ -286,14 +307,14 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_mp5_punch_roll_enabled"
 	{
 		"#Phoenix_RollPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_m249_new_punch_enabled"
@@ -304,7 +325,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_OldPunch" "0"
 			"#Phoenix_NewPunch" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 }

@@ -49,13 +49,25 @@
 	}
 	"8"
 	{
+		"label" "record demo"
+		"command" "engine agrecord"
+		"OnlyInGame" "1"
+	}
+	"9"
+	{
+		"label" "stop recording"
+		"OnlyInGame" "1"
+		"command" "stop"
+	}
+	"10"
+	{
 		"label" "credits"
 		"command" "engine map credits/Credits"
 		"notsingle" "1"
 		"notmulti" "1"
 		"HelpText" "See who made this game."
 	}
-	"9"
+	"11"
 	{
 		"label" "quit"
 		"command" "Quit"

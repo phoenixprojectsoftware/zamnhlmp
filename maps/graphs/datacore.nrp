@@ -1,4 +1,4 @@
-Node Graph Report for map:  datacore.bsp
+Node Graph Report for map:  Datacore.bsp
 70 Total Nodes
 
 Node#            0
@@ -1240,7 +1240,7 @@ Rejected Node  38 - Unreachable by Any Hull
 Node   37:
 
 NODE_LARGE_HULL step 592
-NODE_SMALL_HULL step 112
+NODE_SMALL_HULL step 96
 Rejected Node  29 - Unreachable by Any Hull
 NODE_LARGE_HULL step 272
 -------------------------------------------------------------------------------
