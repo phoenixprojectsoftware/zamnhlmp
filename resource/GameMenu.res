@@ -4,7 +4,8 @@
 	{
 		"label" "console"
 		"command" "engine toggleconsole"
-		"OnlyInGame" "1"
+		"notsingle" "1"
+		"notmulti" "1"
 	}
 	"2"
 	{
