@@ -2,44 +2,50 @@
 {
 	"1"
 	{
+		"label" "console"
+		"command engine toggleconsole"
+		"OnlyInGame" "1"
+	}
+	"2"
+	{
 		"label" "resume"
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 		"HelpText" "Return to the game."
 	}
-	"2"
+	"3"
 	{
 		"label" "leave game"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 		"HelpText" "Exit to the main menu."
 	}
-	"3"
+	"4"
 	{
 		"label" "players"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 		"HelpText" "View a list of the players currently in this server."
 	}
-	"4"
+	"5"
 	{
 		"label" "find games"
 		"command" "OpenServerBrowser"
 		"HelpText" "Opens the Server Browser."
 	}
-	"5"
+	"6"
 	{
 		"label" "custom game"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"HelpText" "Create your own game and play with friends."
 	}
-	"6"
+	"7"
 	{
 		"label" "options"
 		"command" "OpenOptionsDialog"
 		"HelpText" "Tune the game to your liking."
 	}
-	"7"
+	"8"
 	{
 		"label" "theatre"
 		"command" "OpenLoadDemoDialog"
@@ -47,19 +53,19 @@
 		"notmulti" "1"
 		"HelpText" "View a demo."
 	}
-	"8"
+	"9"
 	{
 		"label" "record demo"
 		"command" "engine agrecord"
 		"OnlyInGame" "1"
 	}
-	"9"
+	"10"
 	{
 		"label" "stop recording"
 		"OnlyInGame" "1"
-		"command" "stop"
+		"command" "engine stop"
 	}
-	"10"
+	"11"
 	{
 		"label" "credits"
 		"command" "engine map credits/Credits"
@@ -67,7 +73,7 @@
 		"notmulti" "1"
 		"HelpText" "See who made this game."
 	}
-	"11"
+	"12"
 	{
 		"label" "quit"
 		"command" "Quit"
