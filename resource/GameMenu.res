@@ -39,6 +39,7 @@
 		"label" "custom game"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"HelpText" "Create your own game and play with friends."
+		"notmulti" "1"
 	}
 	"7"
 	{
