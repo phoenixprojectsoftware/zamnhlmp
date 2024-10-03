@@ -3,7 +3,7 @@
 	"1"
 	{
 		"label" "console"
-		"command engine toggleconsole"
+		"command" "engine toggleconsole"
 		"OnlyInGame" "1"
 	}
 	"2"
