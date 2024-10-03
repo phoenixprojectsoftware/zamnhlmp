@@ -1,0 +1,14 @@
+// overview description file for avanti.bsp
+
+global 
+{
+	ZOOM	1.20
+	ORIGIN	298 	144	-512
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/avanti.bmp"
+	HEIGHT	-512
+}

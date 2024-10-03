@@ -1,0 +1,14 @@
+// overview description file for epicenter.bsp
+
+global 
+{
+	ZOOM	1.38
+	ORIGIN	416 	40	-32
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/epicenter.bmp"
+	HEIGHT	-32
+}

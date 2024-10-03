@@ -1,0 +1,14 @@
+// overview description file for hunted.bsp
+
+global 
+{
+	ZOOM	1.41
+	ORIGIN	-432 	-76	-2400
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/hunted.bmp"
+	HEIGHT	-2400
+}

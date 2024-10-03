@@ -1,0 +1,14 @@
+// overview description file for flagrun.bsp
+
+global 
+{
+	ZOOM	1.10
+	ORIGIN	0 	690	-64
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/flagrun.bmp"
+	HEIGHT	-64
+}

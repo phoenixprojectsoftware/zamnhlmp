@@ -1,0 +1,14 @@
+// overview description file for 2fort.bsp
+
+global 
+{
+	ZOOM	1.02
+	ORIGIN	0 	0	-1064
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/2fort.bmp"
+	HEIGHT	-1064
+}

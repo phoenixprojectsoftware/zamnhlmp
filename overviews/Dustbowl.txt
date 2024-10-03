@@ -1,0 +1,14 @@
+// overview description file for dustbowl.bsp
+
+global 
+{
+	ZOOM	0.98
+	ORIGIN	-448 	272	-464
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dustbowl.bmp"
+	HEIGHT	-464
+}

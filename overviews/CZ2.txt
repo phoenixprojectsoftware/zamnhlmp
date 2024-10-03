@@ -1,0 +1,14 @@
+// overview description file for cz2.bsp
+
+global 
+{
+	ZOOM	1.17
+	ORIGIN	144 	256	-353
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/cz2.bmp"
+	HEIGHT	-353
+}

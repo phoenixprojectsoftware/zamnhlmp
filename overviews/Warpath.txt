@@ -1,0 +1,14 @@
+// overview description file for warpath.bsp
+
+global 
+{
+	ZOOM	1.07
+	ORIGIN	112 	0	72
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/warpath.bmp"
+	HEIGHT	72
+}

@@ -1,0 +1,14 @@
+// overview description file for casbah.bsp
+
+global 
+{
+	ZOOM	1.10
+	ORIGIN	552 	-124	-64
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/casbah.bmp"
+	HEIGHT	-64
+}

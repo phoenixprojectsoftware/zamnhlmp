@@ -1,0 +1,14 @@
+// overview description file for ravelin.bsp
+
+global 
+{
+	ZOOM	1.04
+	ORIGIN	0 	0	-424
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ravelin.bmp"
+	HEIGHT	-208
+}

@@ -1,0 +1,14 @@
+// overview description file for push.bsp
+
+global 
+{
+	ZOOM	1.15
+	ORIGIN	0 	-5	-64
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/push.bmp"
+	HEIGHT	-64
+}

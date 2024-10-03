@@ -1,0 +1,14 @@
+// overview description file for badlands.bsp
+
+global 
+{
+	ZOOM	0.95
+	ORIGIN	-8 	0	-400
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/badlands.bmp"
+	HEIGHT	-400
+}

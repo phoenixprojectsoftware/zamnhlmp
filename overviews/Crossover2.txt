@@ -1,0 +1,14 @@
+// overview description file for crossover2.bsp
+
+global 
+{
+	ZOOM	1.11
+	ORIGIN	0 	0	-640
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/crossover2.bmp"
+	HEIGHT	-640
+}

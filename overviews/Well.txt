@@ -1,0 +1,14 @@
+// overview description file for well.bsp
+
+global 
+{
+	ZOOM	1.00
+	ORIGIN	0 	0	-208
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/well.bmp"
+	HEIGHT	-208
+}
