@@ -1,5 +1,5 @@
 // Command Menu definition
-// 
+// HI RYLEY!!!
 // Basic Format:
 //		"<Bound Key>" "<Button Text>" "<Command sent to server>"
 //
@@ -119,6 +119,7 @@
 		"10" "Snipers" 			"snipers"
 		"11" "Wild West"		"wildwest"
 		"12" "Halo"			"halo"
+		"13" "Chill"		"chill"
 	}
 	"3" "Team"
 	{
