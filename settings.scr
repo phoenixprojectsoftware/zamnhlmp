@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Oct  4 10:37:45 AM
+// File generated:  Mon Oct  7 12:41:17 AM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "hiphopparappa's Server" }
+		{ "Ry13y04's Server" }
 	}
 
 	"maxplayers"
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Mapcycle"
 		{ STRING }
-		{ "mapcycles/sabian.txt" }
+		{ "mapcycles/default.txt" }
 	}
 
 	"sv_password"
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "chill" }
+		{ "arcade" }
 	}
 
 	"sv_aura_gamemode_auto"
@@ -87,14 +87,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Frag_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "10.000000" }
+		{ "15.000000" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "10.000000" }
+		{ "15.000000" }
 	}
 
 	"mp_falldamage"
@@ -143,13 +143,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"sv_aura_regeneration"
-	{
-		"#Phoenix_SuitRegen"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"mp_intermission_time"
 	{
 		"#Phoenix_IntermissionTime"
@@ -161,7 +154,35 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_SkipIntermission"
 		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_lan"
+	{
+		"#Phoenix_LANServer"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_aura_regeneration"
+	{
+		"#Phoenix_SuitRegen"
+		{ BOOL }
 		{ "1" }
+	}
+
+	"sv_aura_infinite_ammo"
+	{
+		"#Phoenix_InfiniteAmmo"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"sv_cheats"
+	{
+		"#Phoenix_Cheats"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"sv_aura_mp5_old_rate"
@@ -184,27 +205,6 @@ DESCRIPTION SERVER_OPTIONS
 			"#Phoenix_UWeaponsOn" "1"
 		}
 		{ "0.000000" }
-	}
-
-	"sv_cheats"
-	{
-		"#Phoenix_Cheats"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"sv_aura_infinite_ammo"
-	{
-		"#Phoenix_InfiniteAmmo"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"sv_lan"
-	{
-		"#Phoenix_LANServer"
-		{ BOOL }
-		{ "0" }
 	}
 
 }
