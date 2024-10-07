@@ -86,12 +86,15 @@
 
 "2" "Voting"
 {
-	"1" "Vote Yes" 		"yes"
-	"2" "Vote No" 		"no"
-	"3" "Start Match" 	"agstart"
-	"4" "Start Match Full" 	"agstart full"
+	"1" "Vote yes" 		"yes"
+	"2" "Vote no" 		"no"
+	"3" "Start match" 	"agstart"
+	"4" "Start match full" 	"agstart full"
+	"5" "Abort match"	"agabort"
 	"5" "Call timeout" 	"timeout"
 	"6" "Extend timer" 	"agmoretime"
+	"7" "Change map now"	"messagemode agmap"
+	"8" "Set next map"	"messagemode agnextmap"
 }
 
 "3" "Gamemodes"
