@@ -7,8 +7,12 @@ Red Flag, use the entity 'item_flag_team2'.
 For the Blue Team spawn point, use the entity 'info_player_team1'. For the
 Blue Flag, use the entity 'item_flag_team1'.
 
-You can get your coordinates in-game by typing 'status' in the console.
+LIST OF COMMANDS:
+addctfitem <entityname>
+Add an entity to the .CTF file.
 
-Example:
-The entity.       Coordinates.    Rotation.
-info_player_team1 -162 1448 -1631 0 0 0
+dellastctfitem
+Delete the last added entity.
+
+listctfitem
+Lists all the entities added aswell as visual cues in the map.
