@@ -38,7 +38,6 @@
 	{
 		"1" "Console help"	"help;toggleconsole"
 		"2" "Aura version"	"version_aura;toggleconsole"
-		"3" "Game settings" 	"settings"
 	}
 	"1" "Timer"
 	{
@@ -46,13 +45,13 @@
 		"2" "Elapsed"	"hud_timer 2"
 		"0" "Off"	"hud_timer 0"
 	}
-	"2" "Mini scoreboard"
+	"2" "Mini Scoreboard"
 	{
 		"1" "2 players/teams"	"cl_scores 2"
 		"2" "4 players/teams"	"cl_scores 4"
 		"0" "Off"		"cl_scores 0"
 	}
-	"3" "Old scoreboard"
+	"3" "Old Scoreboard"
 	{
 		"1" "On"	"cl_old_scoreboard 1"
 		"2" "Off"	"cl_old_scoreboard 0"
@@ -86,15 +85,16 @@
 
 "2" "Voting"
 {
-	"1" "Vote yes" 		"yes"
-	"2" "Vote no" 		"no"
-	"3" "Start match" 	"agstart"
-	"4" "Start match full" 	"agstart full"
-	"5" "Abort match"	"agabort"
-	"5" "Call timeout" 	"timeout"
-	"6" "Extend timer" 	"agmoretime"
-	"7" "Change map now"	"messagemode agmap"
-	"8" "Set next map"	"messagemode agnextmap"
+	"1" "Vote Yes" 		"yes"
+	"2" "Vote No" 		"no"
+	"3" "Ready"		"ready"
+	"4" "Not Ready"		"notready"
+	"5" "Start Match" 	"agstart"
+	"6" "Start Match Full" 	"agstart full"
+	"7" "Abort Match"	"agabort"
+	"8" "Call Timeout" 	"timeout"
+	"9" "Extend Timer" 	"agmoretime"
+	"0" "Show Settings" 	"settings"
 }
 
 "3" "Gamemodes"
