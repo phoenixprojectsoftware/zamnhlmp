@@ -4,4 +4,4 @@ weapon_s		320 320hudof01	80	180	80	20
 ammo			320 320hud2	90	34	18	18
 weapon			640 op4/weapon_penguin_weapon	0	0	340	90
 weapon_s		640 op4/weapon_penguin_weapon_s	0	0	340	90
-ammo			640 640hud7	144	72	24	24
+ammo			640 op4/weapon_penguin_ammo	0	0	48	48
