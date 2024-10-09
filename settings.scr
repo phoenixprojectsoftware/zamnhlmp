@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Oct  9 01:28:25 AM
+// File generated:  Wed Oct  9 11:47:39 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Ry13y04's Server" }
+		{ "hiphopparappa's Server" }
 	}
 
 	"maxplayers"
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "ctf2" }
 	}
 
 	"sv_aura_gamemode_auto"
@@ -161,7 +161,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_LANServer"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"sv_aura_regeneration"
