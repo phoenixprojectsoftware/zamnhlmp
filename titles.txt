@@ -11,77 +11,32 @@ $holdtime 4
 
 VALVEIS
 {
-The Phoenix Project Software is
+The Phoenix Project Software: ZAMNHLMP & Aura Team is
 }
 
 END2
 {
-AngryRetroNerd
+BlueNightHawk
 }
 
 END3
 {
-Aran O'Day
+GlitchGod
 }
 
 END4
 {
-Enzo Sousa
+Ry13y04
 }
 
 END5
 {
-Harry Williams
+Rafael Soares
 }
 
 END6
 {
-Ivan
-}
-
-END7
-{
-MTB Animations
-}
-
-END8 
-{
-Jan Stanislav Voros
-}
-
-END9 
-{
-Petr Vyhlidal
-}
-
-END10 
-{
-Rafael Soares
-}
-
-END11
-{
-Ry13y04
-}
-
-END12
-{
 Sabian Roberts
-}
-
-END13
-{
-Syphothis
-}
-
-END14
-{
-Techlin
-}
-
-END15
-{
-Unowninator
 }
 
 // ALLSTAR DEATHMATCH CREDITS
