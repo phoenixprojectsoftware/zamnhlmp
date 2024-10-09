@@ -2416,7 +2416,7 @@
 [
 	health(choices) : "Track #" : -1 =
 	[
-		-1 : "Stop"
+		-1 : "Stop / Gamemode Music"
 		1 : "Track 1"
 		2 : "Track 2"
 		3 : "Track 3"
@@ -2494,7 +2494,7 @@
 [
 	health(choices) : "Track #" : -1 =
 	[
-		-1 : "Stop"
+		-1 : "Stop / Gamemode Music"
 		1 : "Track 1"
 		2 : "Track 2"
 		3 : "Track 3"
