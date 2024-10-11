@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Tue Oct  1 15:36:11 AM
+// File generated:  Fri Oct 11 18:08:29 AM
 //
 //
 // Cvar	-	Setting
@@ -60,6 +60,13 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_AdaptiveMusic"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"cl_vibration"
+	{
+		"#Phoenix_Vibration"
+		{ BOOL }
+		{ "0" }
 	}
 
 	"default_fov"
@@ -101,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_nametags"
@@ -115,14 +122,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HideCorpses"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_saytext_sound_path"
 	{
 		"#Phoenix_ChatSoundPath"
 		{ STRING }
-		{ "player/h2odeath.wav" }
+		{ "misc/talk.wav" }
 	}
 
 	"cl_killsound_path"
@@ -155,7 +162,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_TimeLeft" "1"
 			"#Phoenix_TimeElapsed" "2"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_old_scoreboard"
@@ -166,7 +173,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_NewScore" "0"
 			"#Phoenix_OldScore" "1"
 		}
-		{ "1.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_scores"
