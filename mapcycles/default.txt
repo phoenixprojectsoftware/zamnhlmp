@@ -1,5 +1,4 @@
 Guardian
-Gasworks
 Rust
 City
 Cove_Night

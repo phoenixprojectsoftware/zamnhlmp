@@ -1,4 +1,5 @@
 2Fort
+CZ2
 Crossfire
 Doublefort
 Doublecross
