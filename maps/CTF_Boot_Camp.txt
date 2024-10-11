@@ -1,3 +1,4 @@
-A military camp used by the Hazardous Environment Combat Unit, repurposed.
+A military camp used by the Hazardous Environment Combat Unit, repurposed
+for Capture the Flag.
 
 Map Author: Valve Software
