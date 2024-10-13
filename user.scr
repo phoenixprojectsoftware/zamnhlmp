@@ -150,7 +150,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSound"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_timer"
@@ -187,7 +187,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ViewmodelLag"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_viewmodel_ofs_forward"
@@ -247,7 +247,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudColor"
 		{ STRING }
-		{ "255 128 0" }
+		{ "0" }
 	}
 
 	"hud_rainbow"
@@ -261,14 +261,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_HudSway"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_hud_lag_sensitivity"
 	{
 		"#Phoenix_HudSwayAmount"
 		{ STRING }
-		{ "5" }
+		{ "25" }
 	}
 
 	"cl_crowbar_punch_enabled"
