@@ -66,8 +66,6 @@
 "blank"					"=========================="
 "+showscores"				"#Valve_Display_Scores"
 "snapshot"				"#Valve_Take_Screen_Shot"
-"agrecord"				"#Phoenix_DemoStart"
-"stop"					"#Phoenix_DemoStop"
 "hudon"					"#Phoenix_HudOn"
 "hudoff"				"#Phoenix_HudOff"
 "pause"					"#Valve_Pause_Game"
