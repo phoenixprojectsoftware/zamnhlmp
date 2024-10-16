@@ -1,3 +1,6 @@
+# SEASON 3 (2.3) LEGACY VERSION
+To play, name the modfolder containing these files `zamnhlmp-s3`
+
 # Half-Life: Zombies Ate My Neighbours Multiplayer
 This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress public playtest builds.
 
