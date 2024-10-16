@@ -1,3 +1,6 @@
+# SEASON 8 (2.8.3) LEGACY VERSION
+To play, name the modfolder containing these files `zamnhlmp-s8`
+
 # Half-Life: Zombies Ate My Neighbours Multiplayer
 This GitHub page hosts the latest ZAMNHLMP release build (current version `2.8`) and Public Playtest (PPT) development builds
 
