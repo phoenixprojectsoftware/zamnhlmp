@@ -1,3 +1,6 @@
+# SEASON 6 (2.6) LEGACY VERSION
+To play, name the modfolder containing these files `zamnhlmp-s6`
+
 # Half-Life: Zombies Ate My Neighbours Multiplayer
 This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress Phoenix Insider builds.
 
