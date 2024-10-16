@@ -1,3 +1,6 @@
+# SEASON 5 (2.5.1) LEGACY VERSION
+To play, name the modfolder containing these files `zamnhlmp-s5`
+
 # Half-Life: Zombies Ate My Neighbours Multiplayer
 This GitHub page hosts *ZAMNHLMP* stable builds and work-in-progress public playtest builds.
 
