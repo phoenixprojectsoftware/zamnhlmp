@@ -257,13 +257,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"cl_hud_lag_enabled"
-	{
-		"#Phoenix_HudSway"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"cl_hud_lag_sensitivity"
 	{
 		"#Phoenix_HudSwayAmount"
