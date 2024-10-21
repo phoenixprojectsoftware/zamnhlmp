@@ -11,8 +11,6 @@ for in-development Public Playtest (PPT) & Release Candidate (RC) builds.
 # Source code & SDK
 ZAMNHLMP uses the Aura codebase built from AG by Martin Webbrant. The source code & SDK is split into two
 repos: [serverside](https://github.com/phoenixprojectsoftware/Aura-SE) and [clientside.](https://github.com/phoenixprojectsoftware/Aura-CL)
-# Instruction Manual
-[Click here to read the instruction manual.](https://phoenixprojectsoftware.github.io/zamnhlmp/Manual/Instruction%20Manual.pdf)
 
 # ZAMNHLMP uses Freepik Textures.
 1. <a href="https://www.freepik.com/free-photo/black-concrete-textured-background_18998285.htm#query=matte%20black%20texture&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik
