@@ -257,13 +257,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"cl_hud_lag_sensitivity"
-	{
-		"#Phoenix_HudSwayAmount"
-		{ STRING }
-		{ "25" }
-	}
-
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
