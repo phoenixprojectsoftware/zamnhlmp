@@ -143,6 +143,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
+	"mp_autocrosshair"
+	{
+		"#Valve_Autocrosshair"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"mp_intermission_time"
 	{
 		"#Phoenix_IntermissionTime"
