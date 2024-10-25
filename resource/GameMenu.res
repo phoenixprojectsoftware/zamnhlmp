@@ -53,7 +53,7 @@
 		"command" "OpenLoadDemoDialog"
 		"notsingle" "1"
 		"notmulti" "1"
-		"HelpText" "View a demo."
+		"HelpText" "Watch any demos you have recorded."
 	}
 	"9"
 	{
