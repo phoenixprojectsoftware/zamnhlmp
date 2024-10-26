@@ -187,7 +187,9 @@ bucket1			640 640hud7	168	72	20	20
 bucket2			640 640hud7	188	72	20	20		
 bucket3			640 640hud7	208	72	20	20		
 bucket4			640 640hud7	168	92	20	20		
-bucket5			640 640hud7	188	92	20	20		
+bucket5			640 640hud7	188	92	20	20	
+bucket6     640 640hud7 228 72 20 20
+bucket7     640 640hud7 228 92 20 20
 bucket0			640 640hud7	208	92	20	20		
 
 dmg_bio			640 640hud8	128	0	64	64
