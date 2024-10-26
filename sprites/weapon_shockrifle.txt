@@ -1,11 +1,13 @@
-10
+12
 ammo            320 320hud2 18  86  18  18
 crosshair       320 ofch1  0  24   24  24
 autoaim         320 crosshairs  24  72  24  24
 weapon          320 320hudof01 80   40   80  20
 weapon_s        320 320hudof01 80   60  80  20
-ammo            640 op4/weapon_shockrifle_ammo 		0	0	48	48
+ammo            2560 op4/weapon_shockrifle_ammo 		0	0	48	48
 crosshair       640 floydop4  192  0   64  64
 autoaim         640 floydop4  128  128  64  64
-weapon		640 op4/weapon_shockrifle_weapon	0	0	340	90
-weapon_s	640 op4/weapon_shockrifle_weapon_s	0	0	340	90
+weapon          640 640hudof03 0   45   170 45
+weapon_s        640 640hudof04 0   45   170 45
+weapon		2560 op4/weapon_shockrifle_weapon	0	0	340	90
+weapon_s	2560 op4/weapon_shockrifle_weapon_s	0	0	340	90

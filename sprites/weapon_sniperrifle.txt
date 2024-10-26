@@ -1,13 +1,16 @@
-12
+15
 ammo            320 320hud2 18  16  18  18
 zoom            320 ofch2  0  0   256  256
 crosshair       320 ofch1  0  48   24  24
 autoaim         320 crosshairs  24  72  24  24
 weapon          320 320hudof01 80   120   80  20
 weapon_s        320 320hudof01 80   140  80  20
-ammo            640 1280/weapon_357_ammo 24  72  24  24
+ammo            640 640hud7 24  72  24  24
 zoom            640 ofch2  0  0   256  256
 crosshair       640 floydop4  64  96  64  32
 autoaim         640 floydop4  192  128  64  32
-weapon			640 op4/weapon_sniperrifle_weapon	0	0	340	90
-weapon_s		640 op4/weapon_sniperrifle_weapon_s	0	0	340	90
+weapon          640 640hudof03 0   135  170 45
+weapon_s        640 640hudof04 0   135  170 45
+ammo            1280 1280/weapon_357_ammo 24  72  24  24
+weapon			2560 op4/weapon_sniperrifle_weapon	0	0	340	90
+weapon_s		2560 op4/weapon_sniperrifle_weapon_s	0	0	340	90
