@@ -9,6 +9,6 @@ crosshair       	640 floydop4  	128  	0   	64  	64
 autoaim         	640 floydop4  	0  	128  	64  	64
 weapon          	640 640hudof01 	0   	180   	170 	45
 weapon_s        	640 640hudof02 	0   	180   	170 	45
-ammo            	1280 1280/weapon_gauss_ammo 	24  	72  	24  	24
-weapon			2560 op4/weapon_displacer_weapon	0	0	340	90
-weapon_s		2560 op4/weapon_displacer_weapon_s	0	0	340	90
+ammo            	1280 1280/weapon_gauss_ammo 	0	0	48	48
+weapon			1280 1280/op4/weapon_displacer_weapon	0	0	340	90
+weapon_s		1280 1280/op4/weapon_displacer_weapon_s	0	0	340	90
