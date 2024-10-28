@@ -1,4 +1,4 @@
-16
+17
 ammo            	320 320hud2 	18  	16  	18  	18
 zoom            	320 ofch2  	0  	0   	256  	256
 crosshair       	320 ofch1  	0  	48   	24  	24
