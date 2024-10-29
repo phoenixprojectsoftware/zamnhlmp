@@ -26,6 +26,7 @@
 		"label" "players"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
+		"notsingle" "1"
 		"HelpText" "View a list of the players currently in this server."
 	}
 	"5"
@@ -40,6 +41,7 @@
 		"command" "OpenCreateMultiplayerGameDialog"
 		"HelpText" "Create your own game and play with friends."
 		"notmulti" "1"
+		"notsingle" "1"
 	}
 	"7"
 	{
