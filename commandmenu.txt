@@ -41,9 +41,9 @@
 	}
 	"1" "Timer"
 	{
-		"1" "Remaining"	"hud_timer 1"
-		"2" "Elapsed"	"hud_timer 2"
-		"0" "Off"	"hud_timer 0"
+		"1" "Remaining"		"hud_timer 1"
+		"2" "Elapsed"		"hud_timer 2"
+		"0" "Off"		"hud_timer 0"
 	}
 	"2" "Mini Scoreboard"
 	{
@@ -53,33 +53,33 @@
 	}
 	"3" "Old Scoreboard"
 	{
-		"1" "On"	"cl_old_scoreboard 1"
-		"2" "Off"	"cl_old_scoreboard 0"
+		"1" "On"		"cl_old_scoreboard 1"
+		"2" "Off"		"cl_old_scoreboard 0"
 	}
 	"4" "Viewmodel"
 	{
-		"1" "On"	"r_drawviewmodel 1"
-		"2" "Off"	"r_drawviewmodel 0"
+		"1" "On"		"r_drawviewmodel 1"
+		"2" "Off"		"r_drawviewmodel 0"
 	}
 	"5" "Speedometer"
 	{
-		"1" "On"	"hud_speedometer 1"
-		"2" "Off"	"hud_speedometer 0"
+		"1" "On"		"hud_speedometer 1"
+		"2" "Off"		"hud_speedometer 0"
 	}
 	"6" "Jumpspeed"
 	{
-		"1" "On"	"hud_jumpspeed 1"
-		"2" "Off"	"hud_jumpspeed 0"
+		"1" "On"		"hud_jumpspeed 1"
+		"2" "Off"		"hud_jumpspeed 0"
 	}
 	"7" "Netgraph"
 	{
-		"1" "On"	"net_graph 3"
-		"2" "Off"	"net_graph 0"
+		"1" "On"		"net_graph 3"
+		"2" "Off"		"net_graph 0"
 	}
 	"8" "Showfps"
 	{
-		"1" "On"	"cl_showfps 1"
-		"2" "Off"	"cl_showfps 0"
+		"1" "On"		"cl_showfps 1"
+		"2" "Off"		"cl_showfps 0"
 	}
 }
 
@@ -102,11 +102,12 @@
 	"1" "Standard"
 	{
 		"1" "Arena"			"arena"
-		"2" "Free for All"		"ffa"
-		"3" "Half-Life Deathmatch"	"hldm"
-		"4" "Instant Gib"		"instagib"
-		"5" "Last Man Standing"		"lms"
-		"6" "SWAT" 			"swat"
+		"2" "creaTive Deathmatch"	"creative"
+		"3" "Free for All"		"ffa"
+		"4" "Half-Life Deathmatch"	"hldm"
+		"5" "Instant Gib"		"instagib"
+		"6" "Last Man Standing"		"lms"
+		"7" "SWAT" 			"swat"
 	}
 	"2" "Casual"
 	{
@@ -114,12 +115,12 @@
 		"2" "Barnacles"			"barnacle"
 		"3" "Boobies"			"boobies"
 		"4" "Crowbar Arena"		"cbar"
-		"5" "creaTive Deathmatch"	"creative"
-		"6" "Displacement"		"displace"
-		"7" "Penguin Wars" 		"pengwars"
-		"8" "One In the Chamber" 	"oitc"
-		"9" "Rockets" 			"rockets"
-		"10" "Snipers" 			"snipers"
+		"5" "Displacement"		"displace"
+		"6" "Penguin Wars" 		"pengwars"
+		"7" "One In the Chamber" 	"oitc"
+		"8" "Rockets" 			"rockets"
+		"9" "Snipers" 			"snipers"
+		"10" "Super Barnacles"		"superbarnacle"
 		"11" "Wild West"		"wildwest"
 		"12" "Halo"			"halo"
 		"13" "Chill"			"chill"
@@ -128,13 +129,14 @@
 	{
 		"1" "Team Deathmatch" 		"tdm"
 		"2" "Capture the Flag"		"ctf"
-		"3" "Domination" 		"dom"
-		"4" "Last Team Standing" 	"lts"
-		"5" "Team Arcade"		"tarcade"
-		"6" "Team Barnacles"		"tbarnacle"
-		"7" "Team Crowbar Arena"	"tcbar"
-		"8" "Team SWAT"			"tswat"
-		"9" "Team Snipers"		"tsnipers"
+		"3" "CTF Rounds"		"ctf2"
+		"4" "Domination" 		"dom"
+		"5" "Last Team Standing" 	"lts"
+		"6" "Team Arcade"		"tarcade"
+		"7" "Team Barnacles"		"tbarnacle"
+		"8" "Team Crowbar Arena"	"tcbar"
+		"9" "Team SWAT"			"tswat"
+		"10" "Team Snipers"		"tsnipers"
 	}
 	"4" "Season 5"
 	{
