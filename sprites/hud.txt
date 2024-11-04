@@ -73,16 +73,16 @@ d_snark			2560 2560/hud_d_snark		0	0	96	48
 d_skull			2560 2560/hud_d_skull		0	0	96	48
 d_tracktrain		2560 2560/hud_d_tracktrain	0	0	96	48
 
-d_pipewrench		2560 640hudof01 		192 	0 	48  	16
-d_grapple		2560 640hudof01 		192 	16 	48  	16
-d_eagle			2560 640hudof01 		192 	32 	48  	16
-d_displacer_ball	2560 640hudof01 		192 	48 	48 	16
-d_spore			2560 640hudof01 		192 	64 	48  	16
-d_shock_beam		2560 640hudof01 		192 	80 	48  	16
-d_m249			2560 640hudof01 		192 	96 	52  	16
-d_knife			2560 640hudof01 		192 	112 	48  	16
-d_sniperrifle		2560 640hudof01 		192 	128 	48  	16
-d_penguin		2560 640hudof01 		192 	144 	48  	16
+d_pipewrench		2560 2560/op4/hud_d_pipewrench 		0	0	144	48
+d_grapple		2560 2560/op4/hud_d_grapple 		0	0	144	48
+d_eagle			2560 2560/op4/hud_d_eagle 		0	0	144	48
+d_displacer_ball	2560 2560/op4/hud_d_displacer_ball 	0	0	144	48
+d_spore			2560 2560/op4/hud_d_spore 		0	0	144	48
+d_shock_beam		2560 2560/op4/hud_d_shock_beam 		0	0	144	48
+d_m249			2560 2560/op4/hud_d_m249 		0	0	144	48
+d_knife			2560 2560/op4/hud_d_knife 		0	0	144	48
+d_sniperrifle		2560 2560/op4/hud_d_sniperrifle 	0	0	144	48
+d_penguin		2560 2560/op4/hud_d_penguin 		0	0	144	48
 
 item_battery		2560 2560/hud_item_battery	0	0	132	132
 item_healthkit		2560 2560/hud_item_healthkit	0	0	132	132
