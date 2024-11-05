@@ -1,4 +1,4 @@
-15
+20
 ammo            	320 320hud2 	18  	16  	18  	18
 crosshair       	320 ofch1  	24  	0   	24  	24
 autoaim         	320 crosshairs  24  	72  	24  	24
