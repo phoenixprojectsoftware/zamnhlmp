@@ -15,7 +15,7 @@ autoaim         	1280 floydop4  	64  	128  	64  	64
 weapon			1280 1280/op4/weapon_deagle_weapon	0	0	340	90
 weapon_s		1280 1280/op4/weapon_deagle_weapon_s	0	0	340	90
 ammo			2560 2560/weapon_357_ammo	0	0	72	72
-weapon			2560 2560/op4/weapon_deagle_weapon	0	0	510	135
-weapon_s		2560 2560/op4/weapon_deagle_weapon_s	0	0	510	135
 crosshair       	2560 floydop4  	0  	0   	64  	64
 autoaim         	2560 floydop4  	64  	128  	64  	64
+weapon			2560 2560/op4/weapon_deagle_weapon	0	0	510	135
+weapon_s		2560 2560/op4/weapon_deagle_weapon_s	0	0	510	135
