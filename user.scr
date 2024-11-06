@@ -162,7 +162,7 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_TimeLeft" "1"
 			"#Phoenix_TimeElapsed" "2"
 		}
-		{ "0.000000" }
+		{ "1.000000" }
 	}
 
 	"cl_old_scoreboard"
@@ -180,7 +180,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_MiniScores"
 		{ NUMBER 0.000000 35.000000 }
-		{ "5.000000" }
+		{ "0.000000" }
 	}
 
 	"cl_viewmodel_lag_enabled"
