@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Nov  6 01:12:03 AM
+// File generated:  Wed Nov  6 01:05:15 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "asdf" }
+		{ "Stephen Avery's Server" }
 	}
 
 	"maxplayers"
@@ -143,9 +143,9 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"mp_autocrosshair"
+	"sv_allow_autoaim"
 	{
-		"#Valve_Autocrosshair"
+		"#Phoenix_Allow_Autoaim"
 		{ BOOL }
 		{ "0" }
 	}
