@@ -163,7 +163,7 @@ Scheme
 
 		InGameDesktop
 		{
-			"MenuColor"			"255 255 255 180"
+			"MenuColor"			"255 255 255 150"
 			"ArmedMenuColor"		"255 255 255 255"
 			"BlurMenuColor"			"255 255 255 255"
 			"DepressedMenuColor" 		"192 186 80 255"
