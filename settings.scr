@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Nov  6 01:05:15 PM
+// File generated:  Sat Nov  9 02:28:21 AM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Stephen Avery's Server" }
+		{ "Zeke's Server" }
 	}
 
 	"maxplayers"
@@ -59,7 +59,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Mapcycle"
 		{ STRING }
-		{ "mapcycles/default.txt" }
+		{ "default" }
 	}
 
 	"sv_password"
@@ -73,14 +73,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "arcade" }
+		{ "creative" }
 	}
 
 	"sv_aura_gamemode_auto"
 	{
 		"#Phoenix_AutoGamemode"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_fraglimit"
@@ -126,7 +126,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Force_Respawn"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_footsteps"
