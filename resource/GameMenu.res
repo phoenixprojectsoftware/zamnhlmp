@@ -1,12 +1,5 @@
 "GameMenu"
 {
-	"1"
-	{
-		"label" "console"
-		"command" "engine toggleconsole"
-		"notsingle" "1"
-		"notmulti" "1"
-	}
 	"2"
 	{
 		"label" "resume"
