@@ -6,7 +6,7 @@
 "changeteam"				"#Valve_Change_Team"
 "+commandmenu"				"#Phoenix_Cmd"
 "dropitems"				"#Phoenix_Drop"
-"say_team %l"				"#Phoenix_Callout"
+"say_team %l (%H/%A)"			"#Phoenix_Callout"
 "blank"					"=========================="
 "blank"					"#Theatre_Controls"
 "the_pause"				"#Theatre_Pause"
