@@ -1,5 +1,10 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://xblah.dev/modding-tool/
+
 game "Shooter Tourneys"
 gamedir "zamnhlmp"
 startmap "devtest"
 gamedll "dlls/creative.dll"
 hd_background "1"
+type "multiplayer_only"
+nomodels "0"
