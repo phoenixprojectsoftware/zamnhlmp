@@ -28,9 +28,9 @@ Scheme
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"			"118 138 116 25"		// background color of controls
+		"ControlBG"			"118 138 116 255"		// background color of controls
 		"ControlDarkBG"		"118 138 116 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"0 0 0 124"		// background color of text edit panes (chat, text entries, etc.)
+		"WindowBG"			"0 0 0 255"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"30 166 0 124"	// background color of any selected text or menu item
 		"SelectionBG2"		"40 46 34 124"		// selection background in window w/o focus
 		"ListBG"			"62 70 55 124"		// background of server browser, buddy list, etc.
@@ -38,8 +38,8 @@ Scheme
 		// titlebar colors
 		"TitleText"			"255 255 255 255"
 		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"76 88 68 0"
-		"TitleDimBG"		"76 88 68 0"
+		"TitleBG"			"76 88 68 255"
+		"TitleDimBG"		"76 88 68 255"
 		
 		// slider tick colors
 		"SliderTickColor"	"127 140 127 255"
@@ -189,10 +189,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"SF UI Text"
 				"tall"		"16"
 				"weight"	"0"
-				"antialias" "0"
+				"antialias" "1"
 			}
 		}
 		"DefaultBold"
@@ -341,8 +341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"36"
+				"name"		"SF UI Text"
+				"tall"		"25"
 				"weight"	"1200"
 				"antialias"	"1"
 				"yres"	"1 10000"
@@ -834,5 +834,23 @@ Scheme
 				}
 			}
 		}
+	}
+	
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	CustomFontFiles
+	{
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
+		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
+		"13"	"resource/typeface/SFUIText-Regular.ttf"
+		"14"	"resource/typeface/ARDESTINE.ttf"
 	}
 }
