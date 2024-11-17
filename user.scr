@@ -69,6 +69,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"hud_watermark"
+	{
+		"#Phoenix_Watermark"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"default_fov"
 	{
 		"#Phoenix_Fov"
