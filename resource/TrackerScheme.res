@@ -194,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
@@ -204,7 +204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -213,7 +213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -990,5 +990,6 @@ Scheme
 		"17"		"resource/typeface/bahnschrift.ttf"
 		"18"		"resource/typeface/CONDUIT_ITC.TTF"
 		"19"		"resource/typeface/W95FA.otf"
+		"20"		"resource/typeface/D-DIN-Bold.otf"
 	}
 }
