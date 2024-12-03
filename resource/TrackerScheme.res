@@ -176,9 +176,13 @@ Scheme
 
 		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+
+		"UseScaledCreditsFont" "1"
 		
-		"ProportionalBaseWidth" "1280"		// if the display resolution is above this,
-		"ProportionalBaseHeight" "720"		//  ui elements will be scaled.
+		"ProportionalBaseWidth" "640"		// if the display resolution is above this,
+		"ProportionalBaseHeight" "480"		//  ui elements will be scaled.
+		"ProportionalBaseWidthHD" "1280"		
+		"ProportionalBaseHeightHD" "720"	
 	}
 
 	//
