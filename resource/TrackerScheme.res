@@ -19,8 +19,8 @@ Scheme
 		"BaseText"		"216 222 211 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
+		"DimBaseText"		"177 189 164 255"	// dim base text
+		"LabelDimText"		"177 189 164 255"	// used for info text
 		"ControlText"		"216 222 211 255"	// used in all text controls
 		"BrightControlText"	"196 181 80 255"	// use for selected controls
 		"DisabledText1"		"117 128 111 255"	// disabled text
