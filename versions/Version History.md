@@ -61,8 +61,10 @@ Development of this game originally started as *creaTive Deathmatch* in May 2019
 45. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-PPT5 - 15th October 2024
 46. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-RC01 - 22nd October 2024
 47. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-RC02 - 5th November 2024
-48. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-RC03 - 
-49. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9 - 
+48. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-RC03 - 11th November 2024
+49. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9-RC04 - 12th November 2024
+50. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9 - 15th November 2024
+51. Half-Life: Zombies Ate My Neighbours Multiplayer 2.9.1
 
 ## Season 10
 ??. Half-Life: Zombies Ate My Neighbours Multiplayer 2.10
