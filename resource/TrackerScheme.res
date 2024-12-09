@@ -19,8 +19,8 @@ Scheme
 		"BaseText"		"216 222 211 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
+		"DimBaseText"		"177 189 164 255"	// dim base text
+		"LabelDimText"		"177 189 164 255"	// used for info text
 		"ControlText"		"216 222 211 255"	// used in all text controls
 		"BrightControlText"	"196 181 80 255"	// use for selected controls
 		"DisabledText1"		"117 128 111 255"	// disabled text
@@ -176,9 +176,13 @@ Scheme
 
 		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+
+		"UseScaledCreditsFont" "1"
 		
-		"ProportionalBaseWidth" "1280"		// if the display resolution is above this,
-		"ProportionalBaseHeight" "720"		//  ui elements will be scaled.
+		"ProportionalBaseWidth" "640"		// if the display resolution is above this,
+		"ProportionalBaseHeight" "480"		//  ui elements will be scaled.
+		"ProportionalBaseWidthHD" "1280"		
+		"ProportionalBaseHeightHD" "720"	
 	}
 
 	//
@@ -194,7 +198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
@@ -204,7 +208,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -213,7 +217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -234,7 +238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
@@ -244,7 +248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -990,5 +994,6 @@ Scheme
 		"17"		"resource/typeface/bahnschrift.ttf"
 		"18"		"resource/typeface/CONDUIT_ITC.TTF"
 		"19"		"resource/typeface/W95FA.otf"
+		"20"		"resource/typeface/D-DIN-Bold.otf"
 	}
 }
