@@ -202,6 +202,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 		"DefaultBold"
@@ -286,8 +287,8 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"24"
 				"weight"	"10"
-				"dropshadow" "0"
-				"antialias"	"0"
+				"dropshadow" "1"
+				"antialias"	"1"
 				"blur" "0"
 			}
 		}
@@ -298,8 +299,8 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"20"
 				"weight"	"200"
-				"dropshadow" "0"
-				"antialias"	"0"
+				"dropshadow" "1"
+				"antialias"	"1"
 				"blur" "0"
 			}
 		}
@@ -310,7 +311,7 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"1000"
-				"antialias" "0"
+				"antialias" "1"
 			}
 		}
 
@@ -414,6 +415,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"480 599"
 			}
 			"2"
@@ -422,6 +424,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"600 1023"
 			}
 			"3"
@@ -430,6 +433,7 @@ Scheme
 				"tall"		"30"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1024 1299"
 			}
 			"4"
@@ -438,6 +442,7 @@ Scheme
 				"tall"		"40"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1300 1699"
 			}
 			"5"
@@ -446,6 +451,7 @@ Scheme
 				"tall"		"50"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1700 1899"
 			}
 			"6"
@@ -454,6 +460,7 @@ Scheme
 				"tall"		"60"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1900 2499"
 			}
 			"7"
@@ -462,6 +469,7 @@ Scheme
 				"tall"		"80"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"2500 2999"
 			}
 			"8"
@@ -470,6 +478,7 @@ Scheme
 				"tall"		"100"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"3000 10000"
 			}
 		}
@@ -482,6 +491,7 @@ Scheme
 				"tall"		"35"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1 10000"
 			}
 		}
@@ -493,6 +503,7 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"14"
 				"weight"	"500"
+				"dropshadow"	"1"
 			}
 		}
 	}
