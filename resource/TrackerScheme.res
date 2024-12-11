@@ -19,12 +19,12 @@ Scheme
 		"BaseText"		"216 222 211 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
+		"DimBaseText"		"177 189 164 255"	// dim base text
+		"LabelDimText"		"177 189 164 255"	// used for info text
 		"ControlText"		"216 222 211 255"	// used in all text controls
 		"BrightControlText"	"196 181 80 255"	// use for selected controls
-		"DisabledText1"		"117 128 111 255"	// disabled text
-		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
+		"DisabledText1"		"74 79 70 255"	// disabled text
+		"DisabledText2"		"40 46 34 0"		// overlay color for disabled text (to give that inset look)
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
@@ -176,9 +176,13 @@ Scheme
 
 		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+
+		"UseScaledCreditsFont" "1"
 		
-		"ProportionalBaseWidth" "1280"		// if the display resolution is above this,
-		"ProportionalBaseHeight" "720"		//  ui elements will be scaled.
+		"ProportionalBaseWidth" "640"		// if the display resolution is above this,
+		"ProportionalBaseHeight" "480"		//  ui elements will be scaled.
+		"ProportionalBaseWidthHD" "1280"		
+		"ProportionalBaseHeightHD" "720"	
 	}
 
 	//
@@ -194,17 +198,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -213,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -234,7 +239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
@@ -244,7 +249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"D-DIN"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -282,8 +287,8 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"24"
 				"weight"	"10"
-				"dropshadow" "0"
-				"antialias"	"0"
+				"dropshadow" "1"
+				"antialias"	"1"
 				"blur" "0"
 			}
 		}
@@ -294,8 +299,8 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"20"
 				"weight"	"200"
-				"dropshadow" "0"
-				"antialias"	"0"
+				"dropshadow" "1"
+				"antialias"	"1"
 				"blur" "0"
 			}
 		}
@@ -306,7 +311,7 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"16"
 				"weight"	"1000"
-				"antialias" "0"
+				"antialias" "1"
 			}
 		}
 
@@ -410,6 +415,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"480 599"
 			}
 			"2"
@@ -418,6 +424,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"600 1023"
 			}
 			"3"
@@ -426,6 +433,7 @@ Scheme
 				"tall"		"30"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1024 1299"
 			}
 			"4"
@@ -434,6 +442,7 @@ Scheme
 				"tall"		"40"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1300 1699"
 			}
 			"5"
@@ -442,6 +451,7 @@ Scheme
 				"tall"		"50"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1700 1899"
 			}
 			"6"
@@ -450,6 +460,7 @@ Scheme
 				"tall"		"60"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1900 2499"
 			}
 			"7"
@@ -458,6 +469,7 @@ Scheme
 				"tall"		"80"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"2500 2999"
 			}
 			"8"
@@ -466,6 +478,7 @@ Scheme
 				"tall"		"100"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"3000 10000"
 			}
 		}
@@ -478,6 +491,7 @@ Scheme
 				"tall"		"35"
 				"weight"	"700"
 				"antialias"	"1"
+				"dropshadow"	"1"
 				"yres"	"1 10000"
 			}
 		}
@@ -489,6 +503,7 @@ Scheme
 				"name"		"W95FA"
 				"tall"		"14"
 				"weight"	"500"
+				"dropshadow"	"1"
 			}
 		}
 	}
@@ -990,5 +1005,6 @@ Scheme
 		"17"		"resource/typeface/bahnschrift.ttf"
 		"18"		"resource/typeface/CONDUIT_ITC.TTF"
 		"19"		"resource/typeface/W95FA.otf"
+		"20"		"resource/typeface/D-DIN-Bold.otf"
 	}
 }
