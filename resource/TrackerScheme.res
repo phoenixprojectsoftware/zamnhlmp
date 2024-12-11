@@ -23,8 +23,8 @@ Scheme
 		"LabelDimText"		"177 189 164 255"	// used for info text
 		"ControlText"		"216 222 211 255"	// used in all text controls
 		"BrightControlText"	"196 181 80 255"	// use for selected controls
-		"DisabledText1"		"117 128 111 255"	// disabled text
-		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
+		"DisabledText1"		"74 79 70 255"	// disabled text
+		"DisabledText2"		"40 46 34 0"		// overlay color for disabled text (to give that inset look)
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
